@@ -1,11 +1,39 @@
+ 
+- date: August 2022
+  headline: "New award! <a href='https://www.linkedin.com/in/lindsey-claus-6855821b4/'>Lindsey Claus</a> wins the 2022 American Society of Nephrology Kidney STARS award."
+  
+- date: July 2022
+  headline: "<a href='https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao'>Michael Romano</a> completes postdoctoral research and starts radiology residency at University of California, San Francisco."
+  
+- date: June 2022
+  headline: "New paper! <a href='https://doi.org/10.1038/s41467-022-31037-5'>Multimodal deep learning for dementia</a>, published in Nature Communications."
+
+- date: June 2022
+  headline: "New award! <a href='http://www.iamse.org/say-hello-to-our-featured-member-lindsey-claus/'>Lindsey Claus</a> recognized by International Association of Medical Science Educators."
+    
+- date: June 2022
+  headline: "<a href='https://www.linkedin.com/in/shangran/'>Shangran Qiu</a>  defends his PhD and joins Microsoft Inc. as an Applied Scientist."
+    
+- date: May 2022
+  headline: "New paper! <a href='https://doi.org/10.1109/TMI.2022.3176598'>Graph-transformer for digital pathology</a>, published in IEEE Transactions on Medical Imaging."
+  
+- date: May 2022
+  headline: "New award! <a href='https://www.linkedin.com/in/yi-zheng-99240a115/'>Yi Zheng</a> wins 2022 Department of Computer Science Research Excellence Award."
+  
+- date: May 2022
+  headline: "New paper! <a href='https://doi.org/10.1016/j.artmed.2022.102313'>Machine learning for pre-med trainees</a>, published in Artificial Intelligence in Medicine."
+  
+- date: May 2022
+  headline: "<a href='https://www.linkedin.com/in/ray-jhun-006617133/'>Ray Jhun</a> graduates with an MD degree and joins the neurology residency program at the University of North Carolina, Chapel Hill."
+  
 - date: January 2022
   headline: "New paper! <a href='https://doi.org/10.1016/j.molmed.2021.12.004'>Spotlight</a> on subtyping Alzheimer's disease, published in Trends in Molecular Medicine."
     
 - date: January 2022
-  headline: "New grant! We received a pilot award from the Johnson & Johnson Enterprise Innovation, Inc; Title - Using deep learning to advance lung cancer interception and early detection."
+  headline: "New grant! We received a pilot award from the Johnson & Johnson Enterprise Innovation, Inc."
   
 - date: December 2021
-  headline: "<a href='https://www.linkedin.com/in/xiao-zhou-24a43713a/'>Xiao Zhou</a> defends his PhD in Computer Science and starts his postdoctoral research at the <a href='http://www.gersteinlab.org'>Gerstein lab</a> at Yale University."
+  headline: "<a href='https://www.linkedin.com/in/xiao-zhou-24a43713a/'>Xiao Zhou</a> defends his PhD in Computer Science and starts postdoctoral research at Yale University."
 
 - date: December 2021
   headline: "<a href='https://www.linkedin.com/in/rushingindra682'>Rushin Gindra</a> transitions from a staff scientist in our lab to a PhD student at the <a href='https://www.mdsi.tum.de/en/mdsi/home/'>Munich Data Science Institute</a> at TU Munich."
@@ -30,17 +58,11 @@
 
 - date: June 2021
   headline: "New paper! <a href='hhttps://doi.org/10.1016/j.xkme.2021.04.012'>Machine learning applications in nephrology</a>, published in Kidney Medicine."
-
-- date: May 2021
-  headline: "<a href='https://www.cmu.edu/bme/helab/People/students/yni.html'>Yunruo Ni</a> graduates with a bachelor's degree in Computer Science and joins CMU's graduate program."
-
-- date: May 2021
-  headline: "<a href='https://www.linkedin.com/in/joe-lai/'>Joseph Lai</a> graduates with a bachelor's degree in Mathematics & Computer Science and joins IMC trading as a software engineer."
-
-- date: May 2021
-  headline: "<a href='https://www.linkedin.com/in/yuwei-wang-786a5020b/'>Cathy Wang</a> graduates with a bachelor's degree in Computer Science and joins Northwestern's graduate program."
         
-- date: March 2021
+- date: May 2021
+  headline: "New award! <a href='https://www.linkedin.com/in/shangran/'>Shangran Qiu</a> wins 2021 Department of Physics Alvaro Roccaro Memorial Prize."
+  
+- date: May 2021
   headline: "New paper! <a href='https://doi.org/10.1186/s13195-021-00797-5'>Game theory-based deep learning</a> to augment Alzheimer's disease classification, published in Alzheimer's Research & Therapy."
   
 - date: January 2021
@@ -53,13 +75,10 @@
   headline: "New paper! <a href='https://doi.org/10.1093/brain/awaa137'>Interpretable deep learning framework</a> for Alzheimer's disease classification, published in Brain."
 
 - date: June 2020
-  headline: "New grant! We received a pilot award from the Johnson & Johnson Enterprise Innovation, Inc; Title - Biomarkers of lung squamous premalignant progression using deep learning on pathology images."
+  headline: "New grant! We received a pilot award from the Johnson & Johnson Enterprise Innovation, Inc."
 
 - date: May 2020
   headline: "<a href='https://www.linkedin.com/in/lisa-park-7ab22924'>Lisa Park</a> graduates with an MD degree and joins the radiology residency program at Northwell Health."
-
-- date: May 2020
-  headline: "<a href='https://www.linkedin.com/in/jared-lott-92b78a144'>Jared Lott</a> graduates with a bachelor's degree in Biomedical Engineering and joins Acsel Health."
     
 - date: April 2020
   headline: "New grant! We received a <a href='https://professional.heart.org/en/research-programs/strategically-focused-research/strategically-focused-research-networks/sfrn-awardees'>Strategically Focused Health Technologies & Innovation Research Network</a> grant from the American Heart Association."
@@ -75,9 +94,6 @@
     
 - date: July 2019
   headline: "<a href='https://www.linkedin.com/in/qiuyuan-qin/'>Qiuyuan Qin</a> transitions from a staff scientist in our lab to a PhD student at the University of Rochester."
-
-- date: May 2019
-  headline: "<a href='https://www.linkedin.com/in/benjamin-l-881a03a3/'>Benjamin Liang</a> graduates with a bachelor's degree in Biomedical Engineering and joins Epic Systems."
       
 - date: April 2019
   headline: "New paper! <a href='https://doi.org/10.1016/j.ekir.2019.04.008'>Glomerular segmentation</a> using deep learning, published in KI Reports."

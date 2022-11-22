@@ -1,6 +1,6 @@
 - name: Vijaya B. Kolachalama
   photo: vkola.jpeg
-  info: Assistant Professor of Medicine & Computer Science; Founding member, Faculty of Computing & Data Sciences
+  info: Associate Professor
   group: 0
   github: https://github.com/vkola-lab/
   scholar: https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate
@@ -13,6 +13,7 @@
   url: 
   group: 5
   linkedin: https://www.linkedin.com/in/prajakta-joshi-79520a116/
+  scholar: https://scholar.google.com/citations?user=fSDEwcIAAAAJ&hl=en
   
 - name: Michael Romano
   photo: mike_romano.jpg
@@ -22,27 +23,29 @@
   scholar: https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao
   github: https://github.com/mfromano/
 
-- name: Harry Ding
-  photo: Huitong Ding.png
+- name: Meysam Ahangaran
+  photo: Meysam.jpg
   info: Postdoctoral scholar
-  url: 
   group: 1
-  linkedin: https://www.linkedin.com/in/huitong-ding-52a529232
+  linkedin: https://www.linkedin.com/in/meysam-ahangaran-740722140/?originalSubdomain=ir
+  scholar: https://scholar.google.com/citations?hl=en&user=84uUCvoAAAAJ&view_op=list_works&sortby=pubdate
+  github: https://github.com/me-ahangaran
   
 - name: Shangran Qiu
   photo: shangran.jpeg
-  info: PhD student
+  info: PhD student in Physics
   url: shangranqiu
-  group: 2
+  group: 8
   scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en&authuser=1
   github: https://github.com/shangranq
   linkedin: https://www.linkedin.com/in/shangran/
+  next: Applied Scientist at Microsoft Inc.
           
 - name: Chonghua Xue
   photo: chonghua_pic.jpg
-  info: Staff scientist
+  info: PhD student
   url: 
-  group: 3
+  group: 2
   scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en&authuser=1
   
 - name: Matthew Miller
@@ -75,10 +78,11 @@
   
 - name: Mona Jalal
   photo: monajalal.jpg
-  info: PhD candidate
+  info: Graduate student in Computer Science
   url: http://monajalal.com/
-  group: 2
+  group: 8
   scholar: https://scholar.google.com/citations?user=tTXTO0oAAAAJ&hl=en
+  next: Computer vision engineer at Toyota Material Handling 
 
 - name: Lindsey Claus
   photo: einstein.svg
@@ -124,7 +128,15 @@
   url: 
   group: 2
   linkedin: https://www.linkedin.com/in/meagan-lauber-1050b417b/     
-      
+
+- name: Lingyi Xu
+  photo: lingyi_xu.jpg
+  info: PhD student
+  url: 
+  group: 2
+  linkedin: https://www.linkedin.com/in/olivialingyixu/
+  github: https://lingyixu.github.io/    
+        
 - name: Tejus Surendran
   photo: tejus_photo.jpeg
   info: Staff scientist
@@ -140,19 +152,12 @@
   linkedin: https://www.linkedin.com/in/dianazhang1806/
   scholar: https://scholar.google.com/citations?hl=en&user=HBnvK2YAAAAJ 
 
-- name: Diya Nijhawan
-  photo: einstein.svg
-  info: 
-  url: 
-  group: 4
-  extlink: 
-
 - name: Shraddha Lulla
-  photo: einstein.svg
-  info: 
-  url: 
+  photo: Shraddha_Lulla.png
+  info: Undergrad student at Boston University
+  url: shraddha
   group: 4
-  extlink: 
+  extlink:
     
 - name: Anirudh Shivakumar
   photo: einstein.svg
@@ -160,40 +165,54 @@
   url: 
   group: 4
   extlink: 
-    
-- name: Michalina Jadick
-  photo: mica_jadick.png
-  info: Pre-Medical Student at Boston University, Studying Neurobiology (B.A.) with a Minor in Computer Science
-  url: 
-  group: 4
-  linkedin: https://www.linkedin.com/in/michalina-jadick-2a531a199/
-  github: https://github.com/mjadick
-  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=xfSHRgwAAAAJ
-  
-- name: Anika Walia
-  photo: anika_walia.jpg
-  info: Undergraduate student in BA/MD program at Boston University studying Computer Science
-  url: 
-  group: 4
-  linkedin: https://www.linkedin.com/in/anika-walia/
-  extlink: 
   
 - name: Olivia Zhou
-  photo: einstein.svg
-  info: 
-  url: 
-  group: 4
-  extlink: 
-
-- name: Ray Jhun
   photo: einstein.svg
   info: MD student
   url: 
   group: 2
+  extlink:
+
+- name: Muyuan Li
+  photo: Muyuan.jpg
+  info:
+  url: muyuanli
+  group: 2
+  linkedin: https://www.linkedin.com/in/muyuan-li-853124191/
+  
+- name: Anika Walia
+  photo: anika_walia.jpg
+  info: MD student
+  url: 
+  group: 2
+  linkedin: https://www.linkedin.com/in/anika-walia/
+  extlink: 
+  
+- name: Michalina Jadick
+  photo: mica_jadick.png
+  info: Undergraduate student in Neurobiology & Computer Science
+  url: 
+  group: 8
+  linkedin: https://www.linkedin.com/in/michalina-jadick-2a531a199/
+  github: https://github.com/mjadick
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=xfSHRgwAAAAJ
+  next: Clinical Research Coordinator at MGH Gordon Center
+    
+- name: Diya Nijhawan
+  info: Undergraduate student in Neurobiology  
+  url: 
+  group: 8
+  next: Masters (MAMS) student at Boston University School of Medicine
+  extlink: 
+
+- name: Ray Jhun
+  info: MD student at Boston University School of Medicine
+  url: 
+  group: 8
+  next: Neurology resident at the University of North Carolina, Chapel Hill
   extlink:   
   
 - name: Xiao Zhou
-  photo: einstein.svg
   info: PhD student in Computer Science
   url: 
   group: 8
@@ -201,7 +220,6 @@
   extlink: 
   
 - name: Rushin Gindra
-  photo: einstein.svg
   info: Staff scientist
   url: 
   group: 8
@@ -209,15 +227,13 @@
   extlink: 
   
 - name: Yunruo Ni
-  photo: einstein.svg
   info: Undergraduate student in Computer Science
   url: 
   group: 8
   next: Masters student at Carnegie Mellon University
   extlink: 
 
-- name: Cathy Wang
-  photo: einstein.svg
+- name: Cathy (Yuwei) Wang
   info: Undergraduate student in Computer Science
   url: 
   group: 8
@@ -225,7 +241,6 @@
   extlink: 
 
 - name: Joseph Lai
-  photo: einstein.svg
   info: Undergraduate student in Mathematics & Computer Science
   url: 
   group: 8
@@ -233,7 +248,6 @@
   extlink: 
           
 - name: Lisa Park
-  photo: einstein.svg
   info: MD student at Boston University School of Medicine
   url: 
   group: 8
@@ -241,7 +255,6 @@
   extlink:
 
 - name: Shriya Reddy
-  photo: einstein.svg
   info: Undergraduate student in the BA/MD/MBA program
   url: 
   group: 8
@@ -249,7 +262,6 @@
   extlink: 
      
 - name: Hojoon Seo
-  photo: einstein.svg
   info: Undergraduate student in the BA/MD program
   url: 
   group: 8
@@ -257,7 +269,6 @@
   extlink: 
     
 - name: Saemi Jung
-  photo: einstein.svg
   info: Undergraduate student in Neuroscience & Computer Science
   url: 
   group: 8
@@ -265,15 +276,20 @@
   extlink: 
   
 - name: Jared Lott
-  photo: einstein.svg
   info: Undergraduate student in Biomedical Engineering
   url: 
   group: 8
   next: Analyst at Acsel Health, New York, NY
   extlink: 
 
+- name: Megan Heydari
+  info: Undergraduate student in Electrical and Computer Engineering
+  url: 
+  group: 8
+  next: Systems Engineer at Savant Power, San Francisco Bay Area, CA
+  extlink: 
+  
 - name: Benjamin Liang
-  photo: einstein.svg
   info: Undergraduate student in Biomedical Engineering
   url: 
   group: 8
@@ -281,7 +297,6 @@
   extlink: 
   
 - name: Andre Gonzaga
-  photo: einstein.svg
   info: Undergraduate student in Computer Engineering
   url: 
   group: 8
@@ -289,15 +304,20 @@
   extlink: 
   
 - name: Gary Chang
-  photo: einstein.svg
   info: Postdoctoral Associate
   url: 
   group: 8
   next: Faculty at National Taiwan University
   extlink: 
 
+- name: Christopher Lin
+  info: Graduate student in Bioinformatics 
+  url: 
+  group: 8
+  next: MD student at University of Vermont
+  extlink: 
+  
 - name: Qiuyuan Qin
-  photo: einstein.svg
   info: Staff scientist
   url: 
   group: 8
@@ -305,9 +325,7 @@
   extlink: 
   
 - name: Shruti Kannan
-  photo: einstein.svg
   info: Masters student in Electrical & Computer Engineering 
-  url: 
   group: 8
   next: DSP engineer at Bose Corporation, Boston, MA
   extlink: 

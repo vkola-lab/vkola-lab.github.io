@@ -1,10 +1,50 @@
+- title: "Multimodal deep learning for Alzheimer's disease dementia assessment"
+  image: Qiu2022.jpg
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1038/s41467-022-31037-5
+    display: Qiu et al. Nature Communications (2022)
+  highlight: 1
+  news2: 
+  
+- title: "A graph-transformer for whole slide image classification"
+  image: Zheng2022.png
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1109/TMI.2022.3176598
+    display: Zheng et al. IEEE Transactions on Medical Imaging (2022)
+  highlight: 1
+  news2: 
+  
 - title: "Subchondral bone length in knee osteoarthritis: A deep learning–derived imaging measure and its association with radiographic and clinical outcomes"
-  image: Chang2020.png
+  image: Chang2021.png
   description: 
   authors: 
   link:
     url: https://doi.org/10.1002/art.41808
     display: Chang et al. Arthritis & Rheumatology (2021)
+  highlight: 1
+  news2: 
+
+- title: "Enhancing magnetic resonance imaging-driven Alzheimer’s disease classification performance using generative adversarial learning"
+  image: Zhou2021.jpg
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1186/s13195-021-00797-5
+    display: Zhou et al. Alzheimer's Research & Therapy (2021)
+  highlight: 1
+  news2: 
+  
+- title: "Deep-learning-driven quantification of interstitial fibrosis in digitized kidney biopsies"
+  image: Zheng2021.gif
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1016/j.ajpath.2021.05.005
+    display: Zheng et al. The American Journal of Pathology (2021)
   highlight: 1
   news2: 
 
@@ -16,24 +56,4 @@
     url: https://doi.org/10.1093/brain/awaa137
     display:  Qiu et al. Brain (2020)
   highlight: 1
-  news2: 
-
-- title: "Deep-learning-driven quantification of interstitial fibrosis in digitized kidney biopsies"
-  image: Zheng2021.gif
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1016/j.ajpath.2021.05.005
-    display: Zheng et al. The American Journal of Pathology (2021)
-  highlight: 1
-  news2: 
-
-- title: "Mechanisms of tissue uptake and retention in zotarolimus-coated balloon therapy"
-  image: Kolachalama2013.gif
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1161/CIRCULATIONAHA.113.002051
-    display: Kolachalama et al. Circulation (2013)
-  highlight: 1
-  news2: 
+  news2:
