@@ -31,7 +31,7 @@ Please read the [BU Brink Article](https://www.bu.edu/articles/2022/two-technolo
 
 ---
 ---
-#### Multimodal deep learning for Alzheimer's disease assessment
+#### Multimodal deep learning for dementia assessment
 This work is published in [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) in 2022. 
 
 <div class="youtube">
