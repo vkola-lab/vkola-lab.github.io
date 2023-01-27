@@ -36,7 +36,7 @@
   info: PhD student in Physics
   url: shangranqiu
   group: 8
-  scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en&authuser=1
+  scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en
   github: https://github.com/shangranq
   linkedin: https://www.linkedin.com/in/shangran/
   next: Applied Scientist at Microsoft Inc.
@@ -46,14 +46,14 @@
   info: PhD student
   url: 
   group: 2
-  scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en&authuser=1
+  scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en
   
 - name: Matthew Miller
   photo: matt.png
   info: MD student
   url: matthewmiller
   group: 2
-  extlink: 
+  scholar: https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en
   
 - name: Cody Karjadi
   photo: ckarjadi.jpeg
