@@ -12,4 +12,4 @@ Please contact via email before setting up appointment at one of these two locat
 
 --- 665 Comm Ave., Rm. 1527, Boston, MA - 02215
 
---- 72 E. Concord St, Evans 636, Boston, MA - 02118
+--- 72 E. Concord St., Evans 636, Boston, MA - 02118
