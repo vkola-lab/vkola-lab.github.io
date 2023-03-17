@@ -89,6 +89,13 @@
   url: 
   group: 2
   extlink: 
+    
+- name: Caitlin Newman
+  photo: einstein.svg
+  info: PhD student
+  url: 
+  group: 2
+  extlink: 
 
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
@@ -123,11 +130,18 @@
   github: https://lingyixu.github.io/    
         
 - name: Tejus Surendran
-  photo: tejus_photo.jpeg
+  photo: tejus.jpeg
   info: Staff scientist
   url: 
   group: 3
   extlink: 
+  
+- name: Sahana Kowshik
+  photo: sahana.jpeg
+  info: Staff scientist
+  url: 
+  group: 3
+  linkedin: https://www.linkedin.com/in/sahana-subramanya-kowshik-254415179/
   
 - name: Diana Zhang
   photo: diana_zhang.jpg
@@ -157,13 +171,6 @@
   url: 
   group: 2
   extlink:
-
-- name: Muyuan Li
-  photo: Muyuan.jpg
-  info:
-  url: muyuanli
-  group: 
-  linkedin: https://www.linkedin.com/in/muyuan-li-853124191/
   
 - name: Anika Walia
   photo: anika_walia.jpg

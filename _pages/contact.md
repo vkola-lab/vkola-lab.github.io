@@ -8,7 +8,7 @@ permalink: /contact/
 
 ## Contact
 
-Please contact via email before setting up appointment at one of these two locations:
+Please contact via email before setting up an appointment at one of these two locations:
 
 --- 665 Comm Ave., Rm. 1527, Boston, MA - 02215
 
