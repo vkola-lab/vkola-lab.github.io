@@ -179,6 +179,16 @@
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
   extlink: 
+
+
+- name: Sahana Kowshik
+  photo: sahana.jpg
+  info: Research Fellow
+  url: 
+  group: 3
+  github: https://github.com/sahanakowshik
+  linkedin: https://www.linkedin.com/in/sahana-subramanya-kowshik-254415179/
+
   
 - name: Michalina Jadick
   photo: mica_jadick.png
