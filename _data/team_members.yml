@@ -150,6 +150,13 @@
   url: shraddha
   group: 
   extlink:
+  
+- name: Shreyas Puducheri
+  photo: shreyas.jpeg
+  info: Undergrad student at Boston University
+  url:
+  group: 
+  linkein: https://www.linkedin.com/in/shreyas-puducheri/
     
 - name: Anirudh Shivakumar
   photo: einstein.svg
@@ -172,7 +179,6 @@
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
   extlink: 
-
 
 - name: Sahana Kowshik
   photo: sahana.jpg
