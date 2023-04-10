@@ -247,4 +247,4 @@ permalink: /team/
 ---
 
 ## Administrative support
-Please contact our section administrator, <a href="mailto:kharp@bu.edu">Katie Harper</a>.
+Please contact our section administrator, <a href="mailto:maring@bu.edu">Melissa Ring</a>.
