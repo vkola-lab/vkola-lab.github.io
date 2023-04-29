@@ -1,13 +1,13 @@
 ---
-title: "Kolachalama Laboratory - Publications"
+title: "Kolachalama Laboratory - Papers"
 layout: gridlay
-excerpt: "Kolachalama Laboratory -- Publications."
+excerpt: "Kolachalama Laboratory -- Papers."
 sitemap: false
-permalink: /publications/
+permalink: /papers/
 ---
 
 
-## Publications
+## Papers
 
 ---
 

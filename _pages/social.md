@@ -9,6 +9,21 @@ permalink: /social/
 ## Social
 
 ---
+---
+#### Diana Zhang - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+---
+#### Shangran Qiu - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+---
 
 ### Nov 2022:
 <img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/Nov2022.jpg" style="width: 800px">
