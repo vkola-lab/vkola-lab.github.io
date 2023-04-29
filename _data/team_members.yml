@@ -156,14 +156,14 @@
   info: 7-year Liberal Arts/Medical Education Program
   url:
   group: 4
-  linkein: https://www.linkedin.com/in/shreyas-puducheri/
+  linkedin: https://www.linkedin.com/in/shreyas-puducheri/
     
-- name: Anirudh Shivakumar
+- name: Jiawei Sun
   photo: einstein.svg
-  info: 
-  url: 
-  group: 
-  extlink: 
+  info: Undergraduate student
+  group: 4
+  linkedin: https://www.linkedin.com/in/jiawei-sun-461605253/
+  github: https://github.com/rivajw
   
 - name: Olivia Zhou
   photo: einstein.svg
@@ -187,7 +187,6 @@
   group: 3
   github: https://github.com/sahanakowshik
   linkedin: https://www.linkedin.com/in/sahana-subramanya-kowshik-254415179/
-
   
 - name: Michalina Jadick
   photo: mica_jadick.png
