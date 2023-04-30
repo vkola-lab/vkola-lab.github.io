@@ -1,7 +1,7 @@
 ---
-title: "Kolachalama Laboratory - Research"
+title: "Kolachalama laboratory - Research"
 layout: textlay
-excerpt: "Kolachalama Laboratory - Research"
+excerpt: "Kolachalama laboratory -- Research"
 sitemap: false
 permalink: /research/
 ---
@@ -9,46 +9,45 @@ permalink: /research/
 ## Research
 
 ---
-#### Clubhouse discussion on our latest work 
-Join our discussion of our latest manuscript in Nature Communications on Clubhouse. [Click here for more details.](https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164)
+### Clubhouse discussion on our latest work 
+Discussion of our [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) manuscript on Clubhouse. Click [here](https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164) for more details.
+
 <div class="image">
-  <iframe src="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164" frameborder="0" width="600px" height="65px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164" frameborder="0" width="100%" height="65px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
-#### AI for Dementia Assessment 
-Learn about our lab's research on machine learning approaches for dementia assessment.
+### AI for dementia assessment 
+Summary of our lab's research on machine learning approaches for dementia assessment.
 
 <div class="youtube">
-  <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
-#### Technology for Dementia Diagnosis
-Read about our work on using technology to diagnose dementia in the [BU Brink Article](https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/).
+### Technology for dementia diagnosis
+Please read the [BU Brink Article](https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/).
 
 ---
-#### Multimodal Deep Learning for Dementia Assessment
-Learn about our work on multimodal deep learning for dementia assessment in our [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) publication.
+### Multimodal deep learning for dementia assessment
+This work is published in [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) in 2022. 
 
 <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
-#### Deep Learning Algorithm Outperforms Experts in Making Alzheimer's Disease Diagnosis
-Read about our work on using deep learning to diagnose Alzheimer's disease in the [BU Brink Article](https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis/).
+### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
+Please read the [BU Brink Article](https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis/).
 
 ---
-#### Clinical-Grade Machine Learning Tools for Alzheimer's Disease
-Learn more about our clinical-grade machine learning tools for Alzheimer's disease on our [biography page](https://tofflertrust.org/dr-vijaya-kolachalama/).
+### Clinical grade machine learning tools for Alzheimer's disease 
+Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more details.
 
 ---
-#### Interpretable Deep Neural Network for Alzheimer's Disease Classification
-Learn about our work on interpretable deep neural networks for Alzheimer's disease classification in our [Brain](https://doi.org/10.1093/brain/awaa137) publication.
+### An interpretable deep neural network for Alzheimer's disease classification
+This work is published in [Brain](https://doi.org/10.1093/brain/awaa137), a journal of Neurology in 2020. 
 
 <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
----
