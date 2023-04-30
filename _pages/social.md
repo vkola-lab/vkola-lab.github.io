@@ -10,56 +10,46 @@ permalink: /social/
 
 ---
 
-#### Life in our lab - TikTok version 2023
+### Life in our lab - TikTok version 2023
 
 <div class="youtube">
-  <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br>
-
-#### Diana Zhang - 2022
-
-<div class="youtube">
-  <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br>
-
-#### Shangran Qiu - 2022
-
-<div class="youtube">
-  <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="1" width="426px" height="240px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
 
-<div style="display: flex; justify-content: center;">
+### Diana Zhang - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### Shangran Qiu - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
 
 ### Nov 2022:
-<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/Nov2022.jpg" style="width: 800px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/Nov2022.jpg" style="width: 100%;">
 
-</div>
-
-<div style="display: flex; justify-content: center;">
+---
 
 ### May 2022:
-<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/May2022.jpg" style="width: 800px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/May2022.jpg" style="width: 100%;">
 
-</div>
-
-<div style="display: flex; justify-content: center;">
+---
 
 ### May 2021:
-<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/May2021.jpg" style="width: 800px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/May2021.jpg" style="width: 100%;">
 
-</div>
-
-<div style="display: flex; justify-content: center;">
+---
 
 ### Dec 2018:
-<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/Dec2018.jpg" style="width: 800px;">
-
-</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/socialpic/Dec2018.jpg" style="width: 100%;">
 
 ---
