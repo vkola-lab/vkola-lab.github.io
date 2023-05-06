@@ -1,57 +1,62 @@
-<!DOCTYPE html>
-<html>
+---
+title: "Kolachalama laboratory - Media"
+layout: textlay
+excerpt: "Kolachalama laboratory -- Media."
+sitemap: false
+permalink: /media/
+---
 
-<head>
-  <title>Kolachalama laboratory - Media</title>
-  <style>
-    .video {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-    }
+## Social
 
-    iframe {
-      width: 100%;
-      height: 400px;
-      max-width: 800px;
-    }
-  </style>
-</head>
+---
 
-<body>
-  <h1>Kolachalama laboratory - Media</h1>
-  <hr>
-  <h2>Social</h2>
-  <hr>
-  <div class="video">
-    <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-  <h3>AI for dementia assessment</h3>
-  <div class="video">
-    <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-  <h3>Diana Zhang - 2022</h3>
-  <div class="video">
-    <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-  <h3>Multimodal deep learning for dementia assessment</h3>
-  <div class="video">
-    <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-  <h3>Shangran Qiu - 2022</h3>
-  <div class="video">
-    <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-  <h3>An interpretable deep neural network for Alzheimer's disease classification</h3>
-  <div class="video">
-    <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <hr>
-</body>
+### Life in our lab - TikTok version 2023
 
-</html>
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### AI for dementia assessment 
+Summary of our lab's research on machine learning approaches for dementia assessment.
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### Diana Zhang - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### Multimodal deep learning for dementia assessment
+
+This work is published in [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) in 2022. 
+
+<div class="youtube">
+  <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### Shangran Qiu - 2022
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
+### An interpretable deep neural network for Alzheimer's disease classification
+
+This work is published in [Brain](https://doi.org/10.1093/brain/awaa137), a journal of Neurology in 2020. 
+
+<div class="youtube">
+  <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" width="100%" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
