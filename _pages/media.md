@@ -6,7 +6,7 @@ sitemap: false
 permalink: /media/
 ---
 
-## Social
+## Media
 
 ### Michalina Jadick - 2023
 
@@ -47,7 +47,7 @@ This work is published in [Nature Communications](https://doi.org/10.1038/s41467
   <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### An interpretable deep neural network for Alzheimer's disease classification
+### An interpretable neural network for Alzheimer's disease classification
 
 This work is published in [Brain](https://doi.org/10.1093/brain/awaa137), a journal of Neurology in 2020. 
 
