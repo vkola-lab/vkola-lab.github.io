@@ -20,7 +20,7 @@ permalink: /media/
   <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### AI for dementia 
+### AI for dementia - 2022
 *Summary of our lab's research on machine learning approaches for dementia assessment.*
 
 <div class="youtube">
@@ -47,7 +47,7 @@ permalink: /media/
   <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Interpretable deep learning
+### Interpretable deep learning - 2022
 
 *This work is published in [Brain](https://doi.org/10.1093/brain/awaa137), a journal of Neurology in 2020.* 
 
