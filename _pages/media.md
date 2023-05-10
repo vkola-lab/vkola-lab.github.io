@@ -8,6 +8,12 @@ permalink: /media/
 
 ## Social
 
+### Michalina Jadick - 2023
+
+<div class="youtube">
+  <iframe src="https://youtube.com/embed/KPYioRXG5OM" frameborder="0" width="100%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Life in our lab - TikTok version 2023
 
 <div class="youtube">
