@@ -11,7 +11,7 @@ permalink: /media/
 ### Michalina Jadick - 2023
 
 <div class="youtube">
-  <iframe src="https://youtube.com/embed/KPYioRXG5OM" frameborder="0" width="75%" height="360px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://youtube.com/embed/KPYioRXG5OM" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 <hr><hr>
