@@ -13,16 +13,16 @@ permalink: /media/
 <div class="youtube">
   <iframe src="https://youtube.com/embed/KPYioRXG5OM" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
-<hr><hr>
+
+<hr>
 
 ### Life in our lab - TikTok version 2023
 
 <div class="youtube">
   <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
-<hr><hr>
+
+<hr>
 
 ### AI for dementia - 2022
 *Summary of our lab's research on machine learning approaches for dementia assessment.*
@@ -30,7 +30,7 @@ permalink: /media/
 <div class="youtube">
   <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+
 <hr>
 
 ### Diana Zhang - 2022
@@ -38,7 +38,7 @@ permalink: /media/
 <div class="youtube">
   <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+
 <hr>
 
 ### Multimodal deep learning
@@ -48,7 +48,7 @@ permalink: /media/
 <div class="youtube">
   <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+
 <hr>
 
 ### Shangran Qiu - 2022
@@ -56,7 +56,7 @@ permalink: /media/
 <div class="youtube">
   <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+
 <hr>
 
 ### Interpretable deep learning - 2022
