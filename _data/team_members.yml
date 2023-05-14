@@ -50,7 +50,7 @@
   
 - name: Matthew Miller
   photo: matt.png
-  info: MD student
+  info: MD student at Boston University School of Medicine
   url: matthewmiller
   group: 2
   scholar: https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en
@@ -85,7 +85,7 @@
     
 - name: Joyce Lee
   photo: einstein.svg
-  info: MD student
+  info: MD student at Boston University School of Medicine
   url: 
   group: 8
   extlink:
@@ -101,7 +101,7 @@
 
 - name: Akshara Balachandra
   photo: akshara.jpg
-  info: MD student
+  info: MD student at Boston University School of Medicine
   url: 
   group: 2
   github: https://github.com/androidpcguy
@@ -162,14 +162,14 @@
   
 - name: Olivia Zhou
   photo: einstein.svg
-  info: MD student
+  info: MD student at Boston University School of Medicine
   url: 
   group: 2
   extlink:
   
 - name: Anika Walia
   photo: anika_walia.jpg
-  info: MD student
+  info: MD student at Boston University School of Medicine
   url: 
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
