@@ -52,8 +52,9 @@
   photo: matt.png
   info: MD student at Boston University School of Medicine
   url: matthewmiller
-  group: 2
+  group: 8
   scholar: https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en
+  next: Radiology resident at Mass General Brigham
   
 - name: Cody Karjadi
   photo: ckarjadi.jpeg
@@ -103,11 +104,12 @@
   photo: akshara.jpg
   info: MD student at Boston University School of Medicine
   url: 
-  group: 2
+  group: 8
   github: https://github.com/androidpcguy
   scholar: https://scholar.google.com/citations?user=wqGtGpMAAAAJ&hl=en
   linkedin: https://www.linkedin.com/in/akshara-balachandra-91957195/
-
+  next: Neurology resident at Stanford University School of Medicine
+   
 - name: Meagan Lauber
   photo: meagan_lauber.jpg
   info: PhD student in Neuroscience
