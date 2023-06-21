@@ -33,31 +33,33 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 
 -- June 2023: "Digital voice data", Alzheimer's Disease Data Initiative Summer Learning Series (Online).
 
--- May 2023: “Multimodal machine learning for dementia assessment”, CIHC Faculty Grand Rounds, University of Nebraska Medical Center, Omaha, NE
+-- May 2023: “Multimodal machine learning for dementia assessment”, CIHC Faculty Grand Rounds, University of Nebraska Medical Center, Omaha, NE (Online).
 
--- May 2023: “Multimodal deep learning for dementia assessment”, ADRC meeting, Washington DC.
+-- May 2023: “Multimodal machine learning for dementia assessment”, ADRC meeting, Washington DC.
 
--- April 2023: “Using deep learning models to augment clinical diagnosis in neurology”, AAN meeting, Boston, MA
+-- April 2023: “Using deep learning models to augment clinical diagnosis in neurology”, AAN meeting, Boston, MA.
 
--- November 2022: “Digital pathology for diabetic kidney disease”, ASN meeting, Orlando, FL
+-- November 2022: “Digital pathology for diabetic kidney disease”, ASN meeting, Orlando, FL.
 
--- November 2022: "Pre-cancer phenotyping using transcriptomics and digital pathology", National Cancer Institute CBIIT Data Science Seminar Series (Online)
+-- November 2022: "Pre-cancer phenotyping using transcriptomics and digital pathology", National Cancer Institute CBIIT Data Science Seminar Series (Online).
 
 -- November 2022: "A graph-transformer for whole slide image classification", AstraZeneca (Online).
 
--- October 2022: “Machine learning approaches on audio recordings for dementia assessment”, ADRC meeting, Chicago, IL
+-- October 2022: “Machine learning approaches on audio recordings for dementia assessment”, ADRC meeting, Chicago, IL.
 
--- October 2022: “Evaluation of machine learning readiness in Alzheimer’s disease data cohorts”, ADRC meeting, Chicago, IL
+-- October 2022: “Evaluation of machine learning readiness in Alzheimer’s disease data cohorts”, ADRC meeting, Chicago, IL.
 
--- September 2022: "Multimodal deep learning for Alzheimer’s disease dementia assessment", ECR workshop, DEMON Network (Online)
+-- September 2022: "Multimodal deep learning for Alzheimer’s disease dementia assessment", ECR workshop, DEMON Network (Online).
 
--- August 2021: “AI technology – the future of pathology?”, 33rd European Congress of Pathology.
+-- October 2021: "Raw digital data streams and ‘handsfree’ approaches to data analysis: The promise of AI", SMi's Medical Wearables for Biosensors Virtual conference (Online).
 
--- April 2021: “Deep learning for Alzheimer’s disease assessment”, Massachusetts General Hospital Memory Disorders Unit & Movement Disorders Unit Conference, Boston, MA
+-- August 2021: “AI technology – the future of pathology?”, 33rd European Congress of Pathology (Online).
 
--- March 2021: “Quantification of renal fibrosis on pathology images using deep learning on local and global representations”, AI in Nephropathology Workshop, Amsterdam.
+-- April 2021: “Deep learning for Alzheimer’s disease assessment”, Massachusetts General Hospital Memory Disorders Unit & Movement Disorders Unit Conference, Boston, MA (Online).
 
--- October 2020: “Detection of dementia from raw voice recordings using a recurrent neural network”, Alzheimer’s Drug Discovery Foundation, New York, NY
+-- March 2021: “Quantification of renal fibrosis on pathology images using deep learning on local and global representations”, AI in Nephropathology Workshop, Amsterdam (Online).
+
+-- October 2020: “Detection of dementia from raw voice recordings using a recurrent neural network”, Alzheimer’s Drug Discovery Foundation, New York, NY (Online).
 
 
 
