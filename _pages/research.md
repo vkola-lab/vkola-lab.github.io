@@ -31,6 +31,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- June 2023: "Digital voice data", Alzheimer's Disease Data Initiative Summer Learning Series (Online).
+
 -- May 2023: “Multimodal machine learning for dementia assessment”, CIHC Faculty Grand Rounds, University of Nebraska Medical Center, Omaha, NE
 
 -- May 2023: “Multimodal deep learning for dementia assessment”, ADRC meeting, Washington DC.
