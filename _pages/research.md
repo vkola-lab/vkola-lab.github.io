@@ -47,6 +47,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 
 -- October 2022: “Evaluation of machine learning readiness in Alzheimer’s disease data cohorts”, ADRC meeting, Chicago, IL
 
+-- September 2022: "Multimodal deep learning for Alzheimer’s disease dementia assessment", ECR workshop, DEMON Network (Online)
+
 -- August 2021: “AI technology – the future of pathology?”, 33rd European Congress of Pathology.
 
 -- April 2021: “Deep learning for Alzheimer’s disease assessment”, Massachusetts General Hospital Memory Disorders Unit & Movement Disorders Unit Conference, Boston, MA
