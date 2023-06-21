@@ -41,6 +41,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 
 -- November 2022: “Digital pathology for diabetic kidney disease”, ASN meeting, Orlando, FL
 
+-- November 2022: "A graph-transformer for whole slide image classification", AstraZeneca (Online).
+
 -- October 2022: “Machine learning approaches on audio recordings for dementia assessment”, ADRC meeting, Chicago, IL
 
 -- October 2022: “Evaluation of machine learning readiness in Alzheimer’s disease data cohorts”, ADRC meeting, Chicago, IL
