@@ -57,6 +57,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 
 -- April 2021: “Deep learning for Alzheimer’s disease assessment”, Massachusetts General Hospital Memory Disorders Unit & Movement Disorders Unit Conference, Boston, MA (Online).
 
+-- March 2021: "MRI data harmonization: A machine learning approach", Alzheimer's Disease Sequencing Project Consortium (Online).
+
 -- March 2021: “Quantification of renal fibrosis on pathology images using deep learning on local and global representations”, AI in Nephropathology Workshop, Amsterdam (Online).
 
 -- October 2020: “Detection of dementia from raw voice recordings using a recurrent neural network”, Alzheimer’s Drug Discovery Foundation, New York, NY (Online).
