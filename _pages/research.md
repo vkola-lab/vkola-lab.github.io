@@ -33,6 +33,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 
 -- June 2023: "Digital voice data", Alzheimer's Disease Data Initiative Summer Learning Series (Online).
 
+-- June 2023: "MIRA: A web-based tool for digital pathology", NVIDIA MONAI Pathology WG Speaker Series.
+
 -- May 2023: “Multimodal machine learning for dementia assessment”, CIHC Faculty Grand Rounds, University of Nebraska Medical Center, Omaha, NE (Online).
 
 -- May 2023: “Multimodal machine learning for dementia assessment”, ADRC meeting, Washington DC.
