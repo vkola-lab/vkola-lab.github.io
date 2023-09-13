@@ -31,6 +31,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- September 2023: "Multimodal machine learning for dementia assessment", Cognitive Neurology Unit/Center for Noninvasive Brain Stimulation Grand Rounds, Beth Israel Deaconess Medical Center, Boston, MA (Online).
+
 -- June 2023: "Digital voice data", Alzheimer's Disease Data Initiative Summer Learning Series (Online).
 
 -- June 2023: "MIRA: A web-based tool for digital pathology", NVIDIA MONAI Pathology WG Speaker Series (Online).
