@@ -1,3 +1,13 @@
+- title: "Deep learning for risk-based stratification of cognitively impaired individuals"
+  image: Romano2023.jpg
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1016/j.isci.2023.107522
+    display: Romano et al. iScience (2023)
+  highlight: 1
+  news2: 
+  
 - title: "Multimodal deep learning for Alzheimer's disease dementia assessment"
   image: Qiu2022.jpg
   description: 
@@ -35,16 +45,6 @@
   link:
     url: https://doi.org/10.1186/s13195-021-00797-5
     display: Zhou et al. Alzheimer's Research & Therapy (2021)
-  highlight: 1
-  news2: 
-  
-- title: "Deep-learning-driven quantification of interstitial fibrosis in digitized kidney biopsies"
-  image: Zheng2021.gif
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1016/j.ajpath.2021.05.005
-    display: Zheng et al. The American Journal of Pathology (2021)
   highlight: 1
   news2: 
 
