@@ -10,7 +10,7 @@ permalink: /research/
 
 ---
 ### Podcast on neurological research 
-Listen to our discussion with [Newt Gingrich](https://en.wikipedia.org/wiki/Newt_Gingrich) on neurological research. Click [here](https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791) for more details.
+Listen to our discussion with [Newt Gingrich](https://en.wikipedia.org/wiki/Newt_Gingrich), former Speaker of the House on neurological research. Click [here](https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791) for more details.
 
 ---
 ### Clubhouse discussion on our latest work 
