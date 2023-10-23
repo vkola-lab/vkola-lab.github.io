@@ -9,6 +9,10 @@ permalink: /research/
 ## Research
 
 ---
+### Podcast on dementia 
+Listen to our discussion with Newt Gingrich, the former speaker of house on advances in neurological research. Click [here](https://podcasts.apple.com/us/podcast/episode-621-karen-toffler-charitable-trust-advancing/id1452065072?i=1000632167791) for more details.
+
+---
 ### Clubhouse discussion on our latest work 
 Discussion of our [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) manuscript on Clubhouse. Click [here](https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164) for more details.
 
