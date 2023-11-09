@@ -86,6 +86,13 @@
   group: 2
   scholar: https://scholar.google.com/citations?user=-qUeToQAAAAJ&hl=en&authuser=2
 
+- name: Subhrangshu Bit
+  photo: sbit.png
+  info: PhD student in Computer Science
+  url: https://subhrangshubit.github.io
+  group: 2
+  extlink: 
+
 - name: Lindsey Claus
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
