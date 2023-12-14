@@ -31,6 +31,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- December 2023: "Mining multimodal clinical and digital data for brain health", Framingham Heart Study Research Conference Series (Online).
+
 -- November 2023: "Representation learning for digital pathology", Reusable AI Tech Talks, AstraZeneca (Online).
 
 -- September 2023: "Multimodal machine learning for dementia assessment", Cognitive Neurology Unit/Center for Noninvasive Brain Stimulation Grand Rounds, Beth Israel Deaconess Medical Center, Boston, MA (Online).
