@@ -363,7 +363,7 @@
 
 - name: Ketan Suhaas Saichandran
   photo: ketan.jpg
-  info: MS in Artificial Intelligence Student 
+  info: MS AI Student 
   url: 
   group: 2
   github: https://github.com/Ketansuhaas
@@ -392,15 +392,4 @@
   info: MD student at Boston University School of Medicine
   url: 
   group: 2
-<<<<<<< HEAD
-  extlink:
-  
-- name: Krish Kapadia
-  photo: einstein.svg
-  info: MD student at Boston University School of Medicine
-  url: 
-  group: 2
-  extlink:
-=======
-  extlink:
->>>>>>> 0c31a18fb26034317f51fb7874f52f52d250adb0
+
