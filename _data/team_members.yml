@@ -366,3 +366,22 @@
   info: Undergraduate in Electrical Engineering
   group: 4
   linkedin: https://www.linkedin.com/in/karim-elzokm-313077284
+
+- name: Krish Kapadia
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  url: https://www.linkedin.com/in/krish-kapadia/
+
+- name: Shuyue Jia
+  photo: shuyuejia.jpeg
+  info: PhD student in Electrical & Computer Engineering
+  url: 
+  group: 2
+  scholar: https://scholar.google.com/citations?user=PfpEP60AAAAJ&hl=en
+  
+- name: Kevin Singh
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  url: 
+  group: 2
+  extlink:
