@@ -361,11 +361,38 @@
   linkedin: https://www.linkedin.com/in/sharma-ai/
   url: https://97harsh.github.io/
 
+- name: Ketan Suhaas Saichandran
+  photo: ketan.jpg
+  info: MS in Artificial Intelligence Student 
+  url: 
+  group: 2
+  github: https://github.com/Ketansuhaas
+  linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
+
+- name: Karim Elzokm 
+  photo: Karim_Elzokm.JPG
+  info: Undergraduate in Electrical Engineering
+  group: 4
+  linkedin: https://www.linkedin.com/in/karim-elzokm-313077284
+
+- name: Krish Kapadia
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  url: https://www.linkedin.com/in/krish-kapadia/
+
+- name: Shuyue Jia
+  photo: shuyuejia.jpeg
+  info: PhD student in Electrical & Computer Engineering
+  url: 
+  group: 2
+  scholar: https://scholar.google.com/citations?user=PfpEP60AAAAJ&hl=en
+  
 - name: Kevin Singh
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
   url: 
   group: 2
+<<<<<<< HEAD
   extlink:
   
 - name: Krish Kapadia
@@ -374,3 +401,6 @@
   url: 
   group: 2
   extlink:
+=======
+  extlink:
+>>>>>>> 0c31a18fb26034317f51fb7874f52f52d250adb0
