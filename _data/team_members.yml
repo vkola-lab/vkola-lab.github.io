@@ -10,7 +10,6 @@
 - name: Prajakta Joshi
   photo: pj_pic.jpg
   info: Resident at Boston University Henry Goldman School of Dental Medicine 
-  url: 
   group: 5
   linkedin: https://www.linkedin.com/in/prajakta-joshi-79520a116/
   scholar: https://scholar.google.com/citations?user=fSDEwcIAAAAJ&hl=en
@@ -53,7 +52,6 @@
 - name: Chonghua Xue
   photo: chonghua_pic.jpg
   info: PhD student in Electrical & Computer Engineering
-  url: 
   group: 2
   scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en
   
@@ -96,14 +94,12 @@
 - name: Lindsey Claus
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 2
   extlink: 
     
 - name: Joyce Lee
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 8
   extlink:
   next: Neurology resident at Boston Medical Center 
@@ -111,7 +107,6 @@
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
   info: PhD student in Bioinformatics
-  url: 
   group: 2
   github: https://github.com/MogicianEik
   scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ
@@ -119,7 +114,6 @@
 - name: Akshara Balachandra
   photo: akshara.jpg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 8
   github: https://github.com/androidpcguy
   scholar: https://scholar.google.com/citations?user=wqGtGpMAAAAJ&hl=en
@@ -129,21 +123,18 @@
 - name: Meagan Lauber
   photo: meagan_lauber.jpg
   info: PhD student in Neuroscience
-  url: 
   group: 2
   linkedin: https://www.linkedin.com/in/meagan-lauber-1050b417b/     
   
 - name: Varuna Jasodanand
   photo: varuna.jpg
   info: PhD student in Neuroscience
-  url: 
   group: 2
   linkedin: https://www.linkedin.com/in/varuna-jasodanand/
 
 - name: Lingyi Xu
   photo: lingyi_xu.jpg
   info: PhD student in Computing & Data Sciences
-  url: 
   group: 2
   linkedin: https://www.linkedin.com/in/olivialingyixu/
   github: https://lingyixu.github.io/    
@@ -151,7 +142,6 @@
 - name: Tejus Surendran
   photo: tejus.jpeg
   info: Staff scientist
-  url: 
   group: 8
   extlink: 
   next: PhD student at Carnegie Mellon University
@@ -167,7 +157,6 @@
 - name: Shreyas Puducheri
   photo: shreyas.jpeg
   info: 7-year Liberal Arts/Medical Education Program
-  url:
   group: 4
   linkedin: https://www.linkedin.com/in/shreyas-puducheri/
     
@@ -181,14 +170,12 @@
 - name: Olivia Zhou
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 2
   extlink:
   
 - name: Anika Walia
   photo: anika_walia.jpg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
   extlink: 
@@ -196,7 +183,6 @@
 - name: Osman Berke Guney
   photo: osmanberke.jpg
   info: PhD student in Electrical & Computer Engineering
-  url: 
   group: 2
   github: https://github.com/osmanberke
   scholar: https://scholar.google.com/citations?user=ifqu0TMAAAAJ&hl=en
@@ -205,7 +191,6 @@
 - name: Sahana Kowshik
   photo: sahana.jpg
   info: PhD student in Computing & Data Sciences
-  url: 
   group: 2
   github: https://github.com/sahanakowshik
   linkedin: https://www.linkedin.com/in/sahana-subramanya-kowshik-254415179/
@@ -213,7 +198,6 @@
 - name: Michalina Jadick
   photo: mica_jadick.png
   info: Undergraduate student in Neurobiology & Computer Science
-  url: 
   group: 8
   linkedin: https://www.linkedin.com/in/michalina-jadick-2a531a199/
   github: https://github.com/mjadick
@@ -222,126 +206,108 @@
     
 - name: Diya Nijhawan
   info: Undergraduate student in Neurobiology  
-  url: 
   group: 8
   next: Masters (MAMS) student at Boston University School of Medicine
   extlink: 
 
 - name: Ray Jhun
   info: MD student at Boston University School of Medicine
-  url: 
   group: 8
   next: Neurology resident at the University of North Carolina, Chapel Hill
   extlink:   
   
 - name: Xiao Zhou
   info: PhD student in Computer Science
-  url: 
   group: 8
   next: Postdoc at Yale University
   extlink: 
   
 - name: Rushin Gindra
   info: Staff scientist
-  url: 
   group: 8
   next: PhD student at TU Munich
   extlink: 
   
 - name: Yunruo Ni
   info: Undergraduate student in Computer Science
-  url: 
   group: 8
   next: Masters student at Carnegie Mellon University
   extlink: 
 
 - name: Cathy (Yuwei) Wang
   info: Undergraduate student in Computer Science
-  url: 
   group: 8
   next: Masters student at Northwestern University
   extlink: 
 
 - name: Joseph Lai
   info: Undergraduate student in Mathematics & Computer Science
-  url: 
   group: 8
   next: Software engineer at IMC trading, Chicago, IL
   extlink: 
           
 - name: Lisa Park
   info: MD student at Boston University School of Medicine
-  url: 
   group: 8
   next: Radiology resident at Northwell Health, Long Island, NY
   extlink:
 
 - name: Shriya Reddy
   info: Undergraduate student in the BA/MD/MBA program
-  url: 
   group: 8
-  next: General surgery resident at Huntington Hospital
+  next: General surgery resident at Huntington Hospital, Pasadena, CA
   extlink: 
      
 - name: Hojoon Seo
   info: Undergraduate student in the BA/MD program
-  url: 
   group: 8
   next: MD student at Boston University School of Medicine
   extlink: 
     
 - name: Saemi Jung
   info: Undergraduate student in Neuroscience & Computer Science
-  url: 
   group: 8
   next: Software engineer at CJ OliveNetworks, Seoul, Korea
   extlink: 
   
 - name: Jared Lott
   info: Undergraduate student in Biomedical Engineering
-  url: 
   group: 8
   next: Analyst at Acsel Health, New York, NY
   extlink: 
 
 - name: Megan Heydari
   info: Undergraduate student in Electrical and Computer Engineering
-  url: 
   group: 8
   next: Systems Engineer at Savant Power, San Francisco Bay Area, CA
   extlink: 
   
 - name: Benjamin Liang
   info: Undergraduate student in Biomedical Engineering
-  url: 
   group: 8
   next: Technical solutions engineer at Epic Systems, Madison, WI
   extlink: 
   
 - name: Andre Gonzaga
   info: Undergraduate student in Computer Engineering
-  url: 
   group: 8
   next: Software engineer at Goldman Sachs, New York, NY
   extlink: 
   
 - name: Gary Chang
   info: Postdoctoral scholar
-  url: 
   group: 8
   next: Faculty at National Taiwan University
   extlink: 
 
 - name: Christopher Lin
   info: Graduate student in Bioinformatics 
-  url: 
   group: 8
   next: MD student at University of Vermont
   extlink: 
   
 - name: Qiuyuan Qin
   info: Staff scientist
-  url: 
   group: 8
   next: PhD student at University of Rochester
   extlink: 
@@ -355,7 +321,6 @@
 - name: Harsh Sharma
   photo: harsh_sharma.png
   info: MS AI student
-  url: 
   group: 2
   github: https://github.com/97harsh/
   linkedin: https://www.linkedin.com/in/sharma-ai/
@@ -364,7 +329,6 @@
 - name: Ketan Suhaas Saichandran
   photo: ketan.jpg
   info: MS AI Student 
-  url: 
   group: 2
   github: https://github.com/Ketansuhaas
   linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
@@ -383,13 +347,10 @@
 - name: Shuyue Jia
   photo: shuyuejia.jpeg
   info: PhD student in Electrical & Computer Engineering
-  url: 
   group: 2
   scholar: https://scholar.google.com/citations?user=PfpEP60AAAAJ&hl=en
   
 - name: Kevin Singh
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
-  url: 
   group: 2
-
