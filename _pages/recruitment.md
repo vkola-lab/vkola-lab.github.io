@@ -22,4 +22,4 @@ For postdoctoral positions and other opportunities, please contact the PI direct
 
 ## Apply
 
-If you are interested in joining us, then we encourage you to contact an active lab member from our <a href="https://vkola-lab.github.io/team/" >Teams Page </a> and talk about your interests.
+If you are interested in joining us, then we encourage you to contact an active lab member from our <a href="https://vkola-lab.github.io/team/" >Team Page </a> and talk about your interests.
