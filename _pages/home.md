@@ -23,7 +23,9 @@ We are also interested in the following frameworks that have computational relev
 2. **Representation learning** -- Construction of efficient neural models on high resolution data to process local and contextual information
 
 ### Joining our laboratory
-We form small teams comprising individuals with complementary expertise and work persistently to build comprehensive solutions. If you are interested in joining us, then we encourage you to contact an active lab member and talk about your interests. 
+We form small teams comprising individuals with complementary expertise and work persistently to build comprehensive solutions. 
+
+Important: If you are interested in joining us, then we encourage you to contact an active lab member (click on Team) and talk about your interests. 
 
 ### Funding
 We are grateful for funding from the [American Heart Association](https://www.heart.org), the [National Institute on Aging](https://www.nia.nih.gov), the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov), the [National Cancer Institute](https://www.cancer.gov), the [Artificial Intelligence and Technology Collaboratories (AITC) for Aging Research program](https://www.a2collective.ai), and the [National Institute of Diabetes and Digestive and Kidney Diseases](https://www.niddk.nih.gov). We also thank the [Karen Toffler Charitable Trust](https://tofflertrust.org), Johnson & Johnson Enterprise Innovation Inc., and [Visterra Inc.](https://visterrainc.com), for funding our work.
