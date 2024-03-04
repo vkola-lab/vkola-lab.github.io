@@ -33,7 +33,7 @@ We are grateful for funding from the [American Heart Association](https://www.he
 ### Teaching
 -- Machine learning ([MS650](https://www.bu.edu/academics/gms/courses/gms-ms-650/))
 
--- Guest lectures ([BF831](https://www.bu.edu/academics/grs/programs/bioinformatics/ms/); [HM817](https://www.bu.edu/academics/questrom/courses/qst-hm-817/); [FC713](https://www.bu.edu/academics/gms/courses/gms-fc-713/))
+-- Guest lectures ([BF831](https://www.bu.edu/academics/grs/programs/bioinformatics/ms/); [HM817](https://www.bu.edu/academics/questrom/courses/qst-hm-817/); [FC713](https://www.bu.edu/academics/gms/courses/gms-fc-713/); [EC500](https://www.bu.edu/academics/eng/courses/eng-ec-500/))
 
 	
 
