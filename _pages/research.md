@@ -31,6 +31,11 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ---
 ### Invited talks and presentations (Since 2020)
 
+
+-- February 2024: "Mining clinical and digital data for dementia assessment", Center for Brain Recovery, Boston University (Online).
+
+-- February 2024: "Multimodal learning for dementia assessment", 20th CSI International Symposium on Artificial Intelligence and Signal Processing (AISP2024) (Online).
+
 -- December 2023: "Mining multimodal clinical and digital data for brain health", Framingham Heart Study Research Conference Series (Online).
 
 -- November 2023: "Representation learning for digital pathology", Reusable AI Tech Talks, AstraZeneca (Online).
