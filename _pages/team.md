@@ -247,4 +247,4 @@ permalink: /team/
 ---
 
 ## Administrative support
-Please contact our section administrator, <a href="mailto:maring@bu.edu">Melissa Ring</a>.
+Please contact <a href="mailto:eguven@bu.edu">Enes Guven</a>.
