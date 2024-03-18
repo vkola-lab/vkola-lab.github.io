@@ -104,6 +104,13 @@
   extlink:
   next: Neurology resident at Boston Medical Center 
 
+- name: Divya Veerapaneni
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  group: 8
+  extlink:
+  next: Neurology resident at UT Southwestern Medical Center
+  
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
   info: PhD student in Bioinformatics
