@@ -14,9 +14,7 @@ permalink: /media/
 </head>
 <body>
     <h1 style=" text-align: center; ">Educational Content</h1>
-        
     <ul class="accordion">
-
             <li>
                 <input type="radio" name="accordion" id="ed1">
                 <label for="ed1">AI for dementia - 2022</label>
@@ -25,7 +23,6 @@ permalink: /media/
                     <p>*Summary of our lab's research on machine learning approaches for dementia assessment.*</p>
                 </div>
             </li>
-           
             <li>
                 <input type="radio" name="accordion" id="ed2">
                 <label for="ed2">Multimodal deep learning</label>
@@ -35,7 +32,6 @@ permalink: /media/
                     </p>
                 </div>
             </li>
-
             <li>
                 <input type="radio" name="accordion" id="ed3">
                 <label for="ed3">Interpretable deep learning - 2022</label>
@@ -46,7 +42,6 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-
         <h1 style=" text-align: center; ">Lab Videos</h1>
         <ul class="accordion">
             <li>
@@ -60,23 +55,21 @@ permalink: /media/
                 <input type="radio" name="accordion" id="Lb2">
                 <label for="Lb2">Shangran Qiu - 2022</label>
                 <div class="panel">
-                    <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
+                    <iframe src="https://youtube.com/embed/7q3BOdJsIo8" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
                 </div>
             </li>
             <li>
                 <input type="radio" name="accordion" id="Lb3">
                 <label for="Lb3">Diana Zhang - 2022</label>
                 <div class="panel">
-                    <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
+                    <iframe src="https://youtube.com/embed/oJX8eCiqLao" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                 
                 </div>
             </li>
             <li>
                 <input type="radio" name="accordion" id="Lb4">
                 <label for="Lb4">Life in our lab - TikTok version 2023</label>
                 <div class="panel">
-                    <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" width="75%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" align="center" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
 
