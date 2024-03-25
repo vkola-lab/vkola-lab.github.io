@@ -7,6 +7,8 @@ permalink: /team/
 ---
 <script src="https://kit.fontawesome.com/03aee70ce1.js" crossorigin="anonymous"></script>
 
+<img src="images/teampic/Lab-team.jpg" style="display:block; margin-left: auto; margin-right: auto; width:850px;" >
+
 ## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
