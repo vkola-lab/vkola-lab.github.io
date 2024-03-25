@@ -5,7 +5,6 @@ excerpt: "Kolachalama laboratory -- Media."
 sitemap: false
 permalink: /media/
 ---
-<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +25,6 @@ permalink: /media/
                 </div>
             </li>
            
-            </li>
             <li>
                 <input type="radio" name="accordion" id="ed2">
                 <label for="ed2">Multimodal deep learning</label>
