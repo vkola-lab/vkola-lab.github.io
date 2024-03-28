@@ -10,7 +10,7 @@ permalink: /media/
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Media</title>
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 <body>
     <h1 style=" text-align: center; ">Educational Content</h1>
