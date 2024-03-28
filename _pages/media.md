@@ -72,7 +72,6 @@ permalink: /media/
                     <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
-
         </ul>
 
 </body>
