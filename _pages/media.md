@@ -5,11 +5,9 @@ excerpt: "Kolachalama laboratory -- Media."
 sitemap: false
 permalink: /media/
 ---
-<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Media</title>
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
