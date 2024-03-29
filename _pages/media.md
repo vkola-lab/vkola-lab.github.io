@@ -6,10 +6,6 @@ sitemap: false
 permalink: /media/
 ---
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/media.scss">
-</head>
 <body>
     <h1 style=" text-align: center; ">Educational Content</h1>
     <ul class="accordion">
