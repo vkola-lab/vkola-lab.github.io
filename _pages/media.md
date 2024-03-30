@@ -5,13 +5,7 @@ excerpt: "Kolachalama laboratory -- Media."
 sitemap: false
 permalink: /media/
 ---
-
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Media</title>
-    <link rel="stylesheet" href="css/media.css">
-</head>
 <body>
     <h1 style=" text-align: center; ">Educational Content</h1>
     <ul class="accordion">
@@ -72,7 +66,6 @@ permalink: /media/
                     <iframe src="https://youtube.com/embed/NS4ZtqUsGSk" frameborder="0" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
-
         </ul>
 
 </body>
