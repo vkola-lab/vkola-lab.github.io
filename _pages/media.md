@@ -36,7 +36,7 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-        <h1 style=" text-align: center; ">Lab Videos</h1>
+        <h1 style=" text-align: center; ">Lab videos</h1>
         <ul class="accordion">
             <li>
                 <input type="radio" name="accordion" id="Lb4">
