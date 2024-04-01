@@ -14,13 +14,14 @@ permalink: /
 
 Specifically, we are interested in the following questions that have clinical relevance:
 
-1. **Neurodegeneration** -- How can we develop software frameworks that can assist dementia screening in various real-world settings? 
+1. **Neurodegeneration** -- How can we develop software frameworks that can assist neurology practitioners in various real-world settings? 
 2. **Digital pathology** -- How can we build clinical-grade software tools to complement the pathologist workflow?
 
 We are also interested in the following frameworks that have computational relevance:
 
-1. **Domain generalization** -- Development of neural networks that can generalize well across multiple data cohorts
-2. **Representation learning** -- Construction of efficient neural models on high resolution data to process local and contextual information
+1. **Multimodal learning** -- Efficient design of generalist AI models that can process multiple modalities of data.
+2. **Domain generalization** -- Development of neural networks that can generalize well across multiple data cohorts
+3. **Representation learning** -- Construction of efficient neural models on high resolution data to process local and contextual information
 
 ### Joining our laboratory
 We form small teams comprising individuals with complementary expertise and work persistently to build comprehensive solutions. 
