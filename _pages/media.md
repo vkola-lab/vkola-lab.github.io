@@ -7,10 +7,16 @@ permalink: /media/
 ---
 <html>
 <body>
-    <h1 style=" text-align: center; ">Educational Content</h1>
+    <table style="width: 90%; margin : 50px;">
+        <tr>
+            <th><h1 style=" text-align: center; ">Educational Content</h1></th>
+            <th><h1 style=" text-align: center; ">Lab Videos</h1></th>
+        </tr>
+    <tr>
+    <td>
     <ul class="accordion">
             <li>
-                <input type="radio" name="accordion" id="ed1">
+                <input type="radio" name="accordion-1" id="ed1" checked>
                 <label for="ed1">AI for dementia - 2022</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,7 +24,7 @@ permalink: /media/
                 </div>
             </li>
             <li>
-                <input type="radio" name="accordion" id="ed2">
+                <input type="radio" name="accordion-1" id="ed2">
                 <label for="ed2">Multimodal deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -27,7 +33,7 @@ permalink: /media/
                 </div>
             </li>
             <li>
-                <input type="radio" name="accordion" id="ed3">
+                <input type="radio" name="accordion-1" id="ed3">
                 <label for="ed3">Interpretable deep learning - 2022</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +42,8 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-        <h1 style=" text-align: center; ">Lab Videos</h1>
+    </td>
+    <td style="padding-left: 25px;">        
         <ul class="accordion">
             <li>
                 <input type="radio" name="accordion" id="Lb1" checked>
@@ -67,6 +74,8 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-
+    </td>
+    </tr> 
+    </table>
 </body>
 </html>
