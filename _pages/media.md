@@ -55,7 +55,7 @@ permalink: /media/
             </li>
         </ul>
     </td>
-    <td style="padding-left: 25px;vertical-align: top;">      
+    <td style="padding-left: 25px; vertical-align: top;">      
         <ul class="accordion">
             <li>
                 <input type="checkbox" name="accordion" id="Lb1">
