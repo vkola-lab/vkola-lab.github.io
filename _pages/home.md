@@ -8,9 +8,9 @@ permalink: /
 
 ---
 <div class="panel">
-                    <iframe src="https://drive.google.com/file/d/1vd6DM23fAFGH1A_y4G7gi4kWCzuRF6HC/view?usp=sharing" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                </div>
+                    <iframe src="https://drive.google.com/file/d/1vd6DM23fAFGH1A_y4G7gi4kWCzuRF6HC/preview" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+</div>
+
 ---
 <br>
 **Our mission is to create methods to fit the science and not make science fit the methods.** 
