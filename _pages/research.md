@@ -32,6 +32,8 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ### Invited talks and presentations (Since 2020)
 
 
+-- April 2024: "Leveraging AI for dementia clinical trials", The Future of Digital Health, BU Questrom School of Business.
+
 -- March 2024: "AI-based tools for differential diagnosis of dementia", Clinical Neuroscience Grand Rounds, Boston Medical Center (Online).
 
 -- February 2024: "Multimodal learning for dementia assessment", 20th CSI International Symposium on Artificial Intelligence and Signal Processing (AISP2024) (Online).
