@@ -20,8 +20,7 @@ Specifically, we are interested in the following questions that have clinical re
 We are also interested in the following frameworks that have computational relevance:
 
 1. **Multimodal learning** -- Efficient design of generalist AI models that can process multiple modalities of data.
-2. **Domain generalization** -- Development of neural networks that can generalize well across multiple data cohorts
-3. **Representation learning** -- Construction of efficient neural models on high resolution data to process local and contextual information
+2. **Representation learning** -- Construction of efficient neural models on high resolution data to process local and contextual information
 
 ### Joining our laboratory
 We form small teams comprising individuals with complementary expertise and work persistently to build comprehensive solutions. 
