@@ -1,3 +1,13 @@
+- title: "Graph attention-based fusion of pathology images and gene expression for prediction of cancer survival"
+  image: Zheng2022.png
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1109/TMI.2024.3386108
+    display: Zheng et al. IEEE Transactions on Medical Imaging (2024)
+  highlight: 1
+  news2: 
+  
 - title: "Deep learning for risk-based stratification of cognitively impaired individuals"
   image: Romano2023.jpg
   description: 
@@ -35,16 +45,6 @@
   link:
     url: https://doi.org/10.1002/art.41808
     display: Chang et al. Arthritis & Rheumatology (2021)
-  highlight: 1
-  news2: 
-
-- title: "Enhancing magnetic resonance imaging-driven Alzheimer’s disease classification performance using generative adversarial learning"
-  image: Zhou2021.jpg
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1186/s13195-021-00797-5
-    display: Zhou et al. Alzheimer's Research & Therapy (2021)
   highlight: 1
   news2: 
 
