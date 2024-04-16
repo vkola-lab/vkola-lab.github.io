@@ -6,10 +6,9 @@ sitemap: false
 permalink: /
 ---
 
+<!--<iframe src="https://www.youtube.com/embed/WNTuU70hSi0?si=ijXxpdbdfkpmakvD" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->      
 ---
-
-<iframe src="https://www.youtube.com/embed/WNTuU70hSi0?si=ijXxpdbdfkpmakvD" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
-
+![]({{ site.url }}{{ site.baseurl }}/images/latest_collage.png){: style="width: 625px; float: left;margin-right: 20px; border: 10px"}
 ---
 <br>
 **Our mission is to create methods to fit the science and not make science fit the methods.** 
