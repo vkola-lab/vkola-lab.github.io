@@ -58,7 +58,7 @@ input[type="checkbox"] {
 }
 
 .accordion input[type="checkbox"]:checked + label + .panel {
-    max-height: 400px;
+    max-height: 1000px;
     padding: 10px 10px 20px;
 }
 
