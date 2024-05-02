@@ -51,7 +51,7 @@ permalink: /papers/
 
 <div>
 ## Full List
-For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> or <a class="regtext" href="https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb&sort=date">Pubmed</a>.
+For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> or <a class="regtext" href="https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb&sort=date">PubMed</a>.
 <br><br><br>
 
 </div>
