@@ -1,25 +1,24 @@
-*{
+* {
     margin:0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
-.accordion {
+.accordion td ul {
     margin: 60px auto;
     width: 600px;
 }
 
-.accordion li {
+.accordion td ul li {
     list-style: none;
     width: 100%;
     margin: 20px;
     padding: 10px;
-
     background-color: #e3edf7;
     border-radius: 8px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
@@ -27,9 +26,9 @@ body{
     
 }
 
-.accordion li label {
+.accordion td ul li label {
     
-    display:flex;
+    display: flex;
     align-items: center;
     padding: 10px; 
     font-size: 18px;
@@ -44,11 +43,11 @@ label::before {
     font-weight: 600;
 }
 
-input[type="checkbox"] {
+.accordion tr td ul li input[type="checkbox"] {
     display: none;
 }
 
-.accordion .panel {
+.accordion tr td ul li .panel {
     color: #555;
     padding: 0 10px;
     line-height: 26px;
@@ -57,7 +56,8 @@ input[type="checkbox"] {
     transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion input[type="checkbox"]:checked + label + .panel {
+.accordion tr td ul li input[type="checkbox"]:checked + label + .panel {
     max-height: 1000px;
     padding: 10px 10px 20px;
 }
+

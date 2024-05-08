@@ -7,14 +7,14 @@ permalink: /media/
 ---
 <html>
 <body>
-    <table style="width: 90%; margin : 50px;">
+    <table class="accordion" style="width: 90%; margin : 50px;">
         <tr>
             <th><h1 style=" text-align: center; ">Educational Content</h1></th>
             <th><h1 style=" text-align: center; ">Lab Videos</h1></th>
         </tr>
     <tr>
     <td style="vertical-align: top;">
-    <ul class="accordion">
+    <ul>
         <li>
             <input type="checkbox" name="accordion-1" id="ed4">
             <label for="ed4">Neuroimaging Series</label>
@@ -56,7 +56,7 @@ permalink: /media/
         </ul>
     </td>
     <td style="padding-left: 25px; vertical-align: top;">      
-        <ul class="accordion">
+        <ul>
             <li>
                 <input type="checkbox" name="accordion" id="Lb1">
                 <label for="Lb1">Michalina Jadick - 2023</label>
