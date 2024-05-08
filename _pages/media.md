@@ -7,14 +7,8 @@ permalink: /media/
 ---
 <html>
 <body>
-    <table class="accordion" style="width: 90%; margin : 50px;">
-        <tr>
-            <th><h1 style=" text-align: center; ">Educational Content</h1></th>
-            <th><h1 style=" text-align: center; ">Lab Videos</h1></th>
-        </tr>
-    <tr>
-    <td style="vertical-align: top;">
-    <ul>
+            <h1 style=" text-align: center; ">Educational Content</h1>
+    <ul class="accordion">
         <li>
             <input type="checkbox" name="accordion-1" id="ed4">
             <label for="ed4">Neuroimaging Series</label>
@@ -54,8 +48,7 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-    </td>
-    <td style="padding-left: 25px; vertical-align: top;">      
+    <h1 style=" text-align: center; ">Lab Videos</h1>     
         <ul>
             <li>
                 <input type="checkbox" name="accordion" id="Lb1">
@@ -86,8 +79,5 @@ permalink: /media/
                 </div>
             </li>
         </ul>
-    </td>
-    </tr> 
-    </table>
 </body>
 </html>
