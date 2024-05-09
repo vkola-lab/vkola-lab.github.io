@@ -23,7 +23,7 @@ permalink: /media/
         </li>        
         <li>
                 <input type="checkbox" name="accordion-1" id="ed1">
-                <label for="ed1">AI for dementia - 2022</label>
+                <label for="ed1">AI for dementia</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p>*Summary of our lab's research on machine learning approaches for dementia assessment.*</p>
@@ -40,7 +40,7 @@ permalink: /media/
             </li>
             <li>
                 <input type="checkbox" name="accordion-1" id="ed3">
-                <label for="ed3">Interpretable deep learning - 2022</label>
+                <label for="ed3">Interpretable deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p>*This work is published in Brain<a href="https://doi.org/10.1093/brain/awaa13"> (Source Link)</a>, a journal of Neurology in 2020.*  
