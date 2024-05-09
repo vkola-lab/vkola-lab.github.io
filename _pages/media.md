@@ -49,7 +49,7 @@ permalink: /media/
             </li>
         </ul>
     <h1 style=" text-align: center; ">Lab videos</h1>     
-        <ul>
+        <ul class="accordion">
             <li>
                 <input type="checkbox" name="accordion" id="Lb1">
                 <label for="Lb1">Michalina Jadick - 2023</label>
