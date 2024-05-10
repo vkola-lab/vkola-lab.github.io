@@ -34,7 +34,7 @@ permalink: /media/
                 <label for="ed2">Multimodal deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>*This work is published in [Nature Communications]<a href="//doi.org/10.1038/s41467-022-31037-5">(Source Link)</a> in 2022.* 
+                    <p>*This work is published in [Nature Communications]<a href="https://doi.org/10.1038/s41467-022-31037-5">(Source Link)</a> in 2022.* 
                     </p>
                 </div>
             </li>
@@ -43,7 +43,7 @@ permalink: /media/
                 <label for="ed3">Interpretable deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>*This work is published in Brain<a href="https://doi.org/10.1093/brain/awaa13"> (Source Link)</a>, a journal of Neurology in 2020.*  
+                    <p>*This work is published in Brain<a href="https://doi.org/10.1093/brain/awaa137"> (Source Link)</a>, a journal of Neurology in 2020.*  
                     </p>
                 </div>
             </li>
