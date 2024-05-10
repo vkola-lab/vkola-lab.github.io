@@ -15,10 +15,10 @@ permalink: /media/
             <div class="panel">
                 <h3>Part 1</h3>
                 <iframe src="https://www.youtube.com/embed/WNTuU70hSi0?si=Fu-XCBqYMsz2N_FS" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>*This is part one of the series where we will cover the basics of brain MRI sequences.</p>
+                <p>*This is part one of the series where we cover the basics of brain MRI sequences.</p>
                 <h3>Part 2</h3>
                 <iframe src="https://www.youtube.com/embed/zS2nd5X1DF4?si=-L0vx1Y0S5KbV6zl" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>*This is part two where we will go into further depth with T1, T2 and FLAIR sequences.</p>
+                <p>*This is part two of the series where we cover T1, T2 and FLAIR sequences.</p>
             </div>
         </li>        
         <li>
