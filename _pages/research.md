@@ -31,7 +31,7 @@ Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more
 ---
 ### Invited talks and presentations (Since 2020)
 
--- May 2024: "Digital nephropathology", Renal Research Seminar, Division of Renal Medicine, Brigham & Women's Hospital
+-- May 2024: "Digital nephropathology", Renal Research Seminar, Division of Renal Medicine, Brigham & Women's Hospital (Online).
 
 -- April 2024: "Leveraging AI for dementia clinical trials", The Future of Digital Health, BU Questrom School of Business.
 
