@@ -80,8 +80,9 @@
   photo: yizheng.jpg
   info: PhD student in Computer Science
   url: http://cs-people.bu.edu/yizheng/
-  group: 2
+  group: 8
   scholar: https://scholar.google.com/citations?user=-qUeToQAAAAJ&hl=en&authuser=2
+  next: Deep learning scientist at Thales group
 
 - name: Subhrangshu Bit
   photo: sbit.png
@@ -330,10 +331,11 @@
 - name: Harsh Sharma
   photo: harsh_sharma.png
   info: MS AI student
-  group: 2
+  group: 8
   github: https://github.com/97harsh/
   linkedin: https://www.linkedin.com/in/sharma-ai/
   url: https://97harsh.github.io/
+  next: Data/ML engineer at CarbonArc
 
 - name: Ketan Suhaas Saichandran
   photo: ketan.jpg
