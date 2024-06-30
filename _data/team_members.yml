@@ -240,7 +240,7 @@
   scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en
   github: https://github.com/shangranq
   linkedin: https://www.linkedin.com/in/shangran/
-  next: Applied Scientist at Microsoft Inc.
+  next: Applied Scientist at Microsoft
      
 - name: Michael Romano
   photo: mike_romano.jpg
@@ -263,7 +263,7 @@
 - name: Diya Nijhawan
   info: Undergraduate student in Neurobiology  
   group: 8
-  next: Masters (MAMS) student at Boston University School of Medicine
+  next: Masters student at Boston University School of Medicine
   extlink: 
 
 - name: Ray Jhun
@@ -305,19 +305,19 @@
 - name: Lisa Park
   info: MD student at Boston University School of Medicine
   group: 8
-  next: Radiology resident at Northwell Health, Long Island, NY
+  next: Radiology resident at Northwell Health
   extlink:
 
 - name: Shriya Reddy
   info: Undergraduate student in the BA/MD/MBA program
   group: 8
-  next: General surgery resident at Huntington Hospital, Pasadena, CA
+  next: General surgery resident at Huntington Hospital
   extlink: 
      
 - name: Hojoon Seo
   info: Undergraduate student in the BA/MD program
   group: 8
-  next: MD student at the Boston University School of Medicine
+  next: MD student at Boston University School of Medicine
   extlink: 
     
 - name: Saemi Jung
@@ -329,25 +329,25 @@
 - name: Jared Lott
   info: Undergraduate student in Biomedical Engineering
   group: 8
-  next: Analyst at Acsel Health, New York, NY
+  next: Analyst at Acsel Health
   extlink: 
 
 - name: Megan Heydari
   info: Undergraduate student in Electrical and Computer Engineering
   group: 8
-  next: Systems Engineer at Savant Power, San Francisco Bay Area, CA
+  next: Systems Engineer at Savant Power
   extlink: 
   
 - name: Benjamin Liang
   info: Undergraduate student in Biomedical Engineering
   group: 8
-  next: Technical solutions engineer at Epic Systems, Madison, WI
+  next: Technical solutions engineer at Epic Systems
   extlink: 
   
 - name: Andre Gonzaga
   info: Undergraduate student in Computer Engineering
   group: 8
-  next: Software engineer at Goldman Sachs, New York, NY
+  next: Software engineer at Goldman Sachs
   extlink: 
   
 - name: Gary Chang
@@ -371,5 +371,5 @@
 - name: Shruti Kannan
   info: Masters student in Electrical & Computer Engineering 
   group: 8
-  next: DSP engineer at Bose Corporation, Boston, MA
+  next: DSP engineer at Bose Corporation
   extlink: 
