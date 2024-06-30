@@ -12,15 +12,59 @@
   group: 5
   linkedin: https://www.linkedin.com/in/prajakta-joshi-79520a116/
   scholar: https://scholar.google.com/citations?user=fSDEwcIAAAAJ&hl=en
+
+- name: Diana Zhang
+  photo: diana_zhang.jpg
+  url: https://diana-zhang.com
+  group: 5
+  linkedin: https://www.linkedin.com/in/dianazhang1806/
+  scholar: https://scholar.google.com/citations?hl=en&user=HBnvK2YAAAAJ 
   
-- name: Michael Romano
-  photo: mike_romano.jpg
-  info: Postdoctoral scholar
-  group: 8
-  url: https://github.com/mfromano/
-  scholar: https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao
-  github: https://github.com/mfromano/
-  next: Radiology resident at the University of California, San Francisco
+- name: Cody Karjadi
+  photo: ckarjadi.jpeg
+  info: Technical program manager at the Framingham heart study
+  url: ckarjadi
+  group: 5
+  scholar: https://scholar.google.com/citations?user=tkohcEcAAAAJ&hl=en
+
+-----
+
+- name: Ketan Suhaas Saichandran
+  photo: ketan.jpg
+  info: MS AI Student 
+  group: 2
+  github: https://github.com/Ketansuhaas
+  linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
+
+- name: Karim Elzokm 
+  photo: Karim_Elzokm.JPG
+  info: Undergraduate in Electrical Engineering
+  group: 4
+  linkedin: https://www.linkedin.com/in/karim-elzokm-313077284
+
+- name: Krish Kapadia
+  photo: einstein.svg
+  group: 2
+  info: MD student at Boston University School of Medicine
+  linkedin: https://www.linkedin.com/in/krish-kapadia/
+
+- name: Shuyue Jia
+  photo: shuyuejia.jpeg
+  info: PhD student in Electrical & Computer Engineering
+  group: 2
+  scholar: https://scholar.google.com/citations?user=PfpEP60AAAAJ&hl=en
+  
+- name: Kevin Singh
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  group: 2
+
+- name: Enes Guven
+  photo: enesguven.jpeg
+  info: IT project manager
+  group: 3
+  github: https://github.com/EnesGuven
+  linkedin: https://www.linkedin.com/in/enessguven/
 
 - name: Meysam Ahangaran
   photo: Meysam.jpg
@@ -36,38 +80,13 @@
   group: 1
   linkedin: https://www.linkedin.com/in/mbellitti/
   scholar: https://scholar.google.com/citations?user=S1RcQR4AAAAJ&hl=en
-  github: https://github.com/mbellitti
-  
-- name: Shangran Qiu
-  photo: shangran.jpeg
-  info: PhD student in Physics
-  url: shangranqiu
-  group: 8
-  scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en
-  github: https://github.com/shangranq
-  linkedin: https://www.linkedin.com/in/shangran/
-  next: Applied Scientist at Microsoft Inc.
-          
+  github: https://github.com/mbellitti     
+     
 - name: Chonghua Xue
   photo: chonghua_pic.jpg
   info: PhD student in Electrical & Computer Engineering
   group: 2
-  scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en
-  
-- name: Matthew Miller
-  photo: matt.png
-  url: matthewmiller
-  info: MD student at Boston University School of Medicine
-  group: 8
-  scholar: https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en
-  next: Radiology resident at Mass General Brigham
-  
-- name: Cody Karjadi
-  photo: ckarjadi.jpeg
-  info: Technical program manager at the Framingham heart study
-  url: ckarjadi
-  group: 5
-  scholar: https://scholar.google.com/citations?user=tkohcEcAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en     
   
 - name: Diala Lteif
   photo: dlteif.jpg
@@ -76,41 +95,12 @@
   group: 2
   extlink: 
 
-- name: Yi Zheng
-  photo: yizheng.jpg
-  info: PhD student in Computer Science
-  url: http://cs-people.bu.edu/yizheng/
-  group: 8
-  scholar: https://scholar.google.com/citations?user=-qUeToQAAAAJ&hl=en&authuser=2
-  next: Deep learning scientist at Thales group
-
 - name: Subhrangshu Bit
   photo: sbit.png
   info: PhD student in Computer Science
   url: https://subhrangshubit.github.io
   group: 2
   extlink: 
-
-- name: Lindsey Claus
-  photo: einstein.svg
-  info: MD student at Boston University School of Medicine
-  group: 8
-  extlink:
-  next: Vascular surgery resident at the University of Pennsylvania 
-    
-- name: Joyce Lee
-  photo: einstein.svg
-  info: MD student at Boston University School of Medicine
-  group: 8
-  extlink:
-  next: Neurology resident at Boston Medical Center 
-
-- name: Divya Veerapaneni
-  photo: einstein.svg
-  info: MD student at Boston University School of Medicine
-  group: 8
-  extlink:
-  next: Neurology resident at UT Southwestern Medical Center
   
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
@@ -118,15 +108,6 @@
   group: 2
   github: https://github.com/MogicianEik
   scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ
-
-- name: Akshara Balachandra
-  photo: akshara.jpg
-  info: MD student at Boston University School of Medicine
-  group: 8
-  github: https://github.com/androidpcguy
-  scholar: https://scholar.google.com/citations?user=wqGtGpMAAAAJ&hl=en
-  linkedin: https://www.linkedin.com/in/akshara-balachandra-91957195/
-  next: Neurology resident at the Stanford University School of Medicine
    
 - name: Meagan Lauber
   photo: meagan_lauber.jpg
@@ -147,20 +128,6 @@
   group: 2
   linkedin: https://www.linkedin.com/in/olivialingyixu/
   github: https://lingyixu.github.io/    
-        
-- name: Tejus Surendran
-  photo: tejus.jpeg
-  info: Staff scientist
-  group: 8
-  extlink: 
-  next: PhD student at Carnegie Mellon University
-  
-- name: Diana Zhang
-  photo: diana_zhang.jpg
-  url: https://diana-zhang.com
-  group: 5
-  linkedin: https://www.linkedin.com/in/dianazhang1806/
-  scholar: https://scholar.google.com/citations?hl=en&user=HBnvK2YAAAAJ 
   
 - name: Shreyas Puducheri
   photo: shreyas.jpeg
@@ -203,8 +170,91 @@
   group: 2
   github: https://github.com/sahanakowshik
   scholar: https://scholar.google.com/citations?user=Vg6y7tcAAAAJ&hl=en&authuser=1
-  linkedin: https://www.linkedin.com/in/sahana-kowshik-254415179/
+  linkedin: https://www.linkedin.com/in/sahana-kowshik-254415179/  
+             
+-----        
+
+- name: Yi Zheng
+  photo: yizheng.jpg
+  info: PhD student in Computer Science
+  url: http://cs-people.bu.edu/yizheng/
+  group: 8
+  scholar: https://scholar.google.com/citations?user=-qUeToQAAAAJ&hl=en&authuser=2
+  next: Deep learning scientist at Thales group
+      
+- name: Harsh Sharma
+  photo: harsh_sharma.png
+  info: MS AI student
+  group: 8
+  github: https://github.com/97harsh/
+  linkedin: https://www.linkedin.com/in/sharma-ai/
+  url: https://97harsh.github.io/
+  next: Data/ML engineer at CarbonArc
+
+- name: Lindsey Claus
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  group: 8
+  extlink:
+  next: Vascular surgery resident at the University of Pennsylvania 
+
+- name: Divya Veerapaneni
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  group: 8
+  extlink:
+  next: Neurology resident at UT Southwestern Medical Center
+
+- name: Matthew Miller
+  photo: matt.png
+  url: matthewmiller
+  info: MD student at Boston University School of Medicine
+  group: 8
+  scholar: https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en
+  next: Radiology resident at Mass General Brigham
   
+- name: Akshara Balachandra
+  photo: akshara.jpg
+  info: MD student at Boston University School of Medicine
+  group: 8
+  github: https://github.com/androidpcguy
+  scholar: https://scholar.google.com/citations?user=wqGtGpMAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/akshara-balachandra-91957195/
+  next: Neurology resident at the Stanford University School of Medicine
+
+- name: Joyce Lee
+  photo: einstein.svg
+  info: MD student at Boston University School of Medicine
+  group: 8
+  extlink:
+  next: Neurology resident at Boston Medical Center 
+          
+- name: Tejus Surendran
+  photo: tejus.jpeg
+  info: Staff scientist
+  group: 8
+  extlink: 
+  next: PhD student at Carnegie Mellon University
+
+- name: Shangran Qiu
+  photo: shangran.jpeg
+  info: PhD student in Physics
+  url: shangranqiu
+  group: 8
+  scholar: https://scholar.google.com/citations?user=AF3UwgEAAAAJ&hl=en
+  github: https://github.com/shangranq
+  linkedin: https://www.linkedin.com/in/shangran/
+  next: Applied Scientist at Microsoft Inc.
+     
+- name: Michael Romano
+  photo: mike_romano.jpg
+  info: Postdoctoral scholar
+  group: 8
+  url: https://github.com/mfromano/
+  scholar: https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao
+  github: https://github.com/mfromano/
+  next: Radiology resident at the University of California, San Francisco
+        
 - name: Michalina Jadick
   photo: mica_jadick.png
   info: Undergraduate student in Neurobiology & Computer Science
@@ -327,49 +377,3 @@
   group: 8
   next: DSP engineer at Bose Corporation, Boston, MA
   extlink: 
-
-- name: Harsh Sharma
-  photo: harsh_sharma.png
-  info: MS AI student
-  group: 8
-  github: https://github.com/97harsh/
-  linkedin: https://www.linkedin.com/in/sharma-ai/
-  url: https://97harsh.github.io/
-  next: Data/ML engineer at CarbonArc
-
-- name: Ketan Suhaas Saichandran
-  photo: ketan.jpg
-  info: MS AI Student 
-  group: 2
-  github: https://github.com/Ketansuhaas
-  linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
-
-- name: Karim Elzokm 
-  photo: Karim_Elzokm.JPG
-  info: Undergraduate in Electrical Engineering
-  group: 4
-  linkedin: https://www.linkedin.com/in/karim-elzokm-313077284
-
-- name: Krish Kapadia
-  photo: einstein.svg
-  group: 2
-  info: MD student at Boston University School of Medicine
-  linkedin: https://www.linkedin.com/in/krish-kapadia/
-
-- name: Shuyue Jia
-  photo: shuyuejia.jpeg
-  info: PhD student in Electrical & Computer Engineering
-  group: 2
-  scholar: https://scholar.google.com/citations?user=PfpEP60AAAAJ&hl=en
-  
-- name: Kevin Singh
-  photo: einstein.svg
-  info: MD student at Boston University School of Medicine
-  group: 2
-
-- name: Enes Guven
-  photo: enesguven.jpeg
-  info: IT project manager
-  group: 3
-  github: https://github.com/EnesGuven
-  linkedin: https://www.linkedin.com/in/enessguven/
