@@ -15,12 +15,20 @@ permalink: /media/
             <div class="panel">
                 <h3>Part 1</h3>
                 <iframe src="https://www.youtube.com/embed/WNTuU70hSi0?si=Fu-XCBqYMsz2N_FS" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>*This is part one of the series where we cover the basics of brain MRI sequences.</p>
+                <p>*This is part one of the series where we cover the basics of brain MRI sequences.*</p>
                 <h3>Part 2</h3>
                 <iframe src="https://www.youtube.com/embed/zS2nd5X1DF4?si=-L0vx1Y0S5KbV6zl" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>*This is part two of the series where we cover T1, T2 and FLAIR sequences.</p>
+                <p>*This is part two of the series where we cover T1, T2 and FLAIR sequences.*</p>
             </div>
         </li>        
+        <li>
+                <input type="checkbox" name="accordion-1" id="ed1">
+                <label for="ed1">AI for differential diagnosis of dementia</label>
+                <div class="panel">
+                    <iframe src="https://youtube.com/embed/a5KCXUadoIc" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>*This work is published in [Nature Medicine]<a href="https://www.nature.com/articles/s41591-024-03118-z"> (Source link)</a> in 2024.*</p>
+                </div>
+            </li>
         <li>
                 <input type="checkbox" name="accordion-1" id="ed1">
                 <label for="ed1">AI for dementia</label>
