@@ -1,3 +1,13 @@
+- title: "AI-based differential diagnosis of dementia etiologies on multimodal data"
+  image: Xue2024.png
+  description: 
+  authors: 
+  link:
+    url: https://www.nature.com/articles/s41591-024-03118-z
+    display: Xue et al. Nature Medicine (2024)
+  highlight: 1
+  news2: 
+  
 - title: "Graph attention-based fusion of pathology images and gene expression for prediction of cancer survival"
   image: Zheng2022.png
   description: 
@@ -35,16 +45,6 @@
   link:
     url: https://doi.org/10.1109/TMI.2022.3176598
     display: Zheng et al. IEEE Transactions on Medical Imaging (2022)
-  highlight: 1
-  news2: 
-  
-- title: "Subchondral bone length in knee osteoarthritis: A deep learning–derived imaging measure and its association with radiographic and clinical outcomes"
-  image: Chang2021.png
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1002/art.41808
-    display: Chang et al. Arthritis & Rheumatology (2021)
   highlight: 1
   news2: 
 
