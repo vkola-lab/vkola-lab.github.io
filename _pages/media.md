@@ -10,7 +10,7 @@ permalink: /media/
             <h1 style=" text-align: center; ">Educational content</h1>
     <ul class="accordion">
         <li>
-            <input type="checkbox" name="accordion-1" id="ed4">
+            <input type="checkbox" name="accordion-1" id="ed5">
             <label for="ed4">Neuroimaging series</label>
             <div class="panel">
                 <h3>Part 1</h3>
@@ -22,7 +22,7 @@ permalink: /media/
             </div>
         </li>        
         <li>
-                <input type="checkbox" name="accordion-1" id="ed1">
+                <input type="checkbox" name="accordion-1" id="ed4">
                 <label for="ed1">AI for differential diagnosis of dementia</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/a5KCXUadoIc" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ permalink: /media/
                 </div>
             </li>
         <li>
-                <input type="checkbox" name="accordion-1" id="ed1">
+                <input type="checkbox" name="accordion-1" id="ed3">
                 <label for="ed1">AI for dementia</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -47,7 +47,7 @@ permalink: /media/
                 </div>
             </li>
             <li>
-                <input type="checkbox" name="accordion-1" id="ed3">
+                <input type="checkbox" name="accordion-1" id="ed1">
                 <label for="ed3">Interpretable deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
