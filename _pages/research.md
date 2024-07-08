@@ -9,6 +9,10 @@ permalink: /research/
 ## Research
 
 ---
+### Briefing on our research in Nature Medicine 
+This [research briefing](https://doi.org/10.1038/s41591-024-03147-8) highlighted our recent research on an AI model for differential diagnosis of dementia.
+
+---
 ### Podcast on neurological research 
 Listen to our discussion with [Newt Gingrich](https://en.wikipedia.org/wiki/Newt_Gingrich), former Speaker of the House on neurological research. Click [here](https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791) for more details.
 
