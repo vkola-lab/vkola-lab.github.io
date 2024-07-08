@@ -10,7 +10,7 @@ permalink: /research/
 
 ---
 ### Briefing on our research in Nature Medicine 
-This [research briefing](https://doi.org/10.1038/s41591-024-03147-8) highlighted our recent research on an AI model for differential diagnosis of dementia.
+This [research briefing](https://doi.org/10.1038/s41591-024-03147-8) highlighted our latest research on an AI model for differential diagnosis of dementia.
 
 ---
 ### Podcast on neurological research 
