@@ -9,6 +9,10 @@ permalink: /research/
 ## Research
 
 ---
+### Podcast on AI tools for dementia 
+Listen to our discussion on building AI tools for dementia on the Research Renaissance podcast. Click [here](https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448) for more details.
+
+---
 ### Briefing on our research in Nature Medicine 
 This [research briefing](https://doi.org/10.1038/s41591-024-03147-8) highlighted our latest work on an AI model for differential diagnosis of dementia.
 
