@@ -10,9 +10,10 @@ permalink: /research/
 
 ---
 ### Research highlight in Nature 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/recpic/nature.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature.<a href=" https://www.nature.com/articles/d41586-024-02202-1"> Click here</a>for more details.</h4>
+<div class="row clearfix">
+  <img src="../images/respic/nature.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature.</h4>
+ <h4> <a href=" https://www.nature.com/articles/d41586-024-02202-1"> Click here</a>for more details.</h4>
 
 </div>
 
