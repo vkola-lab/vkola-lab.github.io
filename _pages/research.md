@@ -10,7 +10,11 @@ permalink: /research/
 
 ---
 ### Research highlight in Nature 
-Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature. Click [here](https://www.nature.com/articles/d41586-024-02202-1) for more details.
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/recpic/nature.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature.<a href=" https://www.nature.com/articles/d41586-024-02202-1"> Click here</a>for more details.</h4>
+
+</div>
 
 ---
 ### Podcast on AI tools for dementia 
