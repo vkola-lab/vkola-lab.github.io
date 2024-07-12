@@ -10,7 +10,7 @@ permalink: /media/
             <h1 style=" text-align: center; ">Educational content</h1>
     <ul class="accordion">
         <li>
-            <input type="checkbox" name="accordion-1" id="ed1" checked="true">
+            <input type="checkbox" name="accordion-1" id="ed1" checked>
             <label for="ed1">Neuroimaging series</label>
             <div class="panel">
                 <h3>Part 1</h3>
