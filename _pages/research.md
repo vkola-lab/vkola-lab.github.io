@@ -11,15 +11,15 @@ permalink: /research/
 ---
 ### Research highlight in Nature 
 <div class="row clearfix">
-  <img src="../images/respic/nature.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature.</h4>
- <h4> <a href=" https://www.nature.com/articles/d41586-024-02202-1"> Click here</a>for more details.</h4>
-
+  <img src="../images/respic/nature.jpg" class="img-responsive" width="35%" style="float: left" />
+  Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature. Click <a href=" https://www.nature.com/articles/d41586-024-02202-1">here</a> for more details.
 </div>
 
 ---
 ### Podcast on AI tools for dementia 
-Listen to our discussion on building AI tools for dementia on the Research Renaissance podcast. Click [here](https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448) for more details.
+<div class="row clearfix">
+  <img src="../images/respic/res_renaissance.png" class="img-responsive" width="35%" style="float: left" /> Listen to our discussion on building AI tools for dementia on the Research Renaissance podcast. Click  <a href=" https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448">here</a> for more details.
+</div>
 
 ---
 ### Briefing on our research in Nature Medicine 
