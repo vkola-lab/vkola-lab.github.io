@@ -42,7 +42,7 @@ permalink: /research/
 ---
 ### Technology for dementia diagnosis
 <div class="row clearfix">
-  <img src="../images/respic/technology-for-dementia.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Nature Communications on The Brink. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
+  <img src="../images/respic/brink_ncomms.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Nature Communications on The Brink. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
 </div>
 
 ---
