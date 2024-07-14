@@ -36,13 +36,13 @@ permalink: /research/
 ---
 ### Clubhouse discussion on our latest work 
 <div class="row clearfix">
-  <img src="../images/respic/clubhouse_podcast.png" class="img-responsive" width="20%" style="float: left" /> Discussion of our Nature Communications manuscript on Clubhouse. Click  <a href="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164">here</a> for more details.
+  <img src="../images/respic/clubhouse_podcast.png" class="img-responsive" width="20%" style="float: left" /> Discussion of our Nature Communications paper on Clubhouse. Click  <a href="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164">here</a> for more details.
 </div>
 
 ---
 ### Technology for dementia diagnosis
 <div class="row clearfix">
-  <img src="../images/respic/technology-for-dementia.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
+  <img src="../images/respic/technology-for-dementia.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Nature Communications on The Brink. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
 </div>
 
 ---
@@ -54,7 +54,7 @@ permalink: /research/
 ---
 ### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
 <div class="row clearfix">
-  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
+  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Brain on The Brink. Click <a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
 </div>
 
 ---
