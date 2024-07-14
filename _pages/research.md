@@ -24,28 +24,38 @@ permalink: /research/
 ---
 ### Briefing on our research in Nature Medicine 
 <div class="row clearfix">
-  <img src="../images/respic/nmed_fig1.png" class="img-responsive" width="20%" style="float: left" /> This research briefing highlighted our latest work on an AI model for differential diagnosis of dementia. Click  <a href=" https://doi.org/10.1038/s41591-024-03147-8">here</a> for more details.
+  <img src="../images/respic/nmed_fig1.png" class="img-responsive" width="20%" style="float: left" /> This research briefing highlighted our latest work on an AI model for differential diagnosis of dementia. Click  <a href="https://doi.org/10.1038/s41591-024-03147-8">here</a> for more details.
 </div>
 
 ---
 ### Podcast on neurological research 
-Listen to our discussion with [Newt Gingrich](https://en.wikipedia.org/wiki/Newt_Gingrich), former Speaker of the House on neurological research. Click [here](https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791) for more details.
+<div class="row clearfix">
+  <img src="../images/respic/newt_podcast.png" class="img-responsive" width="20%" style="float: left" /> Listen to our discussion with Newt Gingrich, former Speaker of the House on neurological research. Click  <a href="https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791">here</a> for more details.
+</div>
 
 ---
 ### Clubhouse discussion on our latest work 
-Discussion of our [Nature Communications](https://doi.org/10.1038/s41467-022-31037-5) manuscript on Clubhouse. Click [here](https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164) for more details.
+<div class="row clearfix">
+  <img src="../images/respic/clubhouse_podcast.png" class="img-responsive" width="20%" style="float: left" /> Discussion of our Nature Communications manuscript on Clubhouse. Click  <a href="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164">here</a> for more details.
+</div>
 
 ---
 ### Technology for dementia diagnosis
-Please read the [BU Brink Article](https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/).
-
----
-### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
-Please read the [BU Brink Article](https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis/).
+<div class="row clearfix">
+  <img src="../images/respic/technology-for-dementia.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
+</div>
 
 ---
 ### Clinical grade machine learning tools for Alzheimer's disease 
-Please see [biography](https://tofflertrust.org/dr-vijaya-kolachalama/) for more details.
+<div class="row clearfix">
+  <img src="../images/respic/toffler.png" class="img-responsive" width="20%" style="float: left" /> Our interview with the Toffler trust. Click <<a href="https://tofflertrust.org/dr-vijaya-kolachalama/">here</a> for more details.
+</div>
+
+---
+### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
+<div class="row clearfix">
+  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <<a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
+</div>
 
 ---
 ### Invited talks and presentations (Since 2020)
