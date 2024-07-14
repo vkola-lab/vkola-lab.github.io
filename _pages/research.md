@@ -48,13 +48,13 @@ permalink: /research/
 ---
 ### Clinical grade machine learning tools for Alzheimer's disease 
 <div class="row clearfix">
-  <img src="../images/respic/toffler.png" class="img-responsive" width="20%" style="float: left" /> Our interview with the Toffler trust. Click <<a href="https://tofflertrust.org/dr-vijaya-kolachalama/">here</a> for more details.
+  <img src="../images/respic/toffler.png" class="img-responsive" width="20%" style="float: left" /> Our interview with the Toffler trust. Click <a href="https://tofflertrust.org/dr-vijaya-kolachalama/">here</a> for more details.
 </div>
 
 ---
 ### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
 <div class="row clearfix">
-  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <<a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
+  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Please read the BU Brink Article. Click <a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
 </div>
 
 ---
