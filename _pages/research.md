@@ -12,25 +12,25 @@ permalink: /research/
 ### Research highlight in Nature 
 <div class="row clearfix">
   <img src="../images/respic/nature.jpg" class="img-responsive" width="20%" style="float: left" />
-  Our Nature Medicine paper on an AI model for differential dementia diagnosis is highlighted in Nature. Click <a href=" https://www.nature.com/articles/d41586-024-02202-1">here</a> for more details.
+  Our paper published in Nature Medicine in July 2024 on an AI model for differential dementia diagnosis was highlighted by the journal Nature. Click <a href=" https://www.nature.com/articles/d41586-024-02202-1">here</a> for more details.
 </div>
 
 ---
 ### Podcast on AI tools for dementia 
 <div class="row clearfix">
-  <img src="../images/respic/res_renaissance.png" class="img-responsive" width="20%" style="float: left" /> Listen to our discussion on building AI tools for dementia on the Research Renaissance podcast. Click  <a href=" https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448">here</a> for more details.
+  <img src="../images/respic/res_renaissance.png" class="img-responsive" width="20%" style="float: left" /> Check out our episode on the Research Renaissance podcast, where we discuss building AI tools for dementia diagnosis, hosted by the Karen Toffler Charitable Trust and released in July 2024. Click  <a href=" https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448">here</a> for more details.
 </div>
 
 ---
 ### Briefing on our research in Nature Medicine 
 <div class="row clearfix">
-  <img src="../images/respic/nmed_fig1.png" class="img-responsive" width="20%" style="float: left" /> This research briefing highlighted our latest work on an AI model for differential diagnosis of dementia. Click  <a href="https://doi.org/10.1038/s41591-024-03147-8">here</a> for more details.
+  <img src="../images/respic/nmed_fig1.png" class="img-responsive" width="20%" style="float: left" /> This research briefing, published in July 2024, accompanies our research paper, also published in July 2024, in Nature Medicine, which presents an AI model for differential diagnosis of dementia. Click  <a href="https://doi.org/10.1038/s41591-024-03147-8">here</a> for more details.
 </div>
 
 ---
 ### Podcast on neurological research 
 <div class="row clearfix">
-  <img src="../images/respic/newt_podcast.png" class="img-responsive" width="20%" style="float: left" /> Listen to our discussion with Newt Gingrich, former Speaker of the House on neurological research. Click  <a href="https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791">here</a> for more details.
+  <img src="../images/respic/newt_podcast.png" class="img-responsive" width="20%" style="float: left" /> Check out our episode on Newt's World, the podcast hosted by former Speaker of the House Newt Gingrich, where we sat down in October 2023 to discuss the exciting possibilities of AI in neurological research and how these tools can be developed to improve efficiency in patient care. Click  <a href="https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791">here</a> for more details.
 </div>
 
 ---
