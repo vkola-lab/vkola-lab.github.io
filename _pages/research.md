@@ -36,25 +36,25 @@ permalink: /research/
 ---
 ### Clubhouse discussion on our latest work 
 <div class="row clearfix">
-  <img src="../images/respic/clubhouse_podcast.png" class="img-responsive" width="20%" style="float: left" /> Discussion of our Nature Communications paper on Clubhouse. Click  <a href="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164">here</a> for more details.
+  <img src="../images/respic/clubhouse_podcast.png" class="img-responsive" width="20%" style="float: left" /> Our research on a deep learning model that utilizes multimodal data to assess Alzheimer's disease dementia, published in Nature Communications in June 2022, was featured in a discussion on Clubhouse. Click  <a href="https://www.clubhouse.com/room/PN9Rgp66?utm_medium=ch_room_xerc&utm_campaign=j24X6ivwc0EnmCitvMfvdw-349164">here</a> for more details.
 </div>
 
 ---
 ### Technology for dementia diagnosis
 <div class="row clearfix">
-  <img src="../images/respic/brink_ncomms.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Nature Communications on The Brink. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
+  <img src="../images/respic/brink_ncomms.jpg" class="img-responsive" width="20%" style="float: left" /> A press release highlighting our article on a multimodal deep learning model for assessing Alzheimer's disease dementia, published in Nature Communications in June 2022, was featured on The Brink, a platform that showcases the latest news and research from Boston University. Click <a href="https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/">here</a> for more details.
 </div>
 
 ---
 ### Clinical grade machine learning tools for Alzheimer's disease 
 <div class="row clearfix">
-  <img src="../images/respic/toffler.png" class="img-responsive" width="20%" style="float: left" /> Our interview with the Toffler trust. Click <a href="https://tofflertrust.org/dr-vijaya-kolachalama/">here</a> for more details.
+  <img src="../images/respic/toffler.png" class="img-responsive" width="20%" style="float: left" /> Profile featuring our work with the Karen Toffler Charitable trust. Click <a href="https://tofflertrust.org/dr-vijaya-kolachalama/">here</a> for more details.
 </div>
 
 ---
 ### Deep learning algorithm outperforms experts in making Alzheimer's disease diagnosis 
 <div class="row clearfix">
-  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> Press release of our article published in Brain on The Brink. Click <a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
+  <img src="../images/respic/brink_brain.jpg" class="img-responsive" width="20%" style="float: left" /> A press release highlighting our article on an interpretable deep learning model for assessing Alzheimer's disease, published in Brain in June 2020, was featured on The Brink, a platform that showcases the latest news and research from Boston University. Click <a href="https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis//">here</a> for more details.
 </div>
 
 ---
