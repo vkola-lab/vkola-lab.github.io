@@ -63,13 +63,6 @@
   group: 4
   linkedin: https://www.linkedin.com/in/karim-elzokm-313077284
 
-- name: Enes Guven
-  photo: enesguven.jpeg
-  info: IT project manager
-  group: 3
-  github: https://github.com/EnesGuven
-  linkedin: https://www.linkedin.com/in/enessguven/
-
 - name: Chonghua Xue
   photo: chonghua_pic.jpg
   info: PhD student in Electrical & Computer Engineering
@@ -187,6 +180,14 @@
   url: https://97harsh.github.io/
   next: Data/ML engineer at CarbonArc
 
+- name: Enes Guven
+  photo: enesguven.jpeg
+  info: IT project manager
+  group: 8
+  github: https://github.com/EnesGuven
+  linkedin: https://www.linkedin.com/in/enessguven/
+  next: Program director at Peace Islands Institute, NJ
+ 
 - name: Lindsey Claus
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
