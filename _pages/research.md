@@ -66,6 +66,8 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- August 2024: "Multimodal AI for differential dementia diagnosis", Midwest healthcare management conference, University of Illinois, Urbana-Champaign.
+
 -- May 2024: "Digital nephropathology", Renal Research Seminar, Division of Renal Medicine, Brigham & Women's Hospital (Online).
 
 -- April 2024: "Leveraging AI for dementia clinical trials", The Future of Digital Health, BU Questrom School of Business.
