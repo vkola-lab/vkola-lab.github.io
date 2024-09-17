@@ -41,7 +41,15 @@
   group: 1
   linkedin: https://www.linkedin.com/in/mbellitti/
   scholar: https://scholar.google.com/citations?user=S1RcQR4AAAAJ&hl=en
-  github: https://github.com/mbellitti     
+  github: https://github.com/mbellitti
+  
+- name: Aubrey Odom
+  photo: aubrey_odom.jpg
+  info: Postdoctoral scholar
+  group: 1
+  linkedin: https://www.linkedin.com/in/aubreyodom/
+  scholar: https://scholar.google.com/citations?user=h9FDCcoAAAAJ&hl
+  github: https://github.com/aubreyodom
 
 - name: Shreyas Puducheri
   photo: shreyas.jpeg
