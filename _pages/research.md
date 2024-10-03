@@ -66,6 +66,10 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- October 2024: "Multimodal machine learning for differential dementia diagnosis", MELODEM (Methods in longitudinal dementia research) seminar (Online).
+
+-- September 2024: "Integrated digital technology platform for optimization of precision brain health​", American Heart Association Health Technology Innovation SFRN Annual Meeting, Dallas, TX.
+
 -- August 2024: "Multimodal AI for differential dementia diagnosis", Midwest healthcare management conference, University of Illinois, Urbana-Champaign.
 
 -- May 2024: "Digital nephropathology", Renal Research Seminar, Division of Renal Medicine, Brigham & Women's Hospital (Online).
