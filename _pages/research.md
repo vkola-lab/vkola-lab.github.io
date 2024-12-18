@@ -66,6 +66,8 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- December 2024: "AI-based multimodal analysis of neurology work-up data for dementia assessment", Mass General Brigham Neurology Grand Rounds (Online).
+
 -- October 2024: "Multimodal machine learning for differential dementia diagnosis", MELODEM (Methods in longitudinal dementia research) seminar (Online).
 
 -- September 2024: "Integrated digital technology platform for optimization of precision brain health​", American Heart Association Health Technology Innovation SFRN Annual Meeting, Dallas, TX.
