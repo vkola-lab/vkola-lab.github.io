@@ -173,7 +173,14 @@
   linkedin: https://www.linkedin.com/in/abhishek-varshney-a75748159/
   scholar: https://scholar.google.com/citations?user=PxdxxiQAAAAJ&hl=en
   github: https://github.com/avarshn
-    
+
+- name: Humza Ahmed
+  photo: humza_ahmed.jpeg
+  info: Bioinformatics Analyst II
+  group: 3
+  linkedin: https://www.linkedin.com/in/humza-ahmed/
+  scholar: https://scholar.google.com/citations?user=DCrNfhMAAAAJ&hl=en
+      
 - name: Yi Zheng
   photo: yizheng.jpg
   info: PhD student in Computer Science
