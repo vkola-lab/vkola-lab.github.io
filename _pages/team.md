@@ -248,5 +248,3 @@ permalink: /team/
 
 ---
 
-## Administrative support
-Please contact <a href="mailto:eguven@bu.edu">Enes Guven</a>.
