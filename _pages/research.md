@@ -66,7 +66,7 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
--- January 2025: "Artificial intelligence for assessment of various dementias", Sixth Annual Albert White Matter Research Symposium, Clearwater, FL.
+-- January 2025: "Artificial intelligence enabled differential diagnosis of dementia etiologies", Sixth Annual Albert White Matter Research Symposium, Clearwater, FL.
 
 -- December 2024: "AI-based multimodal analysis of neurology work-up data for dementia assessment", Mass General Brigham Neurology Grand Rounds (Online).
 
