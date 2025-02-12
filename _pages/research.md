@@ -11,7 +11,7 @@ permalink: /research/
 ---
 ### Medical diagnostics
 <div class="row clearfix">
-  <img src="../images/respic/nature_portfolio.png" class="img-responsive" width="30%" style="float: left" /> Our work on AI-based differential diagnosis of dementia etiologies is included in the Nature portfoio on medical diagnostics. Click <a href="https://www.nature.com/immersive/medical-diagnostics/index.html">here</a> for more details.
+  <img src="../images/respic/nature_portfolio.png" class="img-responsive" width="50%" style="float: left" /> Our paper entitled <a href="https://www.nature.com/articles/s41591-024-03118-z">AI-based differential diagnosis of dementia etiologies</a> is included in the Nature portfolio on medical diagnostics. Click <a href="https://www.nature.com/immersive/medical-diagnostics/index.html">here</a> for more details.
 </div>
 
 ---
