@@ -9,6 +9,12 @@ permalink: /research/
 ## Research
 
 ---
+### Medical diagnostics
+<div class="row clearfix">
+  <img src="../images/respic/nature_portfolio.png" class="img-responsive" width="30%" style="float: left" /> Our work on AI-based differential diagnosis of dementia etiologies is included in the Nature portfoio on medical diagnostics. Click <a href="https://www.nature.com/immersive/medical-diagnostics/index.html">here</a> for more details.
+</div>
+
+---
 ### AI for easier and faster dementia diagnosis
 <div class="row clearfix">
   <img src="../images/respic/brink_nmed.jpg" class="img-responsive" width="20%" style="float: left" /> A press release highlighting our article on a multimodal deep learning model for differential diagnosis of dementia, published in Nature Medicine in June 2024, was featured on The Brink, a platform that showcases the latest news and research from Boston University. Click <a href="https://www.bu.edu/articles/2024/this-ai-software-can-make-diagnosing-dementia-easier-for-doctors/">here</a> for more details.
