@@ -72,6 +72,8 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- February 2025: "AI and the global dementia crisis: Opportunities for innovation and impact", Invited talk at the University of Central Florida India Center, Orlando, FL.
+
 -- January 2025: "Artificial intelligence enabled differential diagnosis of dementia etiologies", Sixth Annual Albert White Matter Research Symposium, Clearwater, FL.
 
 -- December 2024: "AI-based multimodal analysis of neurology work-up data for dementia assessment", Mass General Brigham Neurology Grand Rounds (Online).
