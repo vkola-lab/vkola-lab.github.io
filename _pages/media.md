@@ -31,6 +31,14 @@ permalink: /media/
             </li>
         <li>
                 <input type="checkbox" name="accordion-1" id="ed3" checked>
+                <label for="ed3">Machine learning for assessment of PET positivity</label>
+                <div class="panel">
+                    <iframe src="https://youtube.com/embed/Us1cThw46xE" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>*Talk given by Varuna Jasodanand at the 12th Annual CTSI Translational Science Symposium (Boston University).*</p>
+                </div>
+            </li>
+        <li>
+                <input type="checkbox" name="accordion-1" id="ed4" checked>
                 <label for="ed3">AI for dementia</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/kI21nlsQlWU" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,7 +46,7 @@ permalink: /media/
                 </div>
             </li>
             <li>
-                <input type="checkbox" name="accordion-1" id="ed4" checked>
+                <input type="checkbox" name="accordion-1" id="ed5" checked>
                 <label for="ed4">Multimodal deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/ZfbVcaVgyLQ" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -47,7 +55,7 @@ permalink: /media/
                 </div>
             </li>
             <li>
-                <input type="checkbox" name="accordion-1" id="ed5" checked>
+                <input type="checkbox" name="accordion-1" id="ed6" checked>
                 <label for="ed5">Interpretable deep learning</label>
                 <div class="panel">
                     <iframe src="https://www.youtube.com/embed/RgqyGPMbJ9w" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
