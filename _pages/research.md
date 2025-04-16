@@ -72,6 +72,12 @@ permalink: /research/
 ---
 ### Invited talks and presentations (Since 2020)
 
+-- April 2025: "Critical appraisal of AI tools in clinical research", American Academy of Neurology Annual Meeting, San Diego, CA.
+
+-- Apring 2025: "Development of an AI tool in neurology", American Academy of Neurology Annual Meeting, San Diego, CA.
+
+-- March 2025: "Multimodal AI for integrating neurology workup data in dementia assessment", 12th Annual Translational Science Symposium, Boston University Clinical & Translational Institute. 
+
 -- February 2025: "AI and the global dementia crisis: Opportunities for innovation and impact", Invited talk at the University of Central Florida India Center, Orlando, FL.
 
 -- January 2025: "Artificial intelligence enabled differential diagnosis of dementia etiologies", Sixth Annual Albert White Matter Research Symposium, Clearwater, FL.
