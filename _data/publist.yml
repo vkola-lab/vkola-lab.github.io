@@ -1,3 +1,13 @@
+- title: "Active feature acquisition via explainability-driven ranking"
+  image: Berke2025.png
+  description: 
+  authors: 
+  link:
+    url: https://openreview.net/forum?id=J8YRdm39jn
+    display: Berke et al. International Conference on Machine Learning (ICML) (2025)
+  highlight: 1
+  news2: 
+  
 - title: "AI-based differential diagnosis of dementia etiologies on multimodal data"
   image: Xue2024.png
   description: 
@@ -15,16 +25,6 @@
   link:
     url: https://doi.org/10.1109/TMI.2024.3386108
     display: Zheng et al. IEEE Transactions on Medical Imaging (2024)
-  highlight: 1
-  news2: 
-  
-- title: "Deep learning for risk-based stratification of cognitively impaired individuals"
-  image: Romano2023.jpg
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1016/j.isci.2023.107522
-    display: Romano et al. iScience (2023)
   highlight: 1
   news2: 
   
