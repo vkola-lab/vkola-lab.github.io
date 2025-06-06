@@ -15,7 +15,7 @@ We are a highly interdisciplinary research group, bringing together trainees and
 ### Joining our laboratory
 We form small teams comprising individuals with complementary expertise and work persistently to build comprehensive solutions. 
 
-**Important:** If you are interested in joining us, then we encourage you to contact an active lab member (click on Team) and talk about your interests. We do not encourage you to email the PI directly before talking with the lab members.
+**Important:** Please read the <a href="https://vkola-lab.github.io/contact/" >Contact Us Page </a> to learn about open positions.
 
 ### Funding
 We are grateful for funding from the [American Heart Association](https://www.heart.org), the [National Institute on Aging](https://www.nia.nih.gov), the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov), the [National Cancer Institute](https://www.cancer.gov), the [Artificial Intelligence and Technology Collaboratories (AITC) for Aging Research program](https://www.a2collective.ai), and the [National Institute of Diabetes and Digestive and Kidney Diseases](https://www.niddk.nih.gov). We also thank the [Karen Toffler Charitable Trust](https://tofflertrust.org), Gates Ventures, Pfizer, Johnson & Johnson Enterprise Innovation Inc., and [Visterra Inc.](https://visterrainc.com), for funding our work.
