@@ -57,7 +57,14 @@
   group: 4
   linkedin: https://www.linkedin.com/in/shreyas-puducheri/
   scholar: https://scholar.google.com/citations?hl=en&user=Xxj2zwoAAAAJ&view_op=list_works&sortby=pubdate
-    
+
+- name: Shlok Chitalia
+  photo: shlok_chitalia.jpg
+  info: Undergraduate in Health Science
+  group: 4
+  linkedin: https://www.linkedin.com/in/shlok-chitalia-2b4680301
+  scholar: https://scholar.google.com/citations?user=8eDyJjAAAAAJ&hl=en
+  
 - name: Jiawei Sun
   photo: jiawei_sun.jpg
   info: Mathematics & Computer Science
