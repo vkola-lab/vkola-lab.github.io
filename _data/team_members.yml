@@ -66,13 +66,6 @@
   linkedin: https://www.linkedin.com/in/shlok-chitalia-2b4680301
   scholar: https://scholar.google.com/citations?user=8eDyJjAAAAAJ&hl=en
   
-- name: Jiawei Sun
-  photo: jiawei_sun.jpg
-  info: Mathematics & Computer Science
-  group: 4
-  linkedin: https://www.linkedin.com/in/jiawei-sun-461605253/
-  github: https://github.com/rivajw
-  
 - name: Karim Elzokm 
   photo: Karim_Elzokm.JPG
   info: Undergraduate in Electrical Engineering
@@ -82,9 +75,10 @@
 - name: Krish Shah
   photo: krish_shah.jpg
   info: Undergraduate in Computer Engineering
-  group: 4
+  group: 8
   linkedin: https://www.linkedin.com/in/krish-n-shah/
-
+  next: Financial engineer at Clearwater Analytics
+  
 - name: Chonghua Xue
   photo: chonghua_pic.jpg
   info: PhD student in Electrical & Computer Engineering
@@ -106,6 +100,13 @@
   url: https://subhrangshubit.github.io
   group: 2
   extlink: 
+  
+- name: Divya Appapogu
+  photo: divsp.png
+  info: PhD student in Computer Science
+  url: https://www.divyaappapogu.com/
+  linkedin: https://www.linkedin.com/in/divya-appapogu-572586141/
+  group: 2
   
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
@@ -138,14 +139,12 @@
   photo: einstein.svg
   info: MD student at Boston University School of Medicine
   group: 2
-  extlink:
   
 - name: Anika Walia
   photo: anika_walia.jpg
   info: MD student at Boston University School of Medicine
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
-  extlink: 
 
 - name: Osman Berke Guney
   photo: osmanberke.jpg
@@ -189,13 +188,6 @@
   linkedin: https://www.linkedin.com/in/abhishek-varshney-a75748159/
   scholar: https://scholar.google.com/citations?user=PxdxxiQAAAAJ&hl=en
   github: https://github.com/avarshn
-
-- name: Humza Ahmed
-  photo: humza_ahmed.jpg
-  info: Bioinformatics Analyst II
-  group: 3
-  linkedin: https://www.linkedin.com/in/humza-ahmed/
-  scholar: https://scholar.google.com/citations?user=DCrNfhMAAAAJ&hl=en
       
 - name: Yi Zheng
   photo: yizheng.jpg
@@ -299,120 +291,93 @@
   info: Undergraduate student in Neurobiology  
   group: 8
   next: Masters student at Boston University School of Medicine
-  extlink: 
 
 - name: Ray Jhun
   info: MD student at Boston University School of Medicine
   group: 8
-  next: Neurology resident at the University of North Carolina, Chapel Hill
-  extlink:   
+  next: Neurology resident at the University of North Carolina, Chapel Hill 
   
 - name: Xiao Zhou
   info: PhD student in Computer Science
   group: 8
   next: Postdoc at Yale University
-  extlink: 
   
 - name: Rushin Gindra
   info: Staff scientist
   group: 8
   next: PhD student at TU Munich
-  extlink: 
   
 - name: Yunruo Ni
   info: Undergraduate student in Computer Science
   group: 8
   next: Masters student at Carnegie Mellon University
-  extlink: 
 
 - name: Cathy (Yuwei) Wang
   info: Undergraduate student in Computer Science
   group: 8
   next: Masters student at Northwestern University
-  extlink: 
 
 - name: Joseph Lai
   info: Undergraduate student in Mathematics & Computer Science
   group: 8
   next: Software engineer at IMC trading, Chicago, IL
-  extlink: 
           
 - name: Lisa Park
   info: MD student at Boston University School of Medicine
   group: 8
   next: Radiology resident at Northwell Health
-  extlink:
 
 - name: Shriya Reddy
   info: Undergraduate student in the BA/MD/MBA program
   group: 8
   next: General surgery resident at Huntington Hospital
-  extlink: 
      
 - name: Hojoon Seo
   info: Undergraduate student in the BA/MD program
   group: 8
   next: MD student at Boston University School of Medicine
-  extlink: 
     
 - name: Saemi Jung
   info: Undergraduate student in Neuroscience & Computer Science
   group: 8
   next: Software engineer at CJ OliveNetworks, Seoul, Korea
-  extlink: 
   
 - name: Jared Lott
   info: Undergraduate student in Biomedical Engineering
   group: 8
   next: Analyst at Acsel Health
-  extlink: 
 
 - name: Megan Heydari
   info: Undergraduate student in Electrical and Computer Engineering
   group: 8
   next: Systems Engineer at Savant Power
-  extlink: 
   
 - name: Benjamin Liang
   info: Undergraduate student in Biomedical Engineering
   group: 8
   next: Technical solutions engineer at Epic Systems
-  extlink: 
   
 - name: Andre Gonzaga
   info: Undergraduate student in Computer Engineering
   group: 8
   next: Software engineer at Goldman Sachs
-  extlink: 
   
 - name: Gary Chang
   info: Postdoctoral scholar
   group: 8
   next: Faculty at National Taiwan University
-  extlink: 
 
 - name: Christopher Lin
   info: Graduate student in Bioinformatics 
   group: 8
   next: MD student at University of Vermont
-  extlink: 
   
 - name: Qiuyuan Qin
   info: Staff scientist
   group: 8
   next: PhD student at University of Rochester
-  extlink: 
   
 - name: Shruti Kannan
   info: Masters student in Electrical & Computer Engineering 
   group: 8
   next: DSP engineer at Bose Corporation
-  extlink: 
-
-- name: Divya Appapogu
-  photo: divsp.png
-  info: PhD student in Computer Science
-  url: https://www.divyaappapogu.com/
-  linkedin: https://www.linkedin.com/in/divya-appapogu-572586141/
-  group: 2
-  extlink: 
