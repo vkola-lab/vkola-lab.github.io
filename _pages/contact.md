@@ -43,4 +43,6 @@ We are unable to offer research opportunities, mentorship, or individualized gui
 
 ## Other Prospective Researchers
 
-At this time, the lab is <b>not actively hiring<b>. However, in rare cases, we remain open to hearing from <b>exceptional candidates</b> whose background and goals strongly align with our research. If you believe your background and expertise make you a uniquely strong fit, please contact the PI directly.
+At this time, the lab is <b>not actively hiring</b>. However, in rare cases, we remain open to hearing from <b>exceptional candidates</b> whose background and goals strongly align with our research. If you believe your background and expertise make you a uniquely strong fit, please complete this [application form](https://forms.gle/9nFG4KkpSypELuoA9) to express your interest.
+
+Please note that due to the high volume of inquiries, we will only contact applicants who are a strong match for our current research needs. If you do not hear from us, we encourage you to continue exploring opportunities and wish you the best in your academic and research pursuits.
