@@ -163,12 +163,13 @@
   linkedin: https://www.linkedin.com/in/sahana-kowshik-254415179/  
 
 - name: Ketan Suhaas Saichandran
-  photo: ketan.jpg
-  info: MS AI Student 
-  group: 2
+  photo: ketan_profile.jpeg
+  info: Staff Scientist
+  group: 3
   github: https://github.com/Ketansuhaas
   linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
-  
+  scholar: https://scholar.google.com/citations?user=yht46y4AAAAJ&hl=en&authuser=1
+
 - name: Krish Kapadia
   photo: einstein.svg
   group: 2
