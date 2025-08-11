@@ -1,3 +1,13 @@
+- title: "AI-driven fusion of multimodal data for Alzheimer’s disease biomarker assessment"
+  image: Jasodanand.jpg
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1038/s41467-025-62590-4
+    display: Jasodanand et al. Nature Communications (2025)
+  highlight: 1
+  news2: 
+  
 - title: "Active feature acquisition via explainability-driven ranking"
   image: Guney2025.png
   description: 
@@ -15,16 +25,6 @@
   link:
     url: https://doi.org/10.1038/s41591-024-03118-z
     display: Xue et al. Nature Medicine (2024)
-  highlight: 1
-  news2: 
-  
-- title: "Graph attention-based fusion of pathology images and gene expression for prediction of cancer survival"
-  image: Zheng2022.png
-  description: 
-  authors: 
-  link:
-    url: https://doi.org/10.1109/TMI.2024.3386108
-    display: Zheng et al. IEEE Transactions on Medical Imaging (2024)
   highlight: 1
   news2: 
   
