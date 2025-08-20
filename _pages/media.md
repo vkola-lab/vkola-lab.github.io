@@ -23,10 +23,18 @@ permalink: /media/
         </li>        
         <li>
                 <input type="checkbox" name="accordion-1" id="ed2" checked>
+                <label for="ed2">AI for Alzheimer's disease biomarker assessment</label>
+                <div class="panel">
+                    <iframe src="https://youtube.com/embed/ULkPf6uL9GI" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>*This work is published in [Nature Communications]<a href="https://www.nature.com/articles/s41467-025-62590-4">(Source link)</a> in 2025.*</p>
+                </div>
+            </li>
+         <li>
+                <input type="checkbox" name="accordion-1" id="ed2" checked>
                 <label for="ed2">AI for differential diagnosis of dementia</label>
                 <div class="panel">
                     <iframe src="https://youtube.com/embed/a5KCXUadoIc" frameborder="1" align="middle" width="90%" height="300px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>*This work is published in [Nature Medicine]<a href="https://www.nature.com/articles/s41591-024-03118-z"> (Source link)</a> in 2024.*</p>
+                    <p>*This work is published in [Nature Medicine]<a href="https://www.nature.com/articles/s41591-024-03118-z">(Source link)</a> in 2024.*</p>
                 </div>
             </li>
         <li>
