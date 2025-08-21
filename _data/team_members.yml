@@ -15,7 +15,7 @@
 
 - name: Cody Karjadi
   photo: ckarjadi.jpeg
-  info: Technical program manager at the Framingham heart study
+  info: 
   url: ckarjadi
   group: 5
   scholar: https://scholar.google.com/citations?user=tkohcEcAAAAJ&hl=en
@@ -269,8 +269,8 @@
      
 - name: Michael Romano
   photo: mike_romano.jpg
-  info: Postdoctoral scholar
-  group: 8
+  info: 
+  group: 5
   url: https://github.com/mfromano/
   scholar: https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao
   github: https://github.com/mfromano/
