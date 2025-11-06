@@ -30,10 +30,11 @@
 - name: Meysam Ahangaran
   photo: Meysam.jpg
   info: Postdoctoral scholar
-  group: 1
+  group: 8
   linkedin: https://www.linkedin.com/in/meysam-ahangaran-740722140/?originalSubdomain=ir
   scholar: https://scholar.google.com/citations?hl=en&user=84uUCvoAAAAJ&view_op=list_works&sortby=pubdate
   github: https://github.com/me-ahangaran
+  next: Assistant Professor at Wentworth Institute of Technology
 
 - name: Matteo Bellitti
   photo: matteo_bellitti.jpg
@@ -103,7 +104,7 @@
   info: PhD student in Computer Science
   url: https://www.divyaappapogu.com/
   linkedin: https://www.linkedin.com/in/divya-appapogu-572586141/
-  group: 2
+  group: 8
   
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
@@ -115,7 +116,7 @@
 - name: Meagan Lauber
   photo: meagan_lauber.jpg
   info: PhD student in Neuroscience
-  group: 2
+  group: 8
   linkedin: https://www.linkedin.com/in/meagan-lauber-1050b417b/     
   
 - name: Varuna Jasodanand
@@ -269,8 +270,8 @@
      
 - name: Michael Romano
   photo: mike_romano.jpg
-  info: 
-  group: 5
+  info: Postdoctoral scholar
+  group: 8
   url: https://github.com/mfromano/
   scholar: https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao
   github: https://github.com/mfromano/
