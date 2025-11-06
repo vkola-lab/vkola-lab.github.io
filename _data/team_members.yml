@@ -99,25 +99,12 @@
   group: 2
   extlink: 
   
-- name: Divya Appapogu
-  photo: divsp.png
-  info: PhD student in Computer Science
-  url: https://www.divyaappapogu.com/
-  linkedin: https://www.linkedin.com/in/divya-appapogu-572586141/
-  group: 8
-  
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
   info: PhD student in Bioinformatics
   group: 2
   github: https://github.com/MogicianEik
-  scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ
-   
-- name: Meagan Lauber
-  photo: meagan_lauber.jpg
-  info: PhD student in Neuroscience
-  group: 8
-  linkedin: https://www.linkedin.com/in/meagan-lauber-1050b417b/     
+  scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ   
   
 - name: Varuna Jasodanand
   photo: varuna.jpg
