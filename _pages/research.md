@@ -9,6 +9,12 @@ permalink: /research/
 ## Research
 
 ---
+### Using AI to spot Alzheimer's disease
+<div class="row clearfix">
+  <img src="../images/respic/crop-Brain.jpg" class="img-responsive" width="30%" style="float: left" />Our Nature Communications paper entitled <a href="https://www.nature.com/articles/s41467-025-62590-4">AI-driven fusion of multimodal data for Alzheimer’s disease biomarker assessment</a> is highlighted by Boston University. Click <a href="https://www.bumc.bu.edu/camed/news-events/articles/2025/new-ai-tool-to-predict-markers-of-alzheimers-disease/">here</a> for more details.
+</div>
+
+---
 ### Medical diagnostics
 <div class="row clearfix">
   <img src="../images/respic/nature_portfolio.png" class="img-responsive" width="50%" style="float: left" /> Our paper entitled <a href="https://www.nature.com/articles/s41591-024-03118-z">AI-based differential diagnosis of dementia etiologies</a> is included in the Nature portfolio on medical diagnostics. Click <a href="https://www.nature.com/immersive/medical-diagnostics/index.html">here</a> for more details.
