@@ -25,14 +25,9 @@ permalink: /papers/
 
 <div class="col-sm-6 clearfix">
  <div class="row">
-     <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="25%" style="float: right" />
+ 	<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="25%" style="float: right" />
   <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
   <a class="pub2"> {{ publi.link.display }} </a>
-  **{% if publi.youtube %}**
-  **<a href="{{ publi.youtube }}" target="_blank" style="margin-left: 10px;">**
-    **<img src="{{ site.url }}{{ site.baseurl }}/images/youtube-icon.png" alt="Watch on YouTube" width="20" height="20" style="vertical-align: middle;">**
-  **</a>**
-  **{% endif %}**
  </div>
 </div>
 
