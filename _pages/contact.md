@@ -8,10 +8,6 @@ permalink: /contact/
 
 # Contact us
 
-## Collaboration inquiries
-
-For collaboration-related inquiries, please contact the PI directly.
-
 ## Prospective students
 
 We receive many inquiries from individuals at different stages of their academic journey, and we have limited capacity to engage with students who are <b>not yet admitted</b> to a graduate or professional program.
