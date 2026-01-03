@@ -1,3 +1,12 @@
+- title: "FourierMIL: Fourier filtering-based multiple instance learning for whole slide image analysis"
+  image: Zheng2025.jpg
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1007/s11263-025-02679-x
+    display: Zheng et al. International Journal of Computer Vision (2025)
+  highlight: 1
+  
 - title: "AI-driven fusion of multimodal data for Alzheimer’s disease biomarker assessment"
   image: Jasodanand2025.jpg
   description: 
@@ -25,6 +34,16 @@
   link:
     url: https://doi.org/10.1038/s41591-024-03118-z
     display: Xue et al. Nature Medicine (2024)
+  highlight: 1
+  news2: 
+  
+- title: "Graph attention-based fusion of pathology images and gene expression for prediction of cancer survival"
+  image: Zheng2024.png
+  description: 
+  authors: 
+  link:
+    url: https://doi.org/10.1109/TMI.2024.3386108
+    display: Zheng et al. IEEE Transactions on Medical Imaging (2024)
   highlight: 1
   news2: 
   
