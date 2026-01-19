@@ -150,10 +150,11 @@
 - name: Ketan Suhaas Saichandran
   photo: ketan_profile.jpeg
   info: Staff Scientist
-  group: 3
+  group: 8
   github: https://github.com/Ketansuhaas
   linkedin: https://www.linkedin.com/in/ketan-suhaas-saichandran-050638245/
   scholar: https://scholar.google.com/citations?user=yht46y4AAAAJ&hl=en&authuser=1
+  next: Research scientist at dCortex
 
 - name: Krish Kapadia
   photo: einstein.svg
@@ -170,7 +171,7 @@
 - name: Abhishek Varshney
   photo: Abhishek_Varshney.png
   info: MS Student in Computer Science
-  group: 2
+  group: 8
   linkedin: https://www.linkedin.com/in/abhishek-varshney-a75748159/
   scholar: https://scholar.google.com/citations?user=PxdxxiQAAAAJ&hl=en
   github: https://github.com/avarshn
