@@ -102,10 +102,10 @@
   
 - name: Yichi Zhang
   photo: yichi_zhang.jpg
-  info: PhD student in Bioinformatics
-  group: 2
+  info: Postdoctoral Scholar
+  group: 1
   github: https://github.com/MogicianEik
-  scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ   
+  scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ
   
 - name: Varuna Jasodanand
   photo: varuna.jpg
@@ -382,7 +382,7 @@
   group: 5
   github: https://github.com/francesco-KaYy
   scholar: https://scholar.google.com/citations?user=LDqiICUAAAAJ&hl=en
-  linkedin: www.linkedin.com/in/francesco-k-yigamawano-153938190
+  linkedin: https://www.linkedin.com/in/francesco-k-yigamawano-153938190
 
 - name: Rishi Shah
   photo: rishi_shah.jpg

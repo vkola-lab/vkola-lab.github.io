@@ -22,7 +22,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
@@ -45,6 +45,8 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% assign postdocs = site.data.team_members | where: "group", 1 %}
+{% if postdocs.size > 0 %}
 ---
 
 ## Postdoctoral scholars
@@ -60,7 +62,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
@@ -82,6 +84,7 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% endif %}
 ---
 
 ## Graduate students
@@ -97,7 +100,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
@@ -119,6 +122,8 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% assign research_staff = site.data.team_members | where: "group", 3 %}
+{% if research_staff.size > 0 %}
 ---
 
 ## Research staff
@@ -134,7 +139,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
@@ -156,6 +161,7 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% endif %}
 ---
 
 ## Undergraduate students
@@ -171,7 +177,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
@@ -208,7 +214,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h4>{% if member.url %}<a href="{{ member.url }}" class="off">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h4>
   <i>{{ member.info }}</i>
 
   <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
