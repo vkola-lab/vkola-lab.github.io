@@ -3,169 +3,331 @@
 
 @import "bootstrap";
 
-img { margin-bottom: 24px;
-     margin-top: 17px;
-    border-radius:2%;
-}
+/* ============================================================
+   MODERN REFRESH — Kolachalama Laboratory
+   ============================================================ */
 
+/* --- Base & typography ------------------------------------ */
 
 body {
-	padding-top: 70px;
+  padding-top: 65px;
+  color: #374151;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111827;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 19px;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  transition: color 0.15s ease;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 28px 0;
+}
+
+img {
+  margin-bottom: 20px;
+  margin-top: 12px;
+  border-radius: 6px;
 }
 
 figcaption {
-    text-align: right;
-    margin-top: -20px;
-    margin-bottom: 20px;
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color: #9ca3af;
+  font-size: 13px;
 }
 
+/* --- Navbar ---------------------------------------------- */
 
-
-/* Top navigation bar */
-
-p.byline {
-	text-align: center;
-	font-size: 18px;
-	line-height: 36px;
-	margin-top: -24px;
-	margin-bottom: 48px;
+.navbar {
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  min-height: 60px;
 }
 
-
-pubtit {
-	font-weight: bold;
+.navbar-brand {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827 !important;
+  letter-spacing: -0.01em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-firstp {
+.navbar-brand:hover {
+  color: #374151 !important;
 }
+
+.navbar-nav > li > a {
+  color: #4b5563 !important;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  transition: color 0.15s ease;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #111827 !important;
+  background: transparent !important;
+}
+
+.navbar-toggle {
+  border-color: #d1d5db;
+  margin-top: 13px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #6b7280;
+}
+
+/* --- Container ------------------------------------------- */
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1000px;
 }
 
-/* Home, News */
+/* --- Home / News ----------------------------------------- */
+
 #newsid p {
-	text-align: left;
-}
-
-#homeidtmp h1 {
-	text-align: center;
+  text-align: left;
+  line-height: 1.75;
+  color: #374151;
 }
 
 #newsid img {
-	margin-top: 6px;
-	margin-bottom: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-/* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 2px 2px 2px 2px; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 8px; margin-left: 2px; margin-right: 2px; }
-
-
-/* Grid overrides */
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
-.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-	padding-left: 16px;
-	padding-right: 16px;
-}
-
-/* Grid overrides */
-.col-sm-4 {
-	padding-left: 26px;
-	padding-right: 26px;
-}
-
-/* Content text */
-.content {
-	padding-left: 26px;
-	padding-right: 26px;
-  font-size: 16px;
-	font-weight: 300;
-  font-style: normal;
-}
-
-/* Content text */
-.content-photo {
-	padding-left: 6px;
-	padding-right: 6px;
-}
-
-/* headings */
-.bigtitle {
-	font-size: 48px;
-	line-height: 55px;
-	font-weight: 100;
-	/* Museo */
-}
-
-.alumni1 {
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 12px;
-}
-
-.alumni2 {
-	font-size: 15px;
-	font-weight: 200;
-	line-height: 10px;
-	padding-left: 20px;
-}
-
-.pub1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 19px;
-	font-weight: 300;
-	line-height: 23px;
-  color: black;
-  cursor:pointer;
-}
-
-.pub1:hover{
-color:black;
-  text-decoration: underline;
-  text-decoration-color: darkgray;
-}
-
-.pub2 {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-	font-size: 16px;
-  font-weight: 200;
-  color: black;
-  pointer-events: none;
-}
-
-.bigspacer {
-	height: 20px;
-}
-
-.regtext {
-	font-size: 16px;
-  color: black;
-  cursor:pointer;
-}
-
-regtext:hover{
-color:black;
-  text-decoration: underline;
-  text-decoration-color: darkgray;
-}
-
-.center {
+#homeidtmp h1 {
   text-align: center;
 }
 
-.youtube {
-  width: 460px;
-  float: left;
+/* --- Team grid ------------------------------------------- */
+
+#gridid img {
+  margin: 10px 16px 6px 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.clear {
-  clear: both;
+#gridid img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
 }
+
+#gridid .col-sm-6 {
+  padding: 14px 16px;
+  border-radius: 10px;
+  transition: background 0.15s ease;
+}
+
+#gridid .col-sm-6:hover {
+  background: #f9fafb;
+}
+
+#gridid h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #111827;
+}
+
+#gridid h4 a {
+  color: #111827;
+  text-decoration: none;
+}
+
+#gridid h4 a:hover {
+  color: #1d4ed8;
+}
+
+#gridid i {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Icon row in grid cards */
+#gridid h2 {
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+#gridid h2 a {
+  color: #9ca3af;
+  margin-right: 6px;
+  transition: color 0.15s ease;
+}
+
+#gridid h2 a:hover {
+  color: #374151;
+}
+
+#gridid .row {
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* --- Home image / Gallery -------------------------------- */
+
+#homeid img {
+  margin: 2px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+#picid img {
+  margin: 6px 3px 60px 6px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+/* --- Grid column overrides ------------------------------ */
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.col-sm-4 {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+/* --- Content text --------------------------------------- */
+
+.content {
+  padding-left: 26px;
+  padding-right: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75;
+}
+
+.content-photo {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* --- Headings ------------------------------------------- */
+
+.bigtitle {
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+p.byline {
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: -24px;
+  margin-bottom: 48px;
+  color: #6b7280;
+}
+
+/* --- Alumni --------------------------------------------- */
+
+.alumni1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+  line-height: 1.6;
+  display: block;
+}
+
+.alumni2 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b7280;
+  line-height: 1.5;
+  padding-left: 20px;
+  display: inline;
+}
+
+/* --- Publications --------------------------------------- */
+
+pubtit {
+  font-weight: 600;
+  color: #111827;
+}
+
+.pub1 {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #111827;
+  cursor: pointer;
+}
+
+.pub1:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.pub2 {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b7280;
+  pointer-events: none;
+  line-height: 1.5;
+}
+
+/* --- Misc ----------------------------------------------- */
+
+.bigspacer { height: 20px; }
+
+.center { text-align: center; }
+.clear { clear: both; }
+.socialpic { margin-bottom: 50px; }
+
+.regtext {
+  font-size: 16px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.regtext:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+firstp {}
+
+/* --- YouTube embed -------------------------------------- */
 
 .youtube {
   position: relative;
@@ -182,59 +344,62 @@ color:black;
   height: 100%;
 }
 
-.socialpic {
-  margin-bottom: 50px;
-}
-/* Media Page */
+/* --- Accordion (Media page) ----------------------------- */
 
 .accordion {
-    margin: 60px auto;
-    width: 600px;
+  margin: 48px auto;
+  width: 600px;
 }
 
 .accordion li {
-    list-style: none;
-    width: 100%;
-    margin: 20px;
-    padding: 10px;
-    background-color: #e3edf7;
-    border-radius: 8px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-    
+  list-style: none;
+  width: 100%;
+  margin: 12px 0;
+  padding: 8px 12px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.15s ease;
 }
 
-.accordion label { 
-    display: flex;
-    align-items: center;
-    padding: 10px; 
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
+.accordion li:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.accordion label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #111827;
 }
 
 label::before {
-    content: '+';
-    font-size: 24px;
-    margin-right: 10px;
-    font-weight: 600;
+  content: '+';
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #9ca3af;
 }
 
 .accordion input[type="checkbox"] {
-    display: none;
+  display: none;
 }
 
 .accordion .panel {
-    background-color: #e3edf7;
-    color: #555;
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: auto;
-    transition: max-height 0.5s, padding 0.5s;
+  background-color: #f9fafb;
+  color: #4b5563;
+  padding: 0 10px;
+  line-height: 1.75;
+  max-height: 0;
+  overflow: auto;
+  transition: max-height 0.4s ease, padding 0.4s ease;
 }
 
 .accordion input[type="checkbox"]:checked + label + .panel {
-    max-height: 1000px;
-    padding: 10px 10px 20px;
+  max-height: 1000px;
+  padding: 10px 10px 20px;
 }
