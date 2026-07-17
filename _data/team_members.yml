@@ -133,6 +133,14 @@
   group: 2
   linkedin: https://www.linkedin.com/in/anika-walia/
 
+- name: Che Yu Lee
+  photo: che_yu_lee.png
+  info: MD-PhD student in Boston University School of Medicine, Bioinformatics
+  group: 2
+  github: https://github.com/cheyujlee
+  scholar: https://scholar.google.com/citations?hl=en&user=JRYS-JMAAAAJ
+  linkedin: https://www.linkedin.com/in/che-yu-lee-56830b1b4/
+
 - name: Osman Berke Guney
   photo: osmanberke.jpg
   info: PhD student in Electrical & Computer Engineering
