@@ -163,7 +163,14 @@
   group: 2
   github: https://github.com/yliu2702
   linkedin: https://www.linkedin.com/in/yliu2702/
-
+  
+- name: Rustu Erciyes Karakaya
+  photo: rerciyes.jpg
+  info: Staff Scientist
+  group: 3
+  scholar: https://scholar.google.com/citations?user=OVmmmcwAAAAJ&hl=tr&oi=ao
+  linkedin: www.linkedin.com/in/rerciyes
+  
 - name: Ketan Suhaas Saichandran
   photo: ketan_profile.jpeg
   info: Staff scientist
