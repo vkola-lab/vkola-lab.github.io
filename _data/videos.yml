@@ -1,0 +1,38 @@
+# Videos on /media/. `id` is the YouTube video ID. `parts` lets one entry hold a series.
+# `note` supports HTML.
+
+educational:
+  - title: Neuroimaging series
+    parts:
+      - label: "Part 1: Basics of brain MRI sequences"
+        id: WNTuU70hSi0
+      - label: "Part 2: T1, T2 and FLAIR sequences"
+        id: zS2nd5X1DF4
+  - title: AI for Alzheimer's disease biomarker assessment
+    id: ULkPf6uL9GI
+    note: Published in <a href="https://www.nature.com/articles/s41467-025-62590-4">Nature Communications</a> (2025).
+  - title: AI for differential diagnosis of dementia
+    id: a5KCXUadoIc
+    note: Published in <a href="https://www.nature.com/articles/s41591-024-03118-z">Nature Medicine</a> (2024).
+  - title: Machine learning for assessment of PET positivity
+    id: Us1cThw46xE
+    note: Talk by Varuna Jasodanand at the 12th Annual CTSI Translational Science Symposium (Boston University).
+  - title: AI for dementia
+    id: kI21nlsQlWU
+    note: A summary of our lab's research on machine learning approaches for dementia assessment.
+  - title: Multimodal deep learning
+    id: ZfbVcaVgyLQ
+    note: Published in <a href="https://doi.org/10.1038/s41467-022-31037-5">Nature Communications</a> (2022).
+  - title: Interpretable deep learning
+    id: RgqyGPMbJ9w
+    note: Published in <a href="https://doi.org/10.1093/brain/awaa137">Brain</a> (2020).
+
+lab:
+  - title: Michalina Jadick — 2023
+    id: KPYioRXG5OM
+  - title: Shangran Qiu — 2022
+    id: 7q3BOdJsIo8
+  - title: Diana Zhang — 2022
+    id: oJX8eCiqLao
+  - title: Life in our lab — TikTok version, 2023
+    id: NS4ZtqUsGSk

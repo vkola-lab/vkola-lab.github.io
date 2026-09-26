@@ -1,0 +1,43 @@
+---
+title: Papers
+layout: page
+permalink: /papers/
+eyebrow: Publications
+heading: Papers
+lead: Selected publications from the lab. For the complete, up-to-date list see Google Scholar or PubMed.
+description: Selected publications from the Kolachalama Laboratory at Boston University.
+---
+
+<div class="hero-actions" style="margin-bottom:40px">
+  <a class="btn btn-primary" href="{{ site.scholar_url }}">{% include icon.html name="scholar" %} Google Scholar</a>
+  <a class="btn btn-ghost" href="{{ site.pubmed_url }}">{% include icon.html name="paper" %} PubMed</a>
+</div>
+
+<div class="section-head"><h2>Featured</h2></div>
+<div class="grid grid-2">
+  {% assign featured = site.data.publist | where: "highlight", 1 %}
+  {% for p in featured %}
+  <a class="card paper paper-row" href="{{ p.link.url }}">
+    <div class="paper-thumb">
+      <img src="{{ '/images/pubpic/' | append: p.image | relative_url }}" alt="" loading="lazy">
+    </div>
+    <div class="paper-body">
+      <span class="paper-venue">{{ p.link.display | strip }}</span>
+      <p class="paper-title">{{ p.title }}</p>
+      {% if p.authors and p.authors != "" %}<p class="paper-authors">{{ p.authors }}</p>{% endif %}
+      {% if p.description and p.description != "" %}<p class="paper-authors">{{ p.description }}</p>{% endif %}
+      <span class="card-foot"><span class="link-arrow">Read paper {% include icon.html name="arrow" %}</span></span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+{% assign rest = site.data.publist | where_exp: "p", "p.highlight != 1" %}
+{% if rest.size > 0 %}
+<div class="section-head" style="margin-top:56px"><h2>More publications</h2></div>
+<ul class="news-list">
+  {% for p in rest %}
+  <li class="news-item" style="grid-template-columns:1fr"><span><a href="{{ p.link.url }}">{{ p.title }}</a> — <span class="muted">{{ p.link.display }}</span></span></li>
+  {% endfor %}
+</ul>
+{% endif %}

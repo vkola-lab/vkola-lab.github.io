@@ -1,0 +1,99 @@
+# Open-source code and models — shown on /tools/.
+# repo: name under github.com/vkola-lab   theme: id from _data/themes.yml
+# paper / venue are optional. `featured: true` puts a tool in the top section.
+
+- repo: nmed2024
+  name: Differential dementia diagnosis
+  description: Transformer that uses multimodal clinical data to distinguish between dementia etiologies.
+  paper: https://doi.org/10.1038/s41591-024-03118-z
+  venue: Nature Medicine (2024)
+  theme: dementia
+  featured: true
+
+- repo: ncomms2025
+  name: Alzheimer's biomarker assessment
+  description: Fuses routinely collected multimodal data to estimate amyloid and tau PET status.
+  paper: https://doi.org/10.1038/s41467-025-62590-4
+  venue: Nature Communications (2025)
+  theme: dementia
+  featured: true
+
+- repo: ncomms2022
+  name: Multimodal AD dementia assessment
+  description: Deep learning on MRI, demographics, history and neuropsychological tests to assess cognitive status.
+  paper: https://doi.org/10.1038/s41467-022-31037-5
+  venue: Nature Communications (2022)
+  theme: dementia
+  featured: true
+
+- repo: brain2020
+  name: Interpretable AD classification
+  description: Interpretable deep learning framework linking MRI to Alzheimer's disease with disease probability maps.
+  paper: https://doi.org/10.1093/brain/awaa137
+  venue: Brain (2020)
+  theme: dementia
+  featured: true
+
+- repo: tmi2022
+  name: Graph-transformer for WSIs
+  description: Graph-transformer for whole slide image classification.
+  paper: https://doi.org/10.1109/TMI.2022.3176598
+  venue: IEEE Transactions on Medical Imaging (2022)
+  theme: pathology
+  featured: true
+
+- repo: PodGPT
+  name: PodGPT
+  description: Audio-augmented large language model for research and education.
+  paper: https://rdcu.be/eu5bm
+  venue: npj Biomedical Innovations (2025)
+  theme: llm
+  featured: true
+
+- repo: tmi2024
+  name: Pathology + gene expression fusion
+  description: Graph attention-based fusion of pathology images and gene expression for cancer survival prediction.
+  paper: https://doi.org/10.1109/TMI.2024.3386108
+  venue: IEEE Transactions on Medical Imaging (2024)
+  theme: pathology
+
+- repo: ijcv2025
+  name: FourierMIL
+  description: Fourier filtering-based multiple instance learning for whole slide image analysis.
+  paper: https://doi.org/10.1007/s11263-025-02679-x
+  venue: International Journal of Computer Vision (2025)
+  theme: pathology
+
+- repo: ijmi2026
+  name: Agentic medical QA
+  description: Agentic memory-augmented retrieval and evidence grounding for medical question answering.
+  paper: https://doi.org/10.1016/j.ijmedinf.2026.106339
+  venue: International Journal of Medical Informatics (2026)
+  theme: llm
+
+- repo: icml2025
+  name: Explainability-driven feature acquisition
+  description: Active feature acquisition that ranks what to measure next using explainability.
+  paper: https://icml.cc/virtual/2025/poster/45710
+  venue: ICML (2025)
+  theme: methods
+
+- repo: hbm2024
+  name: Disease-driven domain generalization
+  description: Domain generalization for neuroimaging-based assessment of Alzheimer's disease.
+  theme: dementia
+
+- repo: azrt2021
+  name: Dementia detection from voice
+  description: Deep learning on voice recordings from the Framingham Heart Study to detect dementia.
+  theme: digital
+
+- repo: python_speech_features_cuda
+  name: Speech features on GPU
+  description: A re-implementation of Python Speech Features with GPU acceleration.
+  theme: digital
+
+- repo: medaihack
+  name: Medical AI Hackathon
+  description: Teaching materials from our medical AI hackathon.
+  theme: education

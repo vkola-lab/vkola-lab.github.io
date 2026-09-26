@@ -1,9 +1,6 @@
 ---
-title: "Kolachalama laboratory - Recruitment"
-layout: textlay
-excerpt: "Openings"
-sitemap: false
+layout: redirect
 permalink: /recruitment/
+redirect_to: /join/
+sitemap: false
 ---
-
-If you are interested in joining us, please see the information listed on our [Contact Us](https://vkola-lab.github.io/contact/) page.

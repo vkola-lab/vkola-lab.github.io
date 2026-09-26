@@ -1,0 +1,40 @@
+---
+title: Contact
+layout: page
+permalink: /contact/
+eyebrow: Get in touch
+heading: Contact &amp; locations
+lead: We are based on both Boston University campuses.
+description: Locations and contact information for the Kolachalama Laboratory at Boston University.
+narrow: true
+---
+
+<div class="locations">
+  <div class="card">
+    <span class="theme-icon">{% include icon.html name="pin" %}</span>
+    <div>
+      <h3>Charles River Campus</h3>
+      <p>665 Commonwealth Ave., Rm. 1527<br>Boston, MA 02215</p>
+      <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&query=665+Commonwealth+Ave+Boston+MA+02215">Map {% include icon.html name="external" %}</a>
+    </div>
+  </div>
+  <div class="card">
+    <span class="theme-icon">{% include icon.html name="pin" %}</span>
+    <div>
+      <h3>Medical Campus</h3>
+      <p>72 E. Concord St., Evans 636<br>Boston, MA 02118</p>
+      <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&query=72+E+Concord+St+Boston+MA+02118">Map {% include icon.html name="external" %}</a>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-2">
+  <div class="card">
+    <h3>Prospective students &amp; postdocs</h3>
+    <p>Please read <a href="{{ '/join/' | relative_url }}">Join the lab</a> before reaching out. It explains who to contact at each stage.</p>
+  </div>
+  <div class="card">
+    <h3>Collaborators, press &amp; industry</h3>
+    <p>For research collaborations, media requests or questions about our models, please contact the PI directly{% if site.pi_email and site.pi_email != "" %} at <a href="mailto:{{ site.pi_email }}">{{ site.pi_email }}</a>{% endif %}. You can also reach us on <a href="https://twitter.com/{{ site.twitter.username }}">X</a>, and our code is on <a href="{{ site.github_org }}">GitHub</a>.</p>
+  </div>
+</div>

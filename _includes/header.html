@@ -1,28 +1,33 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">Kolachalama laboratory @ BU</a>
-	</div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">K</span>
+      <span class="brand-text">{{ site.short_title }}<span class="brand-sub">Boston University</span></span>
+    </a>
 
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/papers">Papers</a></li>	
-		<li><a href="{{ site.url }}{{ site.baseurl }}/media">Media</a></li>	
-		<li><a href="https://github.com/vkola-lab">GitHub</a></li>
-		<li><a href="https://vkolawiki.bu.edu/">Wiki</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact us</a></li>
-	  </ul>
-	</div>
-	
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      {% include icon.html name="menu" %}
+    </button>
+
+    {%- assign nav = "Research|/research/,Tools|/tools/,Papers|/papers/,Team|/team/,Media|/media/,News|/news/" | split: "," -%}
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {%- for item in nav -%}
+        {%- assign parts = item | split: "|" -%}
+        {%- assign active = false -%}
+        {%- if page.url contains parts[1] -%}{%- assign active = true -%}{%- endif -%}
+        <li><a href="{{ parts[1] | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ parts[0] }}</a></li>
+        {%- endfor -%}
+        <li><a class="btn btn-sm btn-primary" href="{{ '/join/' | relative_url }}"{% if page.url contains '/join/' %} aria-current="page"{% endif %}>Join us</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a class="icon-btn" href="{{ site.github_org }}" aria-label="Lab GitHub">{% include icon.html name="github" %}</a>
+        <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span class="when-light">{% include icon.html name="moon" %}</span>
+          <span class="when-dark">{% include icon.html name="sun" %}</span>
+        </button>
+      </div>
+    </nav>
   </div>
-</div>
+</header>

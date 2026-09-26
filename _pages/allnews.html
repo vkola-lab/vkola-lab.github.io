@@ -1,0 +1,42 @@
+---
+title: News
+layout: page
+permalink: /news/
+eyebrow: Updates
+heading: News
+lead: Papers, grants, awards and milestones from the lab.
+description: News from the Kolachalama Laboratory — new papers, grants, awards and trainee milestones.
+narrow: true
+---
+{%- comment -%} Add items at the top of _data/news.yml. Start a headline with "New paper!", "New grant!" or "New award!" to tag it. {%- endcomment -%}
+
+<div class="news-filter" role="group" aria-label="Filter news">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="paper" aria-pressed="false">Papers</button>
+  <button type="button" data-filter="grant" aria-pressed="false">Grants</button>
+  <button type="button" data-filter="award" aria-pressed="false">Awards</button>
+  <button type="button" data-filter="milestone" aria-pressed="false">Milestones</button>
+</div>
+
+<ul class="news-list" id="news-list">
+  {% for article in site.data.news %}
+    {% include news-item.html article=article %}
+  {% endfor %}
+</ul>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.news-filter button');
+    var items = document.querySelectorAll('#news-list .news-item');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var f = b.getAttribute('data-filter');
+        buttons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        items.forEach(function (li) {
+          var chip = li.querySelector('.chip');
+          li.hidden = !(f === 'all' || (chip && chip.classList.contains('chip-' + f)));
+        });
+      });
+    });
+  })();
+</script>

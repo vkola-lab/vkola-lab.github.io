@@ -1,0 +1,17 @@
+{%- comment -%}
+  Renders one entry from _data/news.yml. The tag is inferred from the headline
+  ("New paper!", "New grant!", "New award!", "defends"), so the YAML format stays unchanged.
+{%- endcomment -%}
+{%- assign a = include.article -%}
+{%- assign h = a.headline | strip -%}
+{%- assign tag = "Update" -%}{%- assign kind = "update" -%}
+{%- if h contains "New paper!" -%}{%- assign tag = "Paper" -%}{%- assign kind = "paper" -%}{%- assign h = h | remove_first: "New paper!" -%}
+{%- elsif h contains "New grant!" -%}{%- assign tag = "Grant" -%}{%- assign kind = "grant" -%}{%- assign h = h | remove_first: "New grant!" -%}
+{%- elsif h contains "New award!" -%}{%- assign tag = "Award" -%}{%- assign kind = "award" -%}{%- assign h = h | remove_first: "New award!" -%}
+{%- elsif h contains "defends" or h contains "graduat" or h contains "matched" -%}{%- assign tag = "Milestone" -%}{%- assign kind = "milestone" -%}
+{%- endif -%}
+<li class="news-item">
+  <span class="news-date">{{ a.date | strip }}</span>
+  <span class="chip chip-{{ kind }}">{{ tag }}</span>
+  <span class="news-text">{{ h | strip }}</span>
+</li>

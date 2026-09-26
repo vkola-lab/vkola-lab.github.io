@@ -1,0 +1,71 @@
+---
+title: Team
+layout: page
+permalink: /team/
+eyebrow: People
+heading: Our team
+lead: An interdisciplinary group spanning computer science, neuroscience, bioinformatics, physics, engineering and medicine, working closely with clinicians and collaborators worldwide.
+description: Members and alumni of the Kolachalama Laboratory at Boston University.
+---
+{%- comment -%}
+  People come from _data/team_members.yml. Group numbers:
+  0 PI · 1 postdocs · 2 graduate students · 3 research staff · 4 undergraduates · 5 affiliates · 8 alumni
+{%- endcomment -%}
+
+<figure class="team-photo">
+  <img src="{{ '/images/teampic/lab_dec_2024.jpg' | relative_url }}" alt="Group photo of the Kolachalama Laboratory, December 2024" width="1600" height="900" loading="lazy">
+</figure>
+
+{% assign pi = site.data.team_members | where: "group", 0 | first %}
+<section class="team-group">
+  <h2>Principal investigator</h2>
+  <article class="card pi-card">
+    <img class="avatar" src="{{ '/images/teampic/' | append: pi.photo | relative_url }}" alt="Photo of {{ pi.name }}" width="160" height="160">
+    <div>
+      <h3 style="font-size:1.35rem;margin-bottom:4px">{{ pi.name }}</h3>
+      <p class="person-role" style="font-size:1rem">{{ pi.info }} · Boston University</p>
+      <p class="muted" style="font-size:.95rem">Founding member of BU's Faculty of Computing &amp; Data Sciences.</p>
+      <div class="person-links">
+        {% if pi.scholar %}<a href="{{ pi.scholar }}" aria-label="Google Scholar">{% include icon.html name="scholar" %}</a>{% endif %}
+        {% if pi.github %}<a href="{{ pi.github }}" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
+        {% if pi.linkedin %}<a href="{{ pi.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
+        {% if pi.twitter %}<a href="{{ pi.twitter }}" aria-label="X">{% include icon.html name="x" %}</a>{% endif %}
+      </div>
+    </div>
+  </article>
+</section>
+
+{% assign groups = "1|Postdoctoral scholars,2|Graduate & medical students,3|Research staff,4|Undergraduate students,5|Affiliates" | split: "," %}
+{% for g in groups %}
+  {% assign parts = g | split: "|" %}
+  {% assign gid = parts[0] | plus: 0 %}
+  {% assign members = site.data.team_members | where: "group", gid %}
+  {% if members.size > 0 %}
+  <section class="team-group">
+    <h2>{{ parts[1] }} <span class="count">{{ members.size }}</span></h2>
+    <div class="people">
+      {% for member in members %}{% include member-card.html member=member %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+
+{% assign alumni = site.data.team_members | where: "group", 8 %}
+<section class="team-group" id="alumni">
+  <h2>Alumni <span class="count">{{ alumni.size }}</span></h2>
+  <p class="muted">Where our trainees went next (incomplete list).</p>
+  <div class="alumni-wrap">
+    <table class="alumni">
+      <thead><tr><th>Name</th><th>Role in lab</th><th>Next step</th></tr></thead>
+      <tbody>
+        {% for m in alumni %}
+        <tr>
+          <td>{{ m.name }}</td>
+          <td class="muted">{{ m.info }}{% if m.year %} ({{ m.year }}){% endif %}</td>
+          <td>{% if m.next %}{{ m.next }}{% endif %}{% if m.extlink and m.extlink != "" %} <a href="{{ m.extlink }}" aria-label="More about {{ m.name }}">{% include icon.html name="external" %}</a>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

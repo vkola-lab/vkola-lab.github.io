@@ -8,7 +8,7 @@ twitter:
 linkedin:
 github: https://github.com/MogicianEik
 scholar: https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ
-photo: Yichi.jpg
+photo: yichi_zhang.jpg
 ---
 
 ### Overview

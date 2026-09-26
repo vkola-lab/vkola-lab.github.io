@@ -1,0 +1,26 @@
+{%- comment -%}
+  One person card. Usage: {% include member-card.html member=member %}
+  `url` may be a full link (personal site) or a slug of a page in /team/ (e.g. "ckarjadi").
+{%- endcomment -%}
+{%- assign m = include.member -%}
+{%- if m.url -%}
+  {%- if m.url contains "://" -%}{%- assign link = m.url -%}{%- else -%}{%- assign link = "/team/" | append: m.url | append: ".html" | relative_url -%}{%- endif -%}
+{%- else -%}{%- assign link = nil -%}{%- endif -%}
+<article class="person">
+  {%- if m.photo and m.photo != "" -%}
+  <img class="avatar" src="{{ '/images/teampic/' | append: m.photo | relative_url }}" alt="Photo of {{ m.name }}" loading="lazy" width="112" height="112">
+  {%- else -%}
+  <div class="avatar avatar-empty" aria-hidden="true">{{ m.name | slice: 0 }}</div>
+  {%- endif -%}
+  <div class="person-body">
+    <h3 class="person-name">{% if link %}<a href="{{ link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
+    {%- if m.info -%}<p class="person-role">{{ m.info }}</p>{%- endif -%}
+    <div class="person-links">
+      {%- if m.scholar -%}<a href="{{ m.scholar }}" aria-label="{{ m.name }} on Google Scholar">{% include icon.html name="scholar" %}</a>{%- endif -%}
+      {%- if m.github -%}<a href="{{ m.github }}" aria-label="{{ m.name }} on GitHub">{% include icon.html name="github" %}</a>{%- endif -%}
+      {%- if m.linkedin -%}<a href="{{ m.linkedin }}" aria-label="{{ m.name }} on LinkedIn">{% include icon.html name="linkedin" %}</a>{%- endif -%}
+      {%- if m.twitter -%}<a href="{{ m.twitter }}" aria-label="{{ m.name }} on X">{% include icon.html name="x" %}</a>{%- endif -%}
+      {%- if link and m.url contains "://" -%}<a href="{{ link }}" aria-label="{{ m.name }}'s website">{% include icon.html name="web" %}</a>{%- endif -%}
+    </div>
+  </div>
+</article>

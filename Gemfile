@@ -1,3 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
+# Match the versions GitHub Pages uses, so local builds look like production.
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"

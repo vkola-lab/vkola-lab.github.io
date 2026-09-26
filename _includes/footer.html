@@ -1,23 +1,66 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-
-
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="https://www.bumc.bu.edu/compbiomed/">Computational Biomedicine</a></li>
-				<li><a href="https://www.bu.edu/cs/">Computer Science</a></li>
-				<li><a href="https://www.bu.edu/cds/">Computing & Data Sciences</a></li>
-				<li><a href="{{ site.url }}{{ site.baseurl }}/about">About Page</a></li>
-				
-			</ul>
-
-
-​		
-	  </div>
-	</div>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">{{ site.title }}</p>
+      <p class="muted">{{ site.tagline }}.</p>
+      <div class="footer-icons">
+        <a class="icon-btn" href="{{ site.github_org }}" aria-label="GitHub">{% include icon.html name="github" %}</a>
+        <a class="icon-btn" href="https://twitter.com/{{ site.twitter.username }}" aria-label="X (Twitter)">{% include icon.html name="x" %}</a>
+        <a class="icon-btn" href="{{ site.scholar_url }}" aria-label="Google Scholar">{% include icon.html name="scholar" %}</a>
+      </div>
+    </div>
+    <div>
+      <p class="footer-head">Explore</p>
+      <ul class="footer-links">
+        <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/tools/' | relative_url }}">Tools &amp; models</a></li>
+        <li><a href="{{ '/papers/' | relative_url }}">Papers</a></li>
+        <li><a href="{{ '/news/' | relative_url }}">News</a></li>
+        <li><a href="{{ '/join/' | relative_url }}">Join us</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Affiliations</p>
+      <ul class="footer-links">
+        <li><a href="https://www.bumc.bu.edu/compbiomed/">Computational Biomedicine</a></li>
+        <li><a href="https://www.bu.edu/cs/">Computer Science</a></li>
+        <li><a href="https://www.bu.edu/cds/">Computing &amp; Data Sciences</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Visit</p>
+      <ul class="footer-links">
+        <li><a href="{{ '/contact/' | relative_url }}">Contact &amp; locations</a></li>
+        <li><a href="{{ site.wiki_url }}">Lab wiki (members)</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About this site</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+  <div class="container footer-base muted">
+    © {{ site.time | date: "%Y" }} Kolachalama Laboratory, Boston University
+  </div>
+</footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var toggle = document.querySelector('.theme-toggle');
+    function current() {
+      var t = root.getAttribute('data-theme');
+      if (t) return t;
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    if (toggle) toggle.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+    var navBtn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (navBtn && nav) navBtn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      navBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      navBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  })();
+</script>

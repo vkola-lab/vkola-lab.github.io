@@ -1,0 +1,29 @@
+# Funders shown on the home page.
+- name: National Institute on Aging
+  url: https://www.nia.nih.gov
+- name: National Institute of Neurological Disorders and Stroke
+  url: https://www.ninds.nih.gov/
+- name: National Heart, Lung, and Blood Institute
+  url: https://www.nhlbi.nih.gov
+- name: National Cancer Institute
+  url: https://www.cancer.gov
+- name: National Institute of Diabetes and Digestive and Kidney Diseases
+  url: https://www.niddk.nih.gov
+- name: National Institute on Deafness and Other Communication Disorders
+  url: https://www.nidcd.nih.gov/
+- name: AITC for Aging Research
+  url: https://www.a2collective.ai
+- name: American Heart Association
+  url: https://www.heart.org
+- name: Karen Toffler Charitable Trust
+  url: https://tofflertrust.org
+- name: Gates Ventures
+  url: https://en.wikipedia.org/wiki/Gates_Ventures
+- name: Alzheimer's Research UK
+  url: https://www.alzheimersresearchuk.org/
+- name: Longitude Prize on ALS
+  url: https://als.longitudeprize.org/
+- name: Pfizer
+- name: Johnson & Johnson Enterprise Innovation Inc.
+- name: Visterra Inc.
+  url: https://visterrainc.com

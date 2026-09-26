@@ -1,40 +1,72 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# ------------------------------------------------------------------
+# Kolachalama Laboratory website — site settings
+# Restart `bundle exec jekyll serve` after editing this file.
+# ------------------------------------------------------------------
 
-# Site settings
-title: Kolachalama laboratory
-email: your-email@domain.com
-description: 
+title: Kolachalama Laboratory
+short_title: Kolachalama Lab
+tagline: Multimodal AI for neurodegenerative disease and human health
+description: >-
+  The Kolachalama Laboratory at Boston University develops multimodal AI for
+  dementia diagnosis, biomarker assessment, neuroimaging, digital pathology,
+  and medical language models.
+url: "https://vkola-lab.github.io"
 baseurl: ""
-url: ""
+lang: en_US
+
+# Used by jekyll-seo-tag for social previews
+logo: /images/og-image.jpg
+image: /images/og-image.jpg
+twitter:
+  username: vkola_lab
+  card: summary_large_image
+social:
+  name: Kolachalama Laboratory
+  links:
+    - https://github.com/vkola-lab
+    - https://twitter.com/vkola_lab
+
+# Links used across the site
+github_org: https://github.com/vkola-lab
+scholar_url: https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate
+pubmed_url: https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb&filter=other.excludepreprints&sort=date
+wiki_url: https://vkolawiki.bu.edu/
+# Optional public contact email for the PI, shown on /contact/. Leave blank to hide.
+pi_email: ""
+
+# Optional: Google Analytics 4 measurement ID (e.g. G-XXXXXXXXXX). Leave blank to disable.
+google_analytics: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 include:
-  - .htaccess
   - _pages
 
-sass:
-  sass_dir: _sass
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - code
+  - vendor
+  - .sass-cache
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
 excerpt_separator: "\n\n"
-incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  parse_block_html: true
 
+defaults:
+  - scope:
+      path: "team"
+    values:
+      layout: member

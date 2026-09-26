@@ -1,0 +1,143 @@
+---
+title: Kolachalama Laboratory
+layout: default
+permalink: /
+description: The Kolachalama Laboratory at Boston University builds multimodal AI for dementia diagnosis, biomarker assessment, neuroimaging, digital pathology and medical language models.
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Boston University · AI &amp; human health</p>
+        <h1>Multimodal AI for <em>neurodegenerative disease</em> and human health</h1>
+        <p class="lead">
+          We are computer scientists, neuroscientists, engineers and physicians building
+          methods that fit the science, not science that fits the methods. Our models
+          diagnose dementia, estimate disease biomarkers and interpret medical images,
+          and we release them openly.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore our research {% include icon.html name="arrow" %}</a>
+          <a class="btn btn-ghost" href="{{ '/tools/' | relative_url }}">{% include icon.html name="github" %} Code &amp; models</a>
+          <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">Join the lab</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="{{ '/images/latest_collage.jpg' | relative_url }}" width="1400" height="781"
+             alt="Collage of figures from the lab's work: MRI-based disease probability maps, a blood vessel and stent model, a knee MRI, and a whole slide image pipeline.">
+        <figcaption>Selected figures from our work across neuroimaging, cardiovascular, musculoskeletal and pathology AI.</figcaption>
+      </figure>
+    </div>
+
+    <div class="venues">
+      <p>Our work appears in</p>
+      <ul>
+        <li>Nature Medicine</li>
+        <li>Nature Communications</li>
+        <li>Brain</li>
+        <li>ICML</li>
+        <li>IEEE Transactions on Medical Imaging</li>
+        <li>International Journal of Computer Vision</li>
+        <li>Alzheimer's &amp; Dementia</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>What we work on</h2>
+        <p>Four connected themes, one goal: AI that clinicians and scientists can trust and use.</p>
+      </div>
+      <a class="link-arrow" href="{{ '/research/' | relative_url }}">All research {% include icon.html name="arrow" %}</a>
+    </div>
+    <div class="grid grid-4">
+      {% for t in site.data.themes %}
+      <a class="card" href="{{ '/research/' | relative_url }}#{{ t.id }}">
+        <span class="theme-icon">{% include icon.html name=t.icon %}</span>
+        <h3>{{ t.title }}</h3>
+        <p>{{ t.short }}</p>
+        <span class="card-foot"><span class="link-arrow">Learn more {% include icon.html name="arrow" %}</span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Featured papers</h2>
+        <p>Recent highlights. Code for most of our papers is on GitHub.</p>
+      </div>
+      <a class="link-arrow" href="{{ '/papers/' | relative_url }}">All papers {% include icon.html name="arrow" %}</a>
+    </div>
+    <div class="grid grid-4">
+      {% assign featured = site.data.publist | where: "highlight", 1 %}
+      {% for p in featured limit: 4 %}
+      <a class="card paper" href="{{ p.link.url }}">
+        <div class="paper-thumb"><img src="{{ '/images/pubpic/' | append: p.image | relative_url }}" alt="" loading="lazy"></div>
+        <div class="paper-body">
+          <span class="paper-venue">{{ p.link.display | strip }}</span>
+          <p class="paper-title">{{ p.title }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container split">
+    <div>
+      <div class="section-head">
+        <h2>Latest news</h2>
+        <a class="link-arrow" href="{{ '/news/' | relative_url }}">All news {% include icon.html name="arrow" %}</a>
+      </div>
+      <ul class="news-list">
+        {% for article in site.data.news limit: 7 %}
+          {% include news-item.html article=article %}
+        {% endfor %}
+      </ul>
+    </div>
+    <aside>
+      <h2>Funding &amp; support</h2>
+      <p class="muted">We are grateful to the agencies, foundations and companies that fund our work.</p>
+      <ul class="funders">
+        {% for f in site.data.funders %}
+        <li>{% if f.url %}<a href="{{ f.url }}">{{ f.name }}</a>{% else %}<span>{{ f.name }}</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+
+      <h2 style="margin-top:40px">Teaching</h2>
+      <ul class="muted" style="padding-left:1.2em">
+        <li>Machine learning (MS650)</li>
+        <li>Guest lectures:
+          <a href="https://www.bu.edu/academics/questrom/courses/qst-hm-817/">HM817</a>,
+          <a href="https://www.bu.edu/academics/gms/courses/gms-fc-713/">FC713</a>,
+          <a href="https://www.bu.edu/academics/eng/courses/eng-ec-500/">EC500</a></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta">
+      <div>
+        <h2>Build the next generation of medical AI with us</h2>
+        <p>We form small teams with complementary expertise in computer science, mathematics,
+          neuroscience and medicine, and work persistently on comprehensive solutions.
+          PhD, MD and MD-PhD trainees, and postdocs, are welcome.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">How to join {% include icon.html name="arrow" %}</a>
+        <a class="btn btn-ghost" href="{{ '/team/' | relative_url }}">Meet the team</a>
+      </div>
+    </div>
+  </div>
+</section>

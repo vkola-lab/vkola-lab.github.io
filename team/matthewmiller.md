@@ -8,7 +8,7 @@ twitter:
 linkedin: 
 github: 
 scholar: 
-photo: matt.png
+photo: matt.jpg
 ---
 
 ### Overview

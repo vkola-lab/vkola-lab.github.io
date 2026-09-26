@@ -1,6 +1,6 @@
 - name: Vijaya B. Kolachalama
-  photo: vkola.png
-  info: Associate Professor
+  photo: vkola.jpg
+  info: Associate Professor of Medicine and Computer Science
   group: 0
   github: https://github.com/vkola-lab/
   scholar: https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate
@@ -94,7 +94,7 @@
   scholar: https://scholar.google.com/citations?hl=en&user=1RVl_DMAAAAJ
 
 - name: Subhrangshu Bit
-  photo: sbit.png
+  photo: sbit.jpg
   info: PhD student in Computer Science
   url: https://subhrangshubit.github.io
   group: 2
@@ -134,7 +134,7 @@
   linkedin: https://www.linkedin.com/in/anika-walia/
 
 - name: Che Yu Lee
-  photo: che_yu_lee.png
+  photo: che_yu_lee.jpg
   info: MD-PhD student in Boston University School of Medicine, Bioinformatics
   group: 2
   github: https://github.com/cheyujlee
@@ -158,7 +158,7 @@
   linkedin: https://www.linkedin.com/in/sahana-kowshik-254415179/ 
 
 - name: Yi Liu
-  photo: yiliu.png
+  photo: yiliu.jpg
   info: PhD student in Computing & Data Sciences
   group: 2
   github: https://github.com/yliu2702
@@ -177,7 +177,7 @@
   info: Staff scientist
   group: 3
   scholar: https://scholar.google.com/citations?user=OVmmmcwAAAAJ&hl=tr&oi=ao
-  linkedin: www.linkedin.com/in/rerciyes
+  linkedin: https://www.linkedin.com/in/rerciyes
   
 - name: Ketan Suhaas Saichandran
   photo: ketan_profile.jpeg
@@ -246,7 +246,7 @@
   next: Neurology resident at UT Southwestern Medical Center
 
 - name: Matthew Miller
-  photo: matt.png
+  photo: matt.jpg
   url: matthewmiller
   info: MD student at Boston University School of Medicine
   group: 8

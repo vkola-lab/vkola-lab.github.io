@@ -1,106 +1,33 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Profile page for a file in /team/. Front matter fields: title, position, photo,
+  email, scholar, github, linkedin, twitter. Links may be full URLs or bare handles.
+{%- endcomment -%}
+{%- assign m = page -%}
+{%- if m.scholar and m.scholar != "" -%}{%- if m.scholar contains "://" -%}{%- assign scholar = m.scholar -%}{%- else -%}{%- assign scholar = "https://scholar.google.com/citations?user=" | append: m.scholar -%}{%- endif -%}{%- endif -%}
+{%- if m.github and m.github != "" -%}{%- if m.github contains "://" -%}{%- assign github = m.github -%}{%- else -%}{%- assign github = "https://github.com/" | append: m.github -%}{%- endif -%}{%- endif -%}
+{%- if m.linkedin and m.linkedin != "" -%}{%- if m.linkedin contains "://" -%}{%- assign linkedin = m.linkedin -%}{%- else -%}{%- assign linkedin = "https://www.linkedin.com/in/" | append: m.linkedin -%}{%- endif -%}{%- endif -%}
+{%- if m.twitter and m.twitter != "" -%}{%- if m.twitter contains "://" -%}{%- assign twitter = m.twitter -%}{%- else -%}{%- assign twitter = "https://twitter.com/" | append: m.twitter -%}{%- endif -%}{%- endif -%}
 
-{% assign member = page %}
-
-<div class="row">
-	<div class="col-sm-12">
-
-			<img class="pull-left pad-right content-photo" width=160 src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}">
-
-
-				<div class="bigtitle">
-					{{ member.title }}
-				</div>
-				<p><div class="smallhead">
-					{{ member.position }}
-				</div></p>
-	</div>
-</div>
-
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-sm-3">
-
-		{% if member.ucsf %}
-		<div class="smallhead">
-			UCSF Profile
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-university"></i>
-			<a class="off" href="https://profiles.ucsf.edu/{{ member.ucsf }}">{{ member.ucsf }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.twitter %}
-		<div class="smallhead">
-			Twitter
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fab fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.github %}
-		<div class="smallhead">
-			GitHub
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fab fa-github"></i>
-			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.scholar %}
-		<div class="smallhead">
-			Google Scholar
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="ai ai-google-scholar"></i>
-			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.linkedin %}
-		<div class="smallhead">
-			LinkedIn
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fab fa-linkedin"></i>
-			<a class="off" href="https://www.linkedin.com/in/{{ member.linkedin }}">{{ member.title }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.email %}
-		{% assign emailarray = member.email | split: '@' %}
-		<div class="smallhead">
-			Email
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-
-	</div>
-	<div class="col-sm-6" style="text-align:justify">
-		<i class="content" style="margin:auto">{{ content }}</i>
-
-	</div>
-
+<section class="page-hero">
+  <div class="container profile-head">
+    {% if m.photo %}<img class="avatar avatar-lg" src="{{ '/images/teampic/' | append: m.photo | relative_url }}" alt="Photo of {{ m.title }}" width="160" height="160">{% endif %}
+    <div>
+      <p class="eyebrow"><a href="{{ '/team/' | relative_url }}">Team</a></p>
+      <h1>{{ m.title }}</h1>
+      {% if m.position %}<p class="lead">{{ m.position }}</p>{% endif %}
+      <div class="profile-links">
+        {% if scholar %}<a class="btn btn-ghost btn-sm" href="{{ scholar }}">{% include icon.html name="scholar" %} Scholar</a>{% endif %}
+        {% if github %}<a class="btn btn-ghost btn-sm" href="{{ github }}">{% include icon.html name="github" %} GitHub</a>{% endif %}
+        {% if linkedin %}<a class="btn btn-ghost btn-sm" href="{{ linkedin }}">{% include icon.html name="linkedin" %} LinkedIn</a>{% endif %}
+        {% if twitter %}<a class="btn btn-ghost btn-sm" href="{{ twitter }}">{% include icon.html name="x" %} X</a>{% endif %}
+        {% if m.email and m.email != "" %}{% assign em = m.email | split: "@" %}<span class="btn btn-ghost btn-sm email">{% include icon.html name="mail" %} {{ em.first }}<span aria-hidden="true" hidden>nospam</span>@{{ em.last }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container narrow page-body prose">
+  {{ content }}
 </div>

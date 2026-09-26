@@ -1,16 +1,16 @@
 ---
-title: "Kolachalama Laboratory - About"
-layout: textlay
-excerpt: "Kolachalama Laboratory -- About"
-sitemap: false
+title: About this site
+layout: page
 permalink: /about/
+heading: About this website
+narrow: true
+sitemap: false
 ---
 
-## About this website
+<div class="prose" markdown="1">
 
-Our website is based on the open source templates designed and shared by [Sanders](https://sanderslab.github.io) lab. We downloaded source codes from their repository and modified our contents based on shared templates. We greatly thank them for allowing reuse of their codebase. 
+This site is built with [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com). The source is at [github.com/vkola-lab/vkola-lab.github.io]({{ site.github_org }}/vkola-lab.github.io).
 
-The website is deployed using [GitHub Pages](https://sanderslab.github.io) and the source code is available on [GitHub](https://github.com/sanderslab). Please feel free to reuse this code (making sure to cite the Sanders lab).
+It grew out of the open-source lab templates shared by the [Sanders lab](https://sanderslab.github.io), which build on earlier work by [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](https://bedford.io/misc/about/). We thank them for making their code available. The 2026 redesign replaced the original Bootstrap theme with a lightweight, dependency-free stylesheet.
 
-
-
+</div>

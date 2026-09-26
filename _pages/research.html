@@ -1,0 +1,71 @@
+---
+title: Research
+layout: page
+permalink: /research/
+eyebrow: Research
+heading: Methods that fit the science
+lead: We develop multimodal, interpretable AI with clinicians and domain experts, and test it on real-world cohorts. Below are our main themes, followed by coverage of our work.
+description: Research themes of the Kolachalama Laboratory — dementia diagnosis and neuroimaging, computational pathology, digital and voice biomarkers, and medical language models.
+---
+
+<nav class="news-filter" aria-label="Jump to theme">
+  {% for t in site.data.themes %}<a class="btn btn-ghost btn-sm" href="#{{ t.id }}">{{ t.title }}</a>{% endfor %}
+  <a class="btn btn-ghost btn-sm" href="#news">In the news</a>
+</nav>
+
+{% for t in site.data.themes %}
+<section class="theme-block" id="{{ t.id }}">
+  <span class="theme-icon">{% include icon.html name=t.icon %}</span>
+  <div>
+    <h2>{{ t.title }}</h2>
+    <p class="lead" style="font-size:1.05rem">{{ t.long }}</p>
+    {% assign tools = site.data.tools | where: "theme", t.id %}
+    {% if tools.size > 0 %}
+    <h3>Key work &amp; code</h3>
+    <ul>
+      {% for tool in tools %}
+      <li>
+        <strong>{{ tool.name }}</strong>{% if tool.venue %}, <em>{{ tool.venue }}</em>{% endif %} ·
+        {% if tool.paper %}<a href="{{ tool.paper }}">paper</a> · {% endif %}<a href="{{ site.github_org }}/{{ tool.repo }}">code</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>
+{% endfor %}
+
+<section class="theme-block" id="other">
+  <span class="theme-icon">{% include icon.html name="paper" %}</span>
+  <div>
+    <h2>Other areas</h2>
+    <p>We also work on musculoskeletal imaging (knee MRI and osteoarthritis outcomes), kidney and lung pathology,
+      antibody sequence modeling, and general machine learning methods such as
+      <a href="https://icml.cc/virtual/2025/poster/45710">explainability-driven active feature acquisition</a> (ICML 2025).
+      See all repositories on <a href="{{ site.github_org }}">GitHub</a>.</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="news" style="scroll-margin-top:80px">
+  <div class="section-head">
+    <div>
+      <h2>In the news</h2>
+      <p>Press coverage, podcasts and highlights of our work.</p>
+    </div>
+  </div>
+  <div class="grid grid-2">
+    {% for item in site.data.press %}
+    <article class="card press">
+      <a class="press-thumb" href="{{ item.link }}" tabindex="-1" aria-hidden="true"><img src="{{ '/images/' | append: item.image | relative_url }}" alt="" loading="lazy"></a>
+      <div>
+        {% if item.date and item.date != "" %}<span class="paper-venue">{{ item.date }}</span>{% endif %}
+        <h3><a href="{{ item.link }}" style="color:var(--heading)">{{ item.title }}</a></h3>
+        <p>{{ item.text }}</p>
+        <a class="link-arrow" href="{{ item.link }}">Read more {% include icon.html name="arrow" %}</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

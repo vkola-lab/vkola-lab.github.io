@@ -1,0 +1,50 @@
+---
+title: Tools & Models
+layout: page
+permalink: /tools/
+eyebrow: Open science
+heading: Tools &amp; models
+lead: We release code alongside our papers so others can reproduce, validate and build on our work. Everything below is open source on GitHub.
+description: Open-source code and AI models from the Kolachalama Laboratory for dementia diagnosis, Alzheimer's biomarkers, computational pathology and medical language models.
+---
+
+{% assign featured = site.data.tools | where: "featured", true %}
+{% assign others = site.data.tools | where_exp: "t", "t.featured != true" %}
+
+<div class="section-head"><h2>Featured</h2></div>
+<div class="grid grid-3">
+  {% for tool in featured %}
+  {% assign theme = site.data.themes | where: "id", tool.theme | first %}
+  <article class="card tool hoverable">
+    <span class="chip">{{ theme.title | default: "Methods" }}</span>
+    <span class="tool-name">{% include icon.html name="github" %} vkola-lab/{{ tool.repo }}</span>
+    <h3>{{ tool.name }}</h3>
+    <p>{{ tool.description }}</p>
+    <div class="card-foot">
+      <a href="{{ site.github_org }}/{{ tool.repo }}">{% include icon.html name="github" %} Code</a>
+      {% if tool.paper %}<a href="{{ tool.paper }}">{% include icon.html name="paper" %} {{ tool.venue | default: "Paper" }}</a>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="section-head" style="margin-top:56px"><h2>More code</h2></div>
+<div class="grid grid-3">
+  {% for tool in others %}
+  <article class="card tool hoverable">
+    <span class="tool-name">{% include icon.html name="github" %} vkola-lab/{{ tool.repo }}</span>
+    <h3>{{ tool.name }}</h3>
+    <p>{{ tool.description }}</p>
+    <div class="card-foot">
+      <a href="{{ site.github_org }}/{{ tool.repo }}">{% include icon.html name="github" %} Code</a>
+      {% if tool.paper %}<a href="{{ tool.paper }}">{% include icon.html name="paper" %} {{ tool.venue | default: "Paper" }}</a>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<div class="callout" style="margin-top:48px">
+  <p><strong>Looking for something else?</strong> Browse all repositories at
+    <a href="{{ site.github_org }}">github.com/vkola-lab</a>. For questions about using our models or
+    collaborating, see <a href="{{ '/contact/' | relative_url }}">Contact</a>.</p>
+</div>

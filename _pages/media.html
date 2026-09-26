@@ -1,0 +1,56 @@
+---
+title: Media
+layout: page
+permalink: /media/
+eyebrow: Watch
+heading: Media
+lead: Talks, explainers and educational videos from the lab. Click a title to load its video.
+description: Educational videos, research explainers and lab videos from the Kolachalama Laboratory.
+narrow: true
+---
+{%- comment -%} Videos come from _data/videos.yml. Players load only when a panel is opened. {%- endcomment -%}
+
+<h2>Educational content</h2>
+<div class="video-list">
+  {% for v in site.data.videos.educational %}
+  <details class="video"{% if forloop.first %} open{% endif %}>
+    <summary><span class="yt">{% include icon.html name="youtube" %}</span>{{ v.title }}</summary>
+    <div class="video-body">
+      {% if v.parts %}
+        {% for part in v.parts %}
+        <h3 style="margin-top:{% if forloop.first %}0{% else %}20px{% endif %}">{{ part.label }}</h3>
+        <div class="video-frame"><iframe data-src="https://www.youtube-nocookie.com/embed/{{ part.id }}" title="{{ v.title }}: {{ part.label }}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+        {% endfor %}
+      {% else %}
+        <div class="video-frame"><iframe data-src="https://www.youtube-nocookie.com/embed/{{ v.id }}" title="{{ v.title }}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      {% endif %}
+      {% if v.note %}<p>{{ v.note }}</p>{% endif %}
+    </div>
+  </details>
+  {% endfor %}
+</div>
+
+<h2 style="margin-top:56px">Lab videos</h2>
+<div class="video-list">
+  {% for v in site.data.videos.lab %}
+  <details class="video">
+    <summary><span class="yt">{% include icon.html name="youtube" %}</span>{{ v.title }}</summary>
+    <div class="video-body">
+      <div class="video-frame"><iframe data-src="https://www.youtube-nocookie.com/embed/{{ v.id }}" title="{{ v.title }}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+  </details>
+  {% endfor %}
+</div>
+
+<script>
+  // Load each YouTube player only when its panel is opened (keeps the page fast).
+  (function () {
+    function load(d) {
+      d.querySelectorAll('iframe[data-src]').forEach(function (f) { f.src = f.getAttribute('data-src'); f.removeAttribute('data-src'); });
+    }
+    document.querySelectorAll('details.video').forEach(function (d) {
+      if (d.open) load(d);
+      d.addEventListener('toggle', function () { if (d.open) load(d); });
+    });
+  })();
+</script>

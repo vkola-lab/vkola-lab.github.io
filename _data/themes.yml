@@ -1,0 +1,57 @@
+# Research themes — shown as cards on the home page and in full on /research/.
+# `icon` is one of: brain, microscope, wave, chat (see _includes/icon.html).
+# `tools` lists repo names from _data/tools.yml.
+
+- id: dementia
+  icon: brain
+  title: Dementia diagnosis & neuroimaging
+  short: >-
+    Multimodal models that bring together MRI, clinical and neuropsychological
+    data to assess cognitive status and tell dementia etiologies apart.
+  long: >-
+    Clinicians diagnosing dementia weigh brain imaging, cognitive tests, medical
+    history and, increasingly, fluid and PET biomarkers. We build deep learning
+    frameworks that reason over these heterogeneous inputs the way a specialist
+    would, handle missing data, and remain interpretable. Our work spans
+    differential diagnosis across dementia etiologies, estimating amyloid and tau
+    status from routinely collected data, and generalizing neuroimaging models
+    across scanners and cohorts.
+  tools: [nmed2024, ncomms2025, ncomms2022, brain2020, hbm2024]
+
+- id: pathology
+  icon: microscope
+  title: Computational pathology
+  short: >-
+    Graph- and transformer-based learning on whole slide images, including fusion
+    with gene expression to predict outcomes.
+  long: >-
+    Whole slide images are gigapixel-scale and weakly labeled. We develop graph
+    transformers, multiple instance learning and multimodal fusion methods that
+    classify tissue, stratify premalignant lesions and predict cancer survival
+    by combining histopathology with molecular data.
+  tools: [tmi2022, tmi2024, ijcv2025]
+
+- id: digital
+  icon: wave
+  title: Digital & voice biomarkers
+  short: >-
+    Detecting cognitive impairment from voice recordings and digital cognitive
+    assessments collected at scale.
+  long: >-
+    Speech and digital cognitive tests are inexpensive, repeatable and can be
+    collected remotely. Working with cohorts such as the Framingham Heart Study,
+    we study how recordings and digital assessments can flag cognitive decline,
+    while examining practice effects and the trade-off between privacy and accuracy.
+  tools: [azrt2021, python_speech_features_cuda]
+
+- id: llm
+  icon: chat
+  title: Medical language models & agents
+  short: >-
+    Large language models and agentic systems for medical question answering,
+    research and education.
+  long: >-
+    We build language models that ground their answers in evidence, including
+    audio-augmented models trained on science podcasts and agentic, memory-augmented
+    retrieval systems for medical question answering.
+  tools: [PodGPT, ijmi2026]

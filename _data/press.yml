@@ -1,0 +1,78 @@
+# Press, podcasts and highlights — shown under "In the news" on /research/. Newest first.
+
+- title: Using AI to spot Alzheimer's disease
+  image: respic/crop-Brain.jpg
+  date: 2025
+  link: https://www.bumc.bu.edu/camed/news-events/articles/2025/new-ai-tool-to-predict-markers-of-alzheimers-disease/
+  text: >-
+    Boston University highlighted our Nature Communications paper, <a href="https://www.nature.com/articles/s41467-025-62590-4">AI-driven fusion of multimodal data for Alzheimer’s disease biomarker assessment</a>.
+
+- title: Nature portfolio on medical diagnostics
+  image: respic/nature_portfolio.jpg
+  date: ""
+  link: https://www.nature.com/immersive/medical-diagnostics/index.html
+  text: >-
+    <a href="https://www.nature.com/articles/s41591-024-03118-z">AI-based differential diagnosis of dementia etiologies</a> was included in the Nature portfolio on medical diagnostics.
+
+- title: AI for easier and faster dementia diagnosis
+  image: respic/brink_nmed.jpg
+  date: June 2024
+  link: https://www.bu.edu/articles/2024/this-ai-software-can-make-diagnosing-dementia-easier-for-doctors/
+  text: >-
+    The Brink, BU's research news platform, covered our Nature Medicine model for differential diagnosis of dementia.
+
+- title: Research highlight in Nature
+  image: respic/nature.jpg
+  date: July 2024
+  link: https://www.nature.com/articles/d41586-024-02202-1
+  text: >-
+    Nature highlighted our Nature Medicine paper on an AI model for differential dementia diagnosis.
+
+- title: Research Renaissance podcast
+  image: respic/res_renaissance.jpg
+  date: July 2024
+  link: https://podcasts.apple.com/us/podcast/research-renaissance-exploring-the-future-of/id1735997150?i=1000661644448
+  text: >-
+    An episode on building AI tools for dementia diagnosis, hosted by the Karen Toffler Charitable Trust.
+
+- title: Research briefing in Nature Medicine
+  image: respic/nmed_fig1.jpg
+  date: July 2024
+  link: https://doi.org/10.1038/s41591-024-03147-8
+  text: >-
+    A research briefing accompanying our Nature Medicine paper on AI for differential diagnosis of dementia.
+
+- title: Newt's World podcast
+  image: respic/newt_podcast.jpg
+  date: October 2023
+  link: https://podcasts.apple.com/us/podcast/newts-world/id1452065072?i=1000632167791
+  text: >-
+    A conversation on the possibilities of AI in neurological research and how these tools can improve efficiency in patient care.
+
+- title: Clubhouse discussion on multimodal AD assessment
+  image: respic/clubhouse_podcast.jpg
+  date: ""
+  link: https://www.clubhouse.com/room/PN9Rgp66
+  text: >-
+    Our Nature Communications (June 2022) model that uses multimodal data to assess Alzheimer's disease dementia was discussed on Clubhouse.
+
+- title: Technology for dementia diagnosis
+  image: respic/brink_ncomms.jpg
+  date: June 2022
+  link: https://www.bu.edu/articles/2022/two-technologies-that-can-make-diagnosing-dementia-easier-for-doctors-and-patients/
+  text: >-
+    The Brink covered our multimodal deep learning model for assessing Alzheimer's disease dementia.
+
+- title: Clinical-grade machine learning tools for Alzheimer's disease
+  image: respic/toffler.jpg
+  date: ""
+  link: https://tofflertrust.org/dr-vijaya-kolachalama/
+  text: >-
+    A profile of our work with the Karen Toffler Charitable Trust.
+
+- title: Deep learning outperforms experts in Alzheimer's diagnosis
+  image: respic/brink_brain.jpg
+  date: June 2020
+  link: https://www.bu.edu/articles/2020/deep-learning-algorithm-outperforms-experts-in-making-alzheimers-diagnosis/
+  text: >-
+    The Brink covered our interpretable deep learning model for Alzheimer's disease, published in Brain.
