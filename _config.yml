@@ -37,6 +37,9 @@ pi_email: ""
 # Optional: Google Analytics 4 measurement ID (e.g. G-XXXXXXXXXX). Leave blank to disable.
 google_analytics: ""
 
+# Microsoft Clarity project ID (clarity.microsoft.com). Leave blank to disable.
+clarity_id: "yogw5a8ohq"
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

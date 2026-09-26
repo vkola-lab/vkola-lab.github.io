@@ -13,4 +13,8 @@ This site is built with [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pag
 
 It grew out of the open-source lab templates shared by the [Sanders lab](https://sanderslab.github.io), which build on earlier work by [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](https://bedford.io/misc/about/). We thank them for making their code available. The 2026 redesign replaced the original Bootstrap theme with a lightweight, dependency-free stylesheet.
 
+## Privacy
+
+We use [Microsoft Clarity](https://clarity.microsoft.com) to understand how visitors use this site, for example which pages are read and where people click, so we can improve it. Clarity collects usage data through cookies and similar technologies; see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). We do not collect any personal information through forms on this site.
+
 </div>

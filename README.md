@@ -16,7 +16,7 @@ Most updates only touch YAML files in `_data/`; no HTML needed.
 | Press & podcasts | `_data/press.yml` |
 | Videos | `_data/videos.yml` (YouTube IDs) |
 | Funders | `_data/funders.yml` |
-| Site-wide settings | `_config.yml` (title, description, links, optional GA4 ID and contact email) |
+| Site-wide settings | `_config.yml` (title, description, links, Microsoft Clarity ID, optional GA4 ID and contact email) |
 
 Page templates live in `_pages/`, shared pieces in `_includes/`, and all styling is in `css/main.css` (plain CSS with light and dark themes).
 
