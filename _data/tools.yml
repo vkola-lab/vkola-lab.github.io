@@ -1,12 +1,13 @@
 # Open-source code and models — shown on /tools/.
 # repo: name under github.com/vkola-lab   theme: id from _data/themes.yml
-# paper / venue are optional. `featured: true` puts a tool in the top section.
+# paper / venue / demo (Hugging Face Space) / models (Hugging Face link) are optional. `featured: true` puts a tool in the top section.
 
 - repo: nmed2024
   name: Differential dementia diagnosis
   description: Transformer that uses multimodal clinical data to distinguish between dementia etiologies.
   paper: https://doi.org/10.1038/s41591-024-03118-z
   venue: Nature Medicine (2024)
+  demo: https://huggingface.co/spaces/vkola-lab/nmed2024
   theme: dementia
   featured: true
 
@@ -15,6 +16,7 @@
   description: Fuses routinely collected multimodal data to estimate amyloid and tau PET status.
   paper: https://doi.org/10.1038/s41467-025-62590-4
   venue: Nature Communications (2025)
+  demo: https://huggingface.co/spaces/vkola-lab/NCOMMS2025
   theme: dementia
   featured: true
 
@@ -47,6 +49,7 @@
   description: Audio-augmented large language model for research and education.
   paper: https://rdcu.be/eu5bm
   venue: npj Biomedical Innovations (2025)
+  models: https://huggingface.co/vkola-lab?search_models=PodGPT
   theme: llm
   featured: true
 

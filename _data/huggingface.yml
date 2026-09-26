@@ -1,0 +1,28 @@
+# Public Hugging Face resources shown on /tools/. Only list public repos.
+spaces:
+  - name: Differential dementia diagnosis demo
+    repo: spaces/vkola-lab/nmed2024
+    label: vkola-lab/nmed2024
+    description: Interactive demo of the Nature Medicine (2024) model.
+  - name: Alzheimer's biomarker assessment demo
+    repo: spaces/vkola-lab/NCOMMS2025
+    label: vkola-lab/NCOMMS2025
+    description: Interactive demo of the Nature Communications (2025) model.
+models:
+  - name: PodGPT models
+    repo: vkola-lab?search_models=PodGPT
+    label: vkola-lab/PodGPT-*
+    description: PodGPT fine-tuned from Llama 3.1/3.2, Gemma 2 and Mixtral, from 1B to 70B parameters.
+datasets:
+  - name: NLM LitArch open-access textbooks
+    repo: datasets/vkola-lab/NLM-LitArch-Open-Access-Subset-Textbooks
+    label: vkola-lab/NLM-LitArch-…-Textbooks
+    description: 8,226 open-access medical textbooks used for agentic medical retrieval.
+  - name: PubMed Central articles
+    repo: datasets/vkola-lab/PubMed-Central-Articles
+    label: vkola-lab/PubMed-Central-Articles
+    description: Creative Commons research articles from leading biomedical journals.
+  - name: ClinicalTrials.gov records
+    repo: datasets/vkola-lab/ClinicalTrials.gov
+    label: vkola-lab/ClinicalTrials.gov
+    description: Processed records of completed clinical trials.

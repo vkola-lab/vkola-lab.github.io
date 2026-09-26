@@ -7,26 +7,6 @@
   linkedin: https://www.linkedin.com/in/vijaya-b-kolachalama-92095574/
   twitter: https://twitter.com/vkola_lab
 
-- name: Prajakta Joshi
-  photo: pj_pic.jpg
-  group: 5
-  linkedin: https://www.linkedin.com/in/prajakta-joshi-79520a116/
-  scholar: https://scholar.google.com/citations?user=fSDEwcIAAAAJ&hl=en
-
-- name: Cody Karjadi
-  photo: ckarjadi.jpeg
-  info: 
-  url: ckarjadi
-  group: 5
-  scholar: https://scholar.google.com/citations?user=tkohcEcAAAAJ&hl=en
-  
-- name: Diana Zhang
-  photo: diana_zhang.jpg
-  url: https://diana-zhang.com
-  group: 5
-  linkedin: https://www.linkedin.com/in/dianazhang1806/
-  scholar: https://scholar.google.com/citations?hl=en&user=HBnvK2YAAAAJ 
-
 - name: Meysam Ahangaran
   photo: Meysam.jpg
   info: Postdoctoral scholar
@@ -398,14 +378,6 @@
   info: Masters student in Electrical & Computer Engineering 
   group: 8
   next: DSP engineer at Bose Corporation
-
-- name: Francesco K. Yigamawano
-  photo: fran_new_image.jpeg
-  info: 
-  group: 5
-  github: https://github.com/francesco-KaYy
-  scholar: https://scholar.google.com/citations?user=LDqiICUAAAAJ&hl=en
-  linkedin: https://www.linkedin.com/in/francesco-k-yigamawano-153938190
 
 - name: Rishi Shah
   photo: rishi_shah.jpg

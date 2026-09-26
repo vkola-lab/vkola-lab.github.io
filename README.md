@@ -9,7 +9,7 @@ Most updates only touch YAML files in `_data/`; no HTML needed.
 | To change… | Edit |
 |---|---|
 | News (home page + /news/) | `_data/news.yml`: add new items at the **top**. Start a headline with `New paper!`, `New grant!` or `New award!` to tag it. |
-| People | `_data/team_members.yml`: `group` 0 PI · 1 postdoc · 2 grad/MD student · 3 staff · 4 undergrad · 5 affiliate · 8 alumni. Photos go in `images/teampic/` (square, ~480 px, JPEG). |
+| People | `_data/team_members.yml`: `group` 0 PI · 1 postdoc · 2 grad/MD student · 3 staff · 4 undergrad · 8 alumni. Photos go in `images/teampic/` (square, ~480 px, JPEG). |
 | Featured papers | `_data/publist.yml`: `highlight: 1` shows a paper as featured; the first four also appear on the home page. Thumbnails go in `images/pubpic/`. |
 | Code & models | `_data/tools.yml` |
 | Research themes | `_data/themes.yml` |

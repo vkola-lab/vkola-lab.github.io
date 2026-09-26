@@ -24,10 +24,12 @@ social:
   name: Kolachalama Laboratory
   links:
     - https://github.com/vkola-lab
+    - https://huggingface.co/vkola-lab
     - https://twitter.com/vkola_lab
 
 # Links used across the site
 github_org: https://github.com/vkola-lab
+huggingface_url: https://huggingface.co/vkola-lab
 scholar_url: https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ&view_op=list_works&sortby=pubdate
 pubmed_url: https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb&filter=other.excludepreprints&sort=date
 wiki_url: https://vkolawiki.bu.edu/

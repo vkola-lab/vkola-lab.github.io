@@ -23,14 +23,11 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
           <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">Join the lab</a>
         </div>
       </div>
-      <div class="hero-figs">
-        {% for f in site.data.hero_figures limit: 4 %}
-        <a class="hero-fig" href="{{ f.link }}">
-          <span class="hero-fig-img"><img src="{{ '/images/hero/' | append: f.image | relative_url }}" alt="{{ f.alt }}" loading="{% if forloop.index < 3 %}eager{% else %}lazy{% endif %}"></span>
-          <span class="hero-fig-cap"><strong>{{ f.label }}</strong><span>{{ f.venue }}</span></span>
-        </a>
-        {% endfor %}
-      </div>
+      <figure class="hero-photo">
+        <img src="{{ '/images/teampic/lab_dec_2024.jpg' | relative_url }}" width="1600" height="1068"
+             alt="Members of the Kolachalama Laboratory together on a staircase at Boston University, December 2024.">
+        <figcaption>The lab, December 2024. <a href="{{ '/team/' | relative_url }}">Meet the team</a></figcaption>
+      </figure>
     </div>
 
   </div>

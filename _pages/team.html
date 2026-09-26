@@ -9,7 +9,7 @@ description: Members and alumni of the Kolachalama Laboratory at Boston Universi
 ---
 {%- comment -%}
   People come from _data/team_members.yml. Group numbers:
-  0 PI · 1 postdocs · 2 graduate students · 3 research staff · 4 undergraduates · 5 affiliates · 8 alumni
+  0 PI · 1 postdocs · 2 graduate students · 3 research staff · 4 undergraduates · 8 alumni
 {%- endcomment -%}
 
 <figure class="team-photo">
@@ -35,7 +35,7 @@ description: Members and alumni of the Kolachalama Laboratory at Boston Universi
   </article>
 </section>
 
-{% assign groups = "1|Postdoctoral scholars,2|Graduate & medical students,3|Research staff,4|Undergraduate students,5|Affiliates" | split: "," %}
+{% assign groups = "1|Postdoctoral scholars,2|Graduate & medical students,3|Research staff,4|Undergraduate students" | split: "," %}
 {% for g in groups %}
   {% assign parts = g | split: "|" %}
   {% assign gid = parts[0] | plus: 0 %}

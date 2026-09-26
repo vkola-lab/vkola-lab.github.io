@@ -4,7 +4,7 @@ layout: page
 permalink: /tools/
 eyebrow: Open science
 heading: Tools &amp; models
-lead: We release code alongside our papers so others can reproduce, validate and build on our work. Everything below is open source on GitHub.
+lead: We release code, models, datasets and demos alongside our papers so others can reproduce, validate and build on our work. Code is on GitHub; models, datasets and interactive demos are on Hugging Face.
 description: Open-source code and AI models from the Kolachalama Laboratory for dementia diagnosis, Alzheimer's biomarkers, computational pathology and medical language models.
 ---
 
@@ -22,6 +22,8 @@ description: Open-source code and AI models from the Kolachalama Laboratory for 
     <p>{{ tool.description }}</p>
     <div class="card-foot">
       <a href="{{ site.github_org }}/{{ tool.repo }}">{% include icon.html name="github" %} Code</a>
+      {% if tool.demo %}<a href="{{ tool.demo }}">{% include icon.html name="play" %} Demo</a>{% endif %}
+      {% if tool.models %}<a href="{{ tool.models }}">{% include icon.html name="hf" %} Models</a>{% endif %}
       {% if tool.paper %}<a href="{{ tool.paper }}">{% include icon.html name="paper" %} {{ tool.venue | default: "Paper" }}</a>{% endif %}
     </div>
   </article>
@@ -37,14 +39,36 @@ description: Open-source code and AI models from the Kolachalama Laboratory for 
     <p>{{ tool.description }}</p>
     <div class="card-foot">
       <a href="{{ site.github_org }}/{{ tool.repo }}">{% include icon.html name="github" %} Code</a>
+      {% if tool.demo %}<a href="{{ tool.demo }}">{% include icon.html name="play" %} Demo</a>{% endif %}
+      {% if tool.models %}<a href="{{ tool.models }}">{% include icon.html name="hf" %} Models</a>{% endif %}
       {% if tool.paper %}<a href="{{ tool.paper }}">{% include icon.html name="paper" %} {{ tool.venue | default: "Paper" }}</a>{% endif %}
     </div>
   </article>
   {% endfor %}
 </div>
 
+
+<div class="section-head" style="margin-top:56px">
+  <div>
+    <h2>On Hugging Face</h2>
+    <p>Interactive demos, model weights and datasets at <a href="{{ site.huggingface_url }}">huggingface.co/vkola-lab</a>.</p>
+  </div>
+</div>
+{% assign hf_groups = "spaces|Demo,models|Models,datasets|Dataset" | split: "," %}
+<div class="grid grid-3">
+  {% for g in hf_groups %}{% assign gp = g | split: "|" %}{% assign hk = gp[0] %}{% assign items = site.data.huggingface[hk] %}
+  {% for item in items %}
+  <a class="card tool hoverable" href="https://huggingface.co/{{ item.repo }}">
+    <span class="chip">{{ gp[1] }}</span>
+    <span class="tool-name">{% include icon.html name="hf" %} {{ item.label }}</span>
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+  </a>
+  {% endfor %}{% endfor %}
+</div>
+
 <div class="callout" style="margin-top:48px">
-  <p><strong>Looking for something else?</strong> Browse all repositories at
-    <a href="{{ site.github_org }}">github.com/vkola-lab</a>. For questions about using our models or
+  <p><strong>Looking for something else?</strong> Browse everything at
+    <a href="{{ site.github_org }}">github.com/vkola-lab</a> and <a href="{{ site.huggingface_url }}">huggingface.co/vkola-lab</a>. For questions about using our models or
     collaborating, see <a href="{{ '/contact/' | relative_url }}">Contact</a>.</p>
 </div>
