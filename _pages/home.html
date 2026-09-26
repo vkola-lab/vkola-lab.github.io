@@ -23,25 +23,16 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
           <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">Join the lab</a>
         </div>
       </div>
-      <figure class="hero-figure">
-        <img src="{{ '/images/latest_collage.jpg' | relative_url }}" width="1400" height="781"
-             alt="Collage of figures from the lab's work: MRI-based disease probability maps, a blood vessel and stent model, a knee MRI, and a whole slide image pipeline.">
-        <figcaption>Selected figures from our work across neuroimaging, cardiovascular, musculoskeletal and pathology AI.</figcaption>
-      </figure>
+      <div class="hero-figs">
+        {% for f in site.data.hero_figures limit: 4 %}
+        <a class="hero-fig" href="{{ f.link }}">
+          <span class="hero-fig-img"><img src="{{ '/images/hero/' | append: f.image | relative_url }}" alt="{{ f.alt }}" loading="{% if forloop.index < 3 %}eager{% else %}lazy{% endif %}"></span>
+          <span class="hero-fig-cap"><strong>{{ f.label }}</strong><span>{{ f.venue }}</span></span>
+        </a>
+        {% endfor %}
+      </div>
     </div>
 
-    <div class="venues">
-      <p>Our work appears in</p>
-      <ul>
-        <li>Nature Medicine</li>
-        <li>Nature Communications</li>
-        <li>Brain</li>
-        <li>ICML</li>
-        <li>IEEE Transactions on Medical Imaging</li>
-        <li>International Journal of Computer Vision</li>
-        <li>Alzheimer's &amp; Dementia</li>
-      </ul>
-    </div>
   </div>
 </section>
 
