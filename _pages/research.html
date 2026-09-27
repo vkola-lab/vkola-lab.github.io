@@ -24,7 +24,6 @@ description: Research themes of the Kolachalama Laboratory — multimodal AI for
     <p>{{ t.challenge }}</p>
     <h3 class="theme-label">How we are tackling it</h3>
     <ul>{% for step in t.approach %}<li>{{ step }}</li>{% endfor %}</ul>
-    <p class="theme-next"><strong>Next:</strong> {{ t.next }}</p>
     {% assign tools = site.data.tools | where: "theme", t.id %}
     {% if tools.size > 0 %}
     <p class="theme-code"><span class="muted">Code &amp; demos:</span>

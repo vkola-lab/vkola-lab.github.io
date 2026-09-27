@@ -1,0 +1,49 @@
+{%- comment -%}
+  Justified photo strip from _data/lab_photos.yml. Thumbnails load lazily; clicking opens the full photo.
+{%- endcomment -%}
+<div class="gallery" id="lab-photos">
+  {% for p in site.data.lab_photos %}
+  <a class="gallery-item" href="{{ '/images/labphotos/' | append: p.image | append: '.jpg' | relative_url }}"
+     style="flex-grow: {{ p.ratio | times: 100 | round }}; flex-basis: {{ p.ratio | times: 150 | round }}px"
+     data-caption="{{ p.caption }}">
+    <img src="{{ '/images/labphotos/' | append: p.image | append: '-thumb.jpg' | relative_url }}" alt="{{ p.alt }}" loading="lazy">
+    <span class="gallery-cap">{{ p.caption }}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<dialog class="lightbox" id="lightbox" aria-label="Lab photo">
+  <button class="icon-btn lightbox-close" type="button" aria-label="Close">×</button>
+  <button class="icon-btn lightbox-nav prev" type="button" aria-label="Previous photo">‹</button>
+  <figure>
+    <img alt="">
+    <figcaption></figcaption>
+  </figure>
+  <button class="icon-btn lightbox-nav next" type="button" aria-label="Next photo">›</button>
+</dialog>
+
+<script>
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll('#lab-photos .gallery-item'));
+    var box = document.getElementById('lightbox');
+    if (!items.length || !box || typeof box.showModal !== 'function') return;
+    var img = box.querySelector('img'), cap = box.querySelector('figcaption'), i = 0;
+    function show(n) {
+      i = (n + items.length) % items.length;
+      img.src = items[i].getAttribute('href');
+      img.alt = items[i].querySelector('img').alt;
+      cap.textContent = items[i].getAttribute('data-caption');
+    }
+    items.forEach(function (a, n) {
+      a.addEventListener('click', function (e) { e.preventDefault(); show(n); box.showModal(); });
+    });
+    box.querySelector('.prev').addEventListener('click', function () { show(i - 1); });
+    box.querySelector('.next').addEventListener('click', function () { show(i + 1); });
+    box.querySelector('.lightbox-close').addEventListener('click', function () { box.close(); });
+    box.addEventListener('click', function (e) { if (e.target === box) box.close(); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') show(i - 1);
+      if (e.key === 'ArrowRight') show(i + 1);
+    });
+  })();
+</script>

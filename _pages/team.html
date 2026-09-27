@@ -12,9 +12,10 @@ description: Members and alumni of the Kolachalama Laboratory at Boston Universi
   0 PI · 1 postdocs · 2 graduate students · 3 research staff · 4 undergraduates · 8 alumni
 {%- endcomment -%}
 
-<figure class="team-photo">
-  <img src="{{ '/images/teampic/lab_dec_2024.jpg' | relative_url }}" alt="Group photo of the Kolachalama Laboratory, December 2024" width="1600" height="900" loading="lazy">
-</figure>
+<section class="team-group" style="margin-top:0">
+  <h2>Lab photos <span class="count">{{ site.data.lab_photos.size }}</span></h2>
+  {% include photo-gallery.html %}
+</section>
 
 {% assign pi = site.data.team_members | where: "group", 0 | first %}
 <section class="team-group">

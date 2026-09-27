@@ -1,0 +1,51 @@
+# Lab photos for the gallery on /team/ (newest first). The first one is also used on the home page.
+# image: file stem in images/labphotos/ (needs <stem>.jpg and <stem>-thumb.jpg). ratio = width / height.
+# Dates for 2026 and the window photo are estimates; edit if needed.
+
+- image: "2026"
+  date: "2026"
+  caption: Lab meeting, 2026
+  alt: Lab meeting in 2026
+  ratio: 2.115
+
+- image: "2024-12"
+  date: "2024-12"
+  caption: December 2024
+  alt: The lab on the stairs, December 2024
+  ratio: 1.499
+
+- image: "2024-12-window"
+  date: "2024-12"
+  caption: December 2024
+  alt: The lab by the windows overlooking the Charles River, December 2024
+  ratio: 3.000
+
+- image: "2024-03"
+  date: "2024-03"
+  caption: March 2024
+  alt: Lab meeting, March 2024
+  ratio: 2.560
+
+- image: "2022-11"
+  date: "2022-11"
+  caption: November 2022
+  alt: Lab dinner, November 2022
+  ratio: 1.333
+
+- image: "2022-05"
+  date: "2022-05"
+  caption: May 2022
+  alt: Lab dinner, May 2022
+  ratio: 1.333
+
+- image: "2021-05"
+  date: "2021-05"
+  caption: May 2021
+  alt: The lab outdoors on campus, May 2021
+  ratio: 3.000
+
+- image: "2018-12"
+  date: "2018-12"
+  caption: December 2018
+  alt: The lab, December 2018
+  ratio: 1.333
