@@ -1,4 +1,4 @@
-# Lab photos for the gallery on /team/ (newest first). The one marked `home: true` is shown on the home page.
+# Lab photos for the gallery on /media/ (newest first). The one marked `home: true` is shown on the home page.
 # image: file stem in images/labphotos/ (needs <stem>.jpg and <stem>-thumb.jpg). ratio = width / height.
 # Dates for 2026 and the window photo are estimates; edit if needed.
 

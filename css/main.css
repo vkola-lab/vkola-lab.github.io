@@ -486,6 +486,7 @@ details.video .video-body { padding: 0 20px 20px; }
   font-size: .78rem; font-weight: 600; color: #fff;
   background: linear-gradient(transparent, rgba(0,0,0,.6));
 }
+.narrow .gallery-item { height: 125px; }
 @media (max-width: 640px) { .gallery-item { height: 110px; } .gallery-cap { font-size: .7rem; padding: 14px 8px 5px; } }
 
 .lightbox { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 94vh; overflow: visible; }

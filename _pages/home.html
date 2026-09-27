@@ -26,7 +26,7 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
       {% assign latest = site.data.lab_photos | where: "home", true | first %}{% unless latest %}{% assign latest = site.data.lab_photos | first %}{% endunless %}
       <figure class="hero-photo">
         <img src="{{ '/images/labphotos/' | append: latest.image | append: '.jpg' | relative_url }}" alt="{{ latest.alt }}">
-        <figcaption>The lab, {{ latest.caption }}. <a href="{{ '/team/' | relative_url }}#lab-photos">More lab photos</a></figcaption>
+        <figcaption>The lab, {{ latest.caption }}. <a href="{{ '/media/' | relative_url }}#lab-photos">More lab photos</a></figcaption>
       </figure>
     </div>
 
