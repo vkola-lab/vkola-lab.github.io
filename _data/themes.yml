@@ -10,7 +10,7 @@
     reliable when pieces are missing.
   challenge: >-
     A full picture of brain health draws on many kinds of data: MRI, PET,
-    cognitive tests, medical history, genetics, blood markers and speech. No
+    cognitive tests, medical history, genetics, and blood markers. No
     patient has all of them, and every clinic and cohort collects a different
     subset on different equipment. Most AI assumes complete, uniform data, so it
     breaks down where it's needed most. The open problem is learning from data
@@ -19,17 +19,16 @@
   approach:
     - We began by fusing brain MRI with cognitive and clinical data.
     - We then built transformer models that accept any combination of available inputs by design. They were trained across tens of thousands of people from many cohorts.
-    - To make models work at new sites, we develop domain generalization and modality-agnostic methods for neuroimaging, along with ways to judge whether a dataset is ready for machine learning at all.
+    - To make models work at new sites, we develop domain generalization and modality-agnostic methods for neuroimaging.
     - Underneath this sit advances in representation learning and graph-based learning.
-  next: Foundation models that learn one shared representation of brain health across modalities and cohorts.
 
 - id: assessment
   icon: brain
-  title: Measuring what is hard to measure
+  title: Quantifying complex pathology
   short: >-
     Some of the most important signals are invisible in a routine visit: hidden
     pathology, early decline, which disease is driving symptoms. We estimate them
-    from accessible data and check them against the ground truth.
+    from accessible data and check them against the reference standard.
   challenge_intro: "The questions that matter most are the hardest to answer during life:"
   challenge_list:
     - Which diseases are present, and in what mix?
@@ -42,8 +41,7 @@
   approach:
     - We estimate multiple co-occurring causes of dementia and check them against autopsy-confirmed neuropathology.
     - We predict amyloid and tau status, including where tau has spread, from routinely collected data, and validate it against PET and pathology staging.
-    - For early detection outside the clinic, we study voice recordings, smartphone cognitive tests and other digital signals, including how practice effects and privacy protections change what they can tell us.
-  next: Estimating neuropathology directly during life, so each person's biological profile is known while it can still change their care.
+    - For early detection outside the clinic, we study voice recordings, smartphone cognitive tests and other digital signals.
 
 - id: decisions
   icon: compass
@@ -63,7 +61,6 @@
     - We use active learning to decide which measurement to obtain next, guided by what the model can explain.
     - We study how AI can make neurologists more efficient without taking decisions out of their hands.
     - We stratify people with cognitive impairment by their future risk, and design AI-augmented approaches to Alzheimer's clinical trials.
-  next: AI that plans the diagnostic path step by step and helps design leaner, better-targeted trials.
 
 - id: llm
   icon: chat
@@ -82,4 +79,3 @@
     - We build domain-specific language models, including PodGPT, trained on science podcasts for research and education.
     - We develop agentic systems that search textbooks, the literature and clinical trial records and ground each answer in cited evidence. The underlying collections of texts are openly available.
     - We are building vision-language models for neuroimaging that interpret scans in clinical context.
-  next: Agentic assistants that combine a patient's images, tests and history with the published evidence, and explain their reasoning.
