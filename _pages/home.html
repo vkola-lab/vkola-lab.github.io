@@ -23,10 +23,10 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
           <a class="btn btn-ghost" href="{{ '/join/' | relative_url }}">Join the lab</a>
         </div>
       </div>
-      {% assign latest = site.data.lab_photos | first %}
+      {% assign latest = site.data.lab_photos | where: "home", true | first %}{% unless latest %}{% assign latest = site.data.lab_photos | first %}{% endunless %}
       <figure class="hero-photo">
         <img src="{{ '/images/labphotos/' | append: latest.image | append: '.jpg' | relative_url }}" alt="{{ latest.alt }}">
-        <figcaption>{{ latest.caption }}. <a href="{{ '/team/' | relative_url }}#lab-photos">More lab photos</a></figcaption>
+        <figcaption>The lab, {{ latest.caption }}. <a href="{{ '/team/' | relative_url }}#lab-photos">More lab photos</a></figcaption>
       </figure>
     </div>
 

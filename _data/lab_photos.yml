@@ -1,4 +1,4 @@
-# Lab photos for the gallery on /team/ (newest first). The first one is also used on the home page.
+# Lab photos for the gallery on /team/ (newest first). The one marked `home: true` is shown on the home page.
 # image: file stem in images/labphotos/ (needs <stem>.jpg and <stem>-thumb.jpg). ratio = width / height.
 # Dates for 2026 and the window photo are estimates; edit if needed.
 
@@ -10,6 +10,7 @@
 
 - image: "2024-12"
   date: "2024-12"
+  home: true
   caption: December 2024
   alt: The lab on the stairs, December 2024
   ratio: 1.499
