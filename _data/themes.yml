@@ -1,57 +1,85 @@
-# Research themes — shown as cards on the home page and in full on /research/.
-# `icon` is one of: brain, microscope, wave, chat (see _includes/icon.html).
-# `tools` lists repo names from _data/tools.yml.
+# Research themes — cards on the home page (`short`) and full entries on /research/.
+# `icon`: layers, brain, compass, chat (see _includes/icon.html). `approach` is a list; `next` is one line.
 
-- id: dementia
+- id: multimodal
+  icon: layers
+  title: Multimodal AI for incomplete data
+  short: >-
+    Real patients never have every test. We build AI that combines whatever is
+    available, from scans and cognitive tests to history and speech, and stays
+    reliable when pieces are missing.
+  challenge: >-
+    A full picture of brain health draws on many kinds of data: MRI, PET,
+    cognitive tests, medical history, genetics, blood markers and speech. No
+    patient has all of them, and every clinic and cohort collects a different
+    subset on different equipment. Most AI assumes complete, uniform data, so it
+    breaks down where it's needed most. The open problem is learning from data
+    that is heterogeneous, partially observed and shifting from site to site,
+    without learning shortcuts or leaving out the people with the least data.
+  approach:
+    - We began by fusing brain MRI with cognitive and clinical data.
+    - We then built transformer models that accept any combination of available inputs by design. They were trained across tens of thousands of people from many cohorts.
+    - To make models work at new sites, we develop domain generalization and modality-agnostic methods for neuroimaging, along with ways to judge whether a dataset is ready for machine learning at all.
+    - Underneath this sit advances in representation learning and graph-based learning.
+  next: Foundation models that learn one shared representation of brain health across modalities and cohorts.
+
+- id: assessment
   icon: brain
-  title: Dementia diagnosis & neuroimaging
+  title: Measuring what is hard to measure
   short: >-
-    Multimodal models that bring together MRI, clinical and neuropsychological
-    data to assess cognitive status and tell dementia etiologies apart.
-  long: >-
-    Clinicians diagnosing dementia weigh brain imaging, cognitive tests, medical
-    history and, increasingly, fluid and PET biomarkers. We build deep learning
-    frameworks that reason over these heterogeneous inputs the way a specialist
-    would, handle missing data, and remain interpretable. Our work spans
-    differential diagnosis across dementia etiologies, estimating amyloid and tau
-    status from routinely collected data, and generalizing neuroimaging models
-    across scanners and cohorts.
-  tools: [nmed2024, ncomms2025, ncomms2022, brain2020, hbm2024]
+    Some of the most important signals are invisible in a routine visit: hidden
+    pathology, early decline, which disease is driving symptoms. We estimate them
+    from accessible data and check them against the ground truth.
+  challenge_intro: "The questions that matter most are the hardest to answer during life:"
+  challenge_list:
+    - Which diseases are present, and in what mix?
+    - Is amyloid or tau present, and where has it spread?
+    - Is someone who feels fine already declining?
+  challenge: >-
+    Today the answers need PET scans, spinal taps or autopsy, or they come years
+    too late. Even specialists often disagree when they make these calls from
+    standard tests.
+  approach:
+    - We estimate multiple co-occurring causes of dementia and check them against autopsy-confirmed neuropathology.
+    - We predict amyloid and tau status, including where tau has spread, from routinely collected data, and validate it against PET and pathology staging.
+    - For early detection outside the clinic, we study voice recordings, smartphone cognitive tests and other digital signals, including how practice effects and privacy protections change what they can tell us.
+  next: Estimating neuropathology directly during life, so each person's biological profile is known while it can still change their care.
 
-- id: pathology
-  icon: microscope
-  title: Computational pathology
+- id: decisions
+  icon: compass
+  title: From predictions to decisions
   short: >-
-    Graph- and transformer-based learning on whole slide images, including fusion
-    with gene expression to predict outcomes.
-  long: >-
-    Whole slide images are gigapixel-scale and weakly labeled. We develop graph
-    transformers, multiple instance learning and multimodal fusion methods that
-    classify tissue, stratify premalignant lesions and predict cancer survival
-    by combining histopathology with molecular data.
-  tools: [tmi2022, tmi2024, ijcv2025]
-
-- id: digital
-  icon: wave
-  title: Digital & voice biomarkers
-  short: >-
-    Detecting cognitive impairment from voice recordings and digital cognitive
-    assessments collected at scale.
-  long: >-
-    Speech and digital cognitive tests are inexpensive, repeatable and can be
-    collected remotely. Working with cohorts such as the Framingham Heart Study,
-    we study how recordings and digital assessments can flag cognitive decline,
-    while examining practice effects and the trade-off between privacy and accuracy.
-  tools: [azrt2021, python_speech_features_cuda]
+    A diagnosis is a series of choices: which test to order, who to refer, who
+    to enroll in a trial. We build AI that helps make those choices, with
+    clinicians in charge.
+  challenge: >-
+    Clinicians don't need another risk score at the end of a workup. They need
+    help along the way: which test adds the most for its cost, who needs a
+    specialist or a scan, and who will benefit from a new therapy or belongs in a
+    trial. Every unnecessary test costs money and patient burden, and trials fail
+    when they enroll the wrong people. To be actionable, AI has to reason about
+    uncertainty and cost, and fit into a real clinical workflow.
+  approach:
+    - We use active learning to decide which measurement to obtain next, guided by what the model can explain.
+    - We study how AI can make neurologists more efficient without taking decisions out of their hands.
+    - We stratify people with cognitive impairment by their future risk, and design AI-augmented approaches to Alzheimer's clinical trials.
+  next: AI that plans the diagnostic path step by step and helps design leaner, better-targeted trials.
 
 - id: llm
   icon: chat
-  title: Medical language models & agents
+  title: Domain-specific language and vision-language models
   short: >-
-    Large language models and agentic systems for medical question answering,
-    research and education.
-  long: >-
-    We build language models that ground their answers in evidence, including
-    audio-augmented models trained on science podcasts and agentic, memory-augmented
-    retrieval systems for medical question answering.
-  tools: [PodGPT, ijmi2026]
+    General-purpose chatbots can sound right and still be wrong. We build
+    language and vision-language models that know neurology, read images and text
+    together, and show their evidence.
+  challenge: >-
+    General-purpose language models pass medical exams but stumble on the
+    specifics of neurology and dementia care. They rarely cite evidence, and they
+    can't read a brain MRI alongside a clinical note. Clinicians and researchers
+    need models that know the field, reason over images and text together, and
+    back every answer with sources that can be checked.
+  approach:
+    - We build domain-specific language models, including PodGPT, trained on science podcasts for research and education.
+    - We develop agentic systems that search textbooks, the literature and clinical trial records and ground each answer in cited evidence. The underlying collections of texts are openly available.
+    - We are building vision-language models for neuroimaging that interpret scans in clinical context.
+  next: Agentic assistants that combine a patient's images, tests and history with the published evidence, and explain their reasoning.

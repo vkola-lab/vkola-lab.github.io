@@ -291,7 +291,7 @@ a.card:hover, .card.hoverable:hover { transform: translateY(-3px); box-shadow: v
 
 /* Tools */
 .tool-name { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .85rem; color: var(--text-muted); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
-.tool .chip { align-self: flex-start; margin-bottom: 12px; }
+.tool .chip { align-self: flex-start; margin-bottom: 12px; white-space: normal; }
 
 /* ---------- News ---------- */
 
@@ -367,7 +367,12 @@ a.card:hover, .card.hoverable:hover { transform: translateY(-3px); box-shadow: v
 .theme-block:last-child { border-bottom: 0; }
 .theme-block .theme-icon { margin: 0; width: 56px; height: 56px; }
 .theme-block h2 { font-size: 1.5rem; }
-.theme-block ul { padding-left: 1.2em; margin: 0; }
+.theme-block ul { padding-left: 1.2em; margin: 0 0 1em; }
+.theme-block p, .theme-block ul { max-width: 72ch; }
+.theme-label { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 22px 0 8px; }
+.theme-questions li { font-weight: 500; color: var(--heading); }
+.theme-next { padding: 12px 16px; background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.theme-code { font-size: .9rem; }
 .theme-block li { margin-bottom: .4em; }
 @media (max-width: 640px) { .theme-block { grid-template-columns: 1fr; } }
 

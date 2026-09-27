@@ -3,9 +3,9 @@ title: Research
 layout: page
 permalink: /research/
 eyebrow: Research
-heading: Methods that fit the science
-lead: We develop multimodal, interpretable AI with clinicians and domain experts, and test it on real-world cohorts. Below are our main themes, followed by coverage of our work.
-description: Research themes of the Kolachalama Laboratory — dementia diagnosis and neuroimaging, computational pathology, digital and voice biomarkers, and medical language models.
+heading: Hard problems in neurodegeneration
+lead: "Neurodegenerative diseases unfold over decades, rarely come alone, and look different in every person. The data we have about them is incomplete, scattered across clinics and cohorts, and hard to interpret, even for experts. We build AI for the hardest open problems this creates. We hold it to clinical standards: independent cohorts, autopsy-confirmed pathology, and side-by-side testing with clinicians. We make progress one well-validated step at a time."
+description: Research themes of the Kolachalama Laboratory — multimodal AI for incomplete data, measuring hidden disease biology and early decline, AI for clinical decisions, and domain-specific language and vision-language models for neurodegeneration.
 ---
 
 <nav class="news-filter" aria-label="Jump to theme">
@@ -18,33 +18,22 @@ description: Research themes of the Kolachalama Laboratory — dementia diagnosi
   <span class="theme-icon">{% include icon.html name=t.icon %}</span>
   <div>
     <h2>{{ t.title }}</h2>
-    <p class="lead" style="font-size:1.05rem">{{ t.long }}</p>
+    <h3 class="theme-label">The challenge</h3>
+    {% if t.challenge_intro %}<p>{{ t.challenge_intro }}</p>
+    <ul class="theme-questions">{% for q in t.challenge_list %}<li>{{ q }}</li>{% endfor %}</ul>{% endif %}
+    <p>{{ t.challenge }}</p>
+    <h3 class="theme-label">How we are tackling it</h3>
+    <ul>{% for step in t.approach %}<li>{{ step }}</li>{% endfor %}</ul>
+    <p class="theme-next"><strong>Next:</strong> {{ t.next }}</p>
     {% assign tools = site.data.tools | where: "theme", t.id %}
     {% if tools.size > 0 %}
-    <h3>Key work &amp; code</h3>
-    <ul>
-      {% for tool in tools %}
-      <li>
-        <strong>{{ tool.name }}</strong>{% if tool.venue %}, <em>{{ tool.venue }}</em>{% endif %} ·
-        {% if tool.paper %}<a href="{{ tool.paper }}">paper</a> · {% endif %}<a href="{{ site.github_org }}/{{ tool.repo }}">code</a>
-      </li>
-      {% endfor %}
-    </ul>
+    <p class="theme-code"><span class="muted">Code &amp; demos:</span>
+      {% for tool in tools %}<a href="{% if tool.demo %}{{ tool.demo }}{% else %}{{ site.github_org }}/{{ tool.repo }}{% endif %}">{{ tool.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+    </p>
     {% endif %}
   </div>
 </section>
 {% endfor %}
-
-<section class="theme-block" id="other">
-  <span class="theme-icon">{% include icon.html name="paper" %}</span>
-  <div>
-    <h2>Other areas</h2>
-    <p>We also work on musculoskeletal imaging (knee MRI and osteoarthritis outcomes), kidney and lung pathology,
-      antibody sequence modeling, and general machine learning methods such as
-      <a href="https://icml.cc/virtual/2025/poster/45710">explainability-driven active feature acquisition</a> (ICML 2025).
-      See all repositories on <a href="{{ site.github_org }}">GitHub</a>.</p>
-  </div>
-</section>
 
 <hr>
 

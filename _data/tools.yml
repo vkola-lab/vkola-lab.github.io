@@ -8,7 +8,7 @@
   paper: https://doi.org/10.1038/s41591-024-03118-z
   venue: Nature Medicine (2024)
   demo: https://huggingface.co/spaces/vkola-lab/nmed2024
-  theme: dementia
+  theme: multimodal
   featured: true
 
 - repo: ncomms2025
@@ -17,7 +17,7 @@
   paper: https://doi.org/10.1038/s41467-025-62590-4
   venue: Nature Communications (2025)
   demo: https://huggingface.co/spaces/vkola-lab/NCOMMS2025
-  theme: dementia
+  theme: assessment
   featured: true
 
 - repo: ncomms2022
@@ -25,7 +25,7 @@
   description: Deep learning on MRI, demographics, history and neuropsychological tests to assess cognitive status.
   paper: https://doi.org/10.1038/s41467-022-31037-5
   venue: Nature Communications (2022)
-  theme: dementia
+  theme: multimodal
   featured: true
 
 - repo: brain2020
@@ -33,7 +33,7 @@
   description: Interpretable deep learning framework linking MRI to Alzheimer's disease with disease probability maps.
   paper: https://doi.org/10.1093/brain/awaa137
   venue: Brain (2020)
-  theme: dementia
+  theme: multimodal
   featured: true
 
 - repo: tmi2022
@@ -79,22 +79,22 @@
   description: Active feature acquisition that ranks what to measure next using explainability.
   paper: https://icml.cc/virtual/2025/poster/45710
   venue: ICML (2025)
-  theme: methods
+  theme: decisions
 
 - repo: hbm2024
   name: Disease-driven domain generalization
   description: Domain generalization for neuroimaging-based assessment of Alzheimer's disease.
-  theme: dementia
+  theme: multimodal
 
 - repo: azrt2021
   name: Dementia detection from voice
   description: Deep learning on voice recordings from the Framingham Heart Study to detect dementia.
-  theme: digital
+  theme: assessment
 
 - repo: python_speech_features_cuda
   name: Speech features on GPU
   description: A re-implementation of Python Speech Features with GPU acceleration.
-  theme: digital
+  theme: assessment
 
 - repo: medaihack
   name: Medical AI Hackathon
