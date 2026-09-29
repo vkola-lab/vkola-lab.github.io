@@ -1,288 +1,386 @@
+# News items, newest first. `type` is one of: paper, grant, award, milestone (defenses, matches, graduations, new positions).
+# It drives the filter buttons on /news/. If you leave it out, the site guesses from the headline.
 - date: May 2026
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en'>Chonghua Xue</a> successfully defends his PhD in Electrical and Computer Engineering and transitions to a postdoc role."
   
 - date: May 2026 
+  type: grant
   headline: "New grant! We got selected as a <a href='https://als.longitudeprize.org/discovery-award-teams'>Discovery team</a> (Stage 1) of the Longitude
 Prize on ALS."
 
 - date: March 2026
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=1RVl_DMAAAAJ&hl=en'>Diala Lteif</a> successfully defends her PhD in Computer Science and transitions to a postdoc role."
   
 - date: March 2026
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=yTsLHGcAAAAJ&hl=en'>Olivia Zhou</a> got matched to Orthopedic Surgery at Stony Brook Medicine."
   
 - date: March 2026 
+  type: grant
   headline: "New grant! We received seed funding from the <a href='https://www.alzheimersresearchuk.org/research/for-researchers/dementia-frontiers-fund/shortlisted-dementia-frontiers-fund-teams/'>Dementia Frontiers Fund</a> to build a scalable multimodal AI system for early detection and staging of cognitive impairment​."
 
 - date: March 2026 
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/BnjEzb7eqk2RGMNnmeSkXA/project-details/11240758'>R03 grant</a> from the National Institute on Deafness and Other Communication Disorders."
   
 - date: February 2026
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ijmedinf.2026.106339'>Agentic AI for medical question-answering tasks</a>, published in the International Journal of Medical Informatics."
   
 - date: January 2026
+  type: milestone
   headline: "<a href='hhttps://scholar.google.com/citations?hl=en&user=yht46y4AAAAJ'>Ketan Saichandran</a> transitions from a staff scientist role and joins dCortex as a Research Scientist."  
   
 - date: December 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1007/s11263-025-02679-x'>Fourier filtering-based multiple instance learning</a>, published in the International Journal of Computer Vision."
   
 - date: December 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.tjpad.2025.100396'>AI-augmented frameworks for AD clinical trials</a>, published in the Journal of Prevention of Alzheimer's Disease."
   
 - date: December 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.tjpad.2025.100400'>AI models, bias and data sharing efforts to tackle ADRD</a>, published in the Journal of Prevention of Alzheimer's Disease."
   
 - date: December 2025
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?&user=Bwi5hSIAAAAJ'>Yichi Zhang</a> successfully defends his PhD in bioinformatics and transitions to a postdoc role."
   
 - date: November 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/alz.70883'>Digital technological advances in ADRD</a>, published in Alzheimer's & Dementia."
   
 - date: October 2025 
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/eI1u9'>AI-augmented radiomic analysis on various dementias</a>, published in npj Dementia."
   
 - date: September 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/alz.70719'>AI-first framework for multimodal data in ADRD</a>, published in Alzheimer's & Dementia."
   
 - date: September 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/hbm.70329'>Regional modal mix for MRI segmentation</a>, published in Human Brain Mapping."
   
 - date: September 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/alz.70644'>Practice effects on digital cognitive assessment tools</a>, published in Alzheimer's & Dementia."
   
 - date: August 2025 
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/eAfbl'>AI for Alzheimer's biomarker assessment</a>, published in Nature Communications."
   
 - date: July 2025 
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/eu5bm'>PodGPT - An audio-augmented LLM</a>, published in npj Biomedical Innovations."
   
 - date: May 2025 
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/rsrXFJ7nBEqpOdD7WGn1ew/project-details/11103711'>R01 grant</a> from the National Institute of Neurological Disorders and Stroke."
   
 - date: May 2025 
+  type: paper
   headline: "New paper! <a href='https://icml.cc/virtual/2025/poster/45710'>Explainability-driven active feature acquisition</a>, accepted in ICML."
   
 - date: March 2025 
+  type: award
   headline: "New award! <a href='https://scholar.google.com/citations?hl=en&user=VZwxdNQAAAAJ'> Varuna Jasodanand</a> wins 1st place in the poster event held at the 12th Annual BU-CTSI Translational Science Symposium."
   
 - date: March 2025 
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/alz.70032'>Privacy versus accuracy in voice-based cognitive tests</a>, published in Alzheimer's & Dementia."
 
 - date: February 2025 
+  type: award
   headline: "New award! <a href='https://scholar.google.com/citations?hl=en&user=Xxj2zwoAAAAJ&view_op=list_works&sortby=pubdate'> Shreyas Puducheri</a>, <a href='https://scholar.google.com/citations?user=yTsLHGcAAAAJ&hl=en'>Olivia Zhou</a> and <a href='https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=60UtPUUAAAAJ'> Krish Kapadia</a> win 2nd place in the poster event held at the Beth Israel Lahey Health AI & ML Symposium."
 
 - date: January 2025
+  type: grant
   headline: "New grant! We received another pilot award from the <a href='https://www.a2collective.ai/'>a2 collective</a>, representing the Artificial Intelligence and Technology Collaboratories (AITC) for Aging Research program."
     
 - date: January 2025 
+  type: paper
   headline: "New paper! <a href='https://openurl.ebsco.com/EPDB%3Agcd%3A13%3A34604829/detailv2?sid=ebsco%3Aocu%3Arecord&id=ebsco%3Agcd%3A182552854&bquery=IS%202049-6893%20AND%20VI%2014%20AND%20IP%201%20AND%20DT%202025&page=1&link_origin=scholar.google.com&searchDescription=Australian%20Journal%20of%20Dementia%20Care%2C%202025%2C%20Vol%2014%2C%20Issue%201'>AI for dementia care</a> published in Australian Journal of Dementia Care."
   
 - date: December 2024 
+  type: grant
   headline: "Grant renewal! Our <a href='https://reporter.nih.gov/search/SqF4LTzL4kisOZ9NFSmNaQ/project-details/11060755'>R01 grant</a> from the National Institute on Aging entered its second phase."
   
 - date: December 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1177/13872877241294084'>Network efficiency of tau propagation</a>, published in the Journal of Alzheimer's Disease."
   
 - date: November 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.14336/AD.2024.1249'>AI as a copilot in neurology</a>, published in Aging and Disease."
   
 - date: October 2024
+  type: award
   headline: "New award! <a href='https://www.linkedin.com/in/olivialingyixu/'>Lingyi Xu</a> wins 3rd place at the <a href='https://www.bumc.bu.edu/medicine/2024/10/11/congratulations-to-the-2024-evans-days-awardees/'>Evans Day</a> poster event."
   
 - date: August 2024 
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/jsnon8u8GkWZZqWM6JGBaw/project-details/10987151'>R01 grant</a> from the National Institute on Aging."
 
 - date: July 2024
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/eI2PU'>AI-based differential diagnosis of dementia</a>, published in Nature Medicine."
   
 - date: July 2024
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/sharma-ai/'>Harsh Sharma</a> transitions from an MS/AI student to a Data/ML Engineer at CarbonArc."
   
 - date: July 2024
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/enessguven/'>Enes Guven</a> transitions from an IT manager in our lab to a Program Director at Peace Islands Institute."
 
 - date: June 2024
+  type: paper
   headline: "New paper! <a href='https://www.kireports.org/article/S2468-0249(24)01795-9/fulltext'>Web-based tool for kidney biopsy adequacy</a>, published in KI Reports."
   
 - date: June 2024
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=-qUeToQAAAAJ&hl=en'>Yi Zheng</a> defends his PhD and joins <a href='https://www.thalesgroup.com/en'>Thales Group</a> as a Deep Learning Scientist."
   
 - date: June 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1109/ACCESS.2024.3408840'>Adversarial learning on MRIs for cognitive assessment</a>, published in IEEE Access."
   
 - date: June 2024
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/dJV1n'>Framework to assess dataset readiness in machine learning</a>, published in BMC Medical Informatics and Decision Making."
   
 - date: May 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1002/hbm.26707'>Domain generalization for Alzheimer's disease assessment</a>, published in Human Brain Mapping."
   
 - date: April 2024
+  type: award
   headline: "New award! <a href='https://www.linkedin.com/in/olivialingyixu/'>Lingyi Xu</a> wins the 2024 Boston University Women's Guild Award."
   
 - date: April 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1109/TMI.2024.3386108'>Graph attention-based fusion for digital pathology</a>, published in IEEE Transactions on Medical Imaging."
   
 - date: April 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ajpath.2024.03.009'>Graph perceiver network for digital pathology</a>, published in the American Journal of Pathology."
   
 - date: March 2024
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/lindsey-claus-6855821b4/'>Lindsey Claus</a> got matched to Vascular Surgery at the University of Pennsylvania."
 
 - date: March 2024
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/divya-veerapaneni-6b8115264/'>Divya Veerapaneni</a> got matched to Neurology at the UT Southwestern Medical Center."
     
 - date: February 2024
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1007/s00256-024-04627-1'>Survival analysis on subchondral bone length for total knee replacement</a>, published in Skeletal Radiology."
   
 - date: January 2024
+  type: paper
   headline: "New papers! <a href='https://www.ahajournals.org/toc/jaha/13/2'>The Journal of the American Heart Association's special issue on digital health</a> showcases multiple papers from our team."
   
 - date: October 2023
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.3233/jad-230560'>Fusion of low-level voice descriptors for dementia</a>, published in the Journal of Alzheimer's Disease."
   
 - date: October 2023
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1212/WNL.0000000000207967'>Large language models in neurology</a>, published in Neurology."
   
 - date: September 2023
+  type: grant
   headline: "New grant! We received an <a href='https://www.bu.edu/articles/2023/bu-technology-development-2023-ignition-awards/?utm_campaign=bu_today&utm_source=email_20230919&utm_medium=intrograph&utm_content=accolades'> Ignition Award</a> from Boston University to create an AI-based tool for dementia assessment."
   
 - date: September 2023
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.isci.2023.107522'>Deep learning to predict progression risk on cognitively impaired individuals</a>, published in iScience."
   
 - date: May 2023
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1007/s13311-023-01384-2'>Machine learning in clinical trials: Applications to neurology</a>, published in Neurotherapeutics."
   
 - date: April 2023
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/tejus-surendran-889827162/'>Tejus Surendran</a> transitions from a staff scientist in our lab to a PhD student at Carnegie Mellon University."
   
 - date: March 2023
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=wiNZX7wAAAAJ&hl=en'>Matthew Miller</a> got matched to MGH Radiology."
   
 - date: March 2023
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=wqGtGpMAAAAJ&hl=en'>Akshara Balachandra</a> got matched to Stanford Neurology."
   
 - date: March 2023
+  type: milestone
   headline: "<a href='https://twitter.com/joycecylee'>Joyce Lee</a> got matched to Neurology at Boston Medical Center."
   
 - date: December 2022
+  type: grant
   headline: "New grant! We received a pilot award from the <a href='https://www.a2collective.ai/'>a2 collective</a>, representing the Artificial Intelligence and Technology Collaboratories (AITC) for Aging Research program."
   
 - date: September 2022
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/AE9QDrYNHU63LudOByyQxg/project-details/10546275'>SBIR Phase-I grant</a> from the National Institute of Diabetes and Digestive Kidney Diseases."
   
 - date: August 2022
+  type: award
   headline: "New award! <a href='https://www.linkedin.com/in/lindsey-claus-6855821b4/'>Lindsey Claus</a> wins the 2022 American Society of Nephrology Kidney STARS award."
   
 - date: July 2022
+  type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=WeaMpL0AAAAJ&hl=en&oi=ao'>Michael Romano</a> completes postdoctoral research and starts radiology residency at University of California, San Francisco."
   
 - date: June 2022
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/cPZNa'>Multimodal deep learning for dementia assessment</a>, published in Nature Communications."
 
 - date: June 2022
+  type: award
   headline: "New award! <a href='http://www.iamse.org/say-hello-to-our-featured-member-lindsey-claus/'>Lindsey Claus</a> recognized by International Association of Medical Science Educators."
     
 - date: June 2022
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/shangran/'>Shangran Qiu</a>  defends his PhD and joins Microsoft Inc. as an Applied Scientist."
     
 - date: May 2022
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1109/TMI.2022.3176598'>Graph-transformer for digital pathology</a>, published in IEEE Transactions on Medical Imaging."
   
 - date: May 2022
+  type: award
   headline: "New award! <a href='https://www.linkedin.com/in/yi-zheng-99240a115/'>Yi Zheng</a> wins 2022 Department of Computer Science Research Excellence Award."
   
 - date: May 2022
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.artmed.2022.102313'>Machine learning for pre-med trainees</a>, published in Artificial Intelligence in Medicine."
   
 - date: May 2022
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/ray-jhun-006617133/'>Ray Jhun</a> graduates with an MD degree and joins the neurology residency program at the University of North Carolina, Chapel Hill."
   
 - date: January 2022
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.molmed.2021.12.004'>Spotlight</a> on subtyping Alzheimer's disease, published in Trends in Molecular Medicine."
     
 - date: January 2022
+  type: grant
   headline: "New grant! We received another pilot award from the Johnson & Johnson Enterprise Innovation, Inc."
   
 - date: December 2021
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/xiao-zhou-24a43713a/'>Xiao Zhou</a> defends his PhD in Computer Science and starts postdoctoral research at Yale University."
 
 - date: December 2021
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/rushingindra682'>Rushin Gindra</a> transitions from a staff scientist in our lab to a PhD student at the <a href='https://www.mdsi.tum.de/en/mdsi/home/'>Munich Data Science Institute</a> at TU Munich."
   
 - date: December 2021
+  type: paper
   headline: "New paper! We developed <a href='https://doi.org/10.1002/art.41808'>subchondral bone length</a>, a new imaging measure for knee osteoarthritis, published in Arthritis & Rheumatology."
 
 - date: October 2021
+  type: award
   headline: "New award! <a href='https://www.bumc.bu.edu/compbiomed/2021/10/21/dr-vijaya-kolachalama-awarded-evans-junior-faculty-merit-award/'>Evans Junior Faculty Merit Award</a> from the Department of Medicine."
 
 - date: September 2021
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/F3Ou5vEfQEeM-o2ExdWSQw/project-details/10279523'>R01 grant</a> from the National Heart, Lung and Blood Institute."
 
 - date: August 2021
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/cwsQt'>Deep learning framework</a> to detect dementia on voice recordings, published in Alzheimer's Research & Therapy."
   
 - date: August 2021
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ajpath.2021.05.005'>Deep learning framework</a> to predict the grade of kidney fibrosis, published in the American Journal of Pathology."
   
 - date: July 2021
+  type: grant
   headline: "New grant! We received a <a href='https://www.diacomp.org/shared/showSubContractAbstract.aspx?id=4210'>pilot award</a> from the Diacomp consortium."
 
 - date: June 2021
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.xkme.2021.04.012'>Machine learning applications in nephrology</a>, published in Kidney Medicine."
         
 - date: May 2021
+  type: award
   headline: "New award! <a href='https://www.linkedin.com/in/shangran/'>Shangran Qiu</a> wins 2021 Department of Physics Alvaro Roccaro Memorial Prize."
   
 - date: May 2021
+  type: paper
   headline: "New paper! <a href='https://rdcu.be/cgK4k'>Game theory-based deep learning</a> to augment Alzheimer's disease classification, published in Alzheimer's Research & Therapy."
   
 - date: January 2021
+  type: award
   headline: "New award! <a href='https://tofflertrust.org/dr-vijaya-kolachalama/'>Toffler Scholarship in Neuroscience</a>."
 
 - date: August 2020
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/XilJ5sKY3kCjCO_zfNIK6w/project-details/10059031'>R21 grant</a> from the National Cancer Institute."
   
 - date: June 2020
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1093/brain/awaa137'>Interpretable deep learning framework</a> for Alzheimer's disease classification, published in Brain."
   
 - date: June 2020
+  type: grant
   headline: "New grant! We received a pilot award from the Johnson & Johnson Enterprise Innovation, Inc."
 
 - date: May 2020
+  type: grant
   headline: "New grant! We received an <a href='https://reporter.nih.gov/search/zSWFHr-b6UuCJMT1Q1at6g/project-details/9975371'>R01 grant</a> from the National Institute on Aging."
   
 - date: May 2020
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/lisa-park-7ab22924'>Lisa Park</a> graduates with an MD degree and joins the radiology residency program at Northwell Health."
     
 - date: April 2020
+  type: grant
   headline: "New grant! We received a <a href='https://professional.heart.org/en/research-programs/strategically-focused-research/strategically-focused-research-networks/sfrn-awardees'>Strategically Focused Health Technologies & Innovation Research Network</a> grant from the American Heart Association."
     
 - date: February 2020
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1007/s00330-020-06658-3'>Convolutional Siamese network</a> to predict knee pain, published in European Radiology."
 
 - date: January 2020
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/gary-han-chang-8aa37311a'>Gary Chang</a> completes his postdoctoral research in our lab and joins National Taiwan University faculty."
   
 - date: December 2019
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ekir.2019.04.008'>Unsupervised learning</a> to assess Alzheimer's disease, published in Alzheimer's & Dementia (N Y)."
     
 - date: July 2019
+  type: milestone
   headline: "<a href='https://www.linkedin.com/in/qiuyuan-qin/'>Qiuyuan Qin</a> transitions from a staff scientist in our lab to a PhD student at the University of Rochester."
       
 - date: April 2019
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ekir.2019.04.008'>Glomerular segmentation</a> using deep learning, published in KI Reports."
   
 - date: January 2019
+  type: milestone
   headline: "<a href='https://in.linkedin.com/in/shruti-kannan'>Shruti Kannan</a> graduates with a Masters degree and heads to Bose corporation."
   
 - date: September 2018
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1038/s41746-018-0061-1'>Machine learning education in medical schools</a>, published in npj Digital Medicine."
 
 - date: September 2018
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.dadm.2018.08.013'>Fusion network</a> to assess mild cognitive impairment, published in Alzheimer's & Dementia (Amst)."
 
 - date: January 2018
+  type: paper
   headline: "New paper! <a href='https://doi.org/10.1016/j.ekir.2017.11.002'>Deep neural network</a> to predict renal survival, published in KI Reports."
     
 - date: July 2017
+  type: grant
   headline: "New grant! We received a <a href='https://www.bumc.bu.edu/compbiomed/2017/08/25/1979/'>Scientist Development Grant</a> from the American Heart Association."

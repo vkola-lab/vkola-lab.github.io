@@ -1,17 +1,30 @@
 {%- comment -%}
-  Renders one entry from _data/news.yml. The tag is inferred from the headline
-  ("New paper!", "New grant!", "New award!", "defends"), so the YAML format stays unchanged.
+  Renders one entry from _data/news.yml. The category comes from the item's `type`
+  (paper, grant, award, milestone). Without a `type`, it is guessed from the headline.
+  Leading tags like "New paper!" are removed because the chip already says it.
 {%- endcomment -%}
 {%- assign a = include.article -%}
 {%- assign h = a.headline | strip -%}
-{%- assign tag = "Update" -%}{%- assign kind = "update" -%}
-{%- if h contains "New paper!" -%}{%- assign tag = "Paper" -%}{%- assign kind = "paper" -%}{%- assign h = h | remove_first: "New paper!" -%}
-{%- elsif h contains "New grant!" -%}{%- assign tag = "Grant" -%}{%- assign kind = "grant" -%}{%- assign h = h | remove_first: "New grant!" -%}
-{%- elsif h contains "New award!" -%}{%- assign tag = "Award" -%}{%- assign kind = "award" -%}{%- assign h = h | remove_first: "New award!" -%}
-{%- elsif h contains "defends" or h contains "graduat" or h contains "matched" -%}{%- assign tag = "Milestone" -%}{%- assign kind = "milestone" -%}
+{%- assign lower = h | downcase -%}
+{%- assign kind = a.type | default: "" | downcase | strip -%}
+{%- if kind == "" -%}
+  {%- if lower contains "new paper" -%}{%- assign kind = "paper" -%}
+  {%- elsif lower contains "new grant" or lower contains "grant renewal" -%}{%- assign kind = "grant" -%}
+  {%- elsif lower contains "new award" -%}{%- assign kind = "award" -%}
+  {%- elsif lower contains "defends" or lower contains "matched" or lower contains "graduat" or lower contains "transitions" or lower contains "joins" or lower contains "completes" -%}{%- assign kind = "milestone" -%}
+  {%- else -%}{%- assign kind = "update" -%}
+  {%- endif -%}
 {%- endif -%}
-<li class="news-item">
+{%- case kind -%}
+  {%- when "paper" -%}{%- assign tag = "Paper" -%}
+  {%- when "grant" -%}{%- assign tag = "Grant" -%}
+  {%- when "award" -%}{%- assign tag = "Award" -%}
+  {%- when "milestone" -%}{%- assign tag = "Milestone" -%}
+  {%- else -%}{%- assign tag = "Update" -%}
+{%- endcase -%}
+{%- assign h = h | remove_first: "New papers!" | remove_first: "New paper!" | remove_first: "New grant!" | remove_first: "Grant renewal!" | remove_first: "New award!" | strip -%}
+<li class="news-item" data-type="{{ kind }}">
   <span class="news-date">{{ a.date | strip }}</span>
   <span class="chip chip-{{ kind }}">{{ tag }}</span>
-  <span class="news-text">{{ h | strip }}</span>
+  <span class="news-text">{{ h }}</span>
 </li>
