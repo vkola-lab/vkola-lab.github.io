@@ -3,7 +3,7 @@
 
 - id: multimodal
   icon: layers
-  title: Multimodal AI for incomplete data
+  title: Multimodal AI for neurodegeneration
   short: >-
     Real patients never have every test. We build AI that combines whatever is
     available, from scans and cognitive tests to history and speech, and stays
@@ -18,7 +18,7 @@
     without learning shortcuts or leaving out the people with the least data.
   approach:
     - We began by fusing brain MRI with cognitive and clinical data.
-    - We then built transformer models that accept any combination of available inputs by design. They were trained across tens of thousands of people from many cohorts.
+    - We then built models that accept any combination of available inputs by design. They were trained across tens of thousands of people from many cohorts.
     - To make models work at new sites, we develop domain generalization and modality-agnostic methods for neuroimaging.
     - Underneath this sit advances in representation learning and graph-based learning.
 
@@ -76,6 +76,6 @@
     need models that know the field, reason over images and text together, and
     back every answer with sources that can be checked.
   approach:
-    - We build domain-specific language models, including PodGPT, trained on science podcasts for research and education.
+    - We build domain-specific language models for research and education.
     - We develop agentic systems that search textbooks, the literature and clinical trial records and ground each answer in cited evidence. The underlying collections of texts are openly available.
     - We are building vision-language models for neuroimaging that interpret scans in clinical context.
