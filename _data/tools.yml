@@ -7,7 +7,6 @@
   description: Transformer that uses multimodal clinical data to distinguish between dementia etiologies.
   paper: https://doi.org/10.1038/s41591-024-03118-z
   venue: Nature Medicine (2024)
-  demo: https://huggingface.co/spaces/vkola-lab/nmed2024
   theme: multimodal
   featured: true
 
@@ -16,7 +15,6 @@
   description: Fuses routinely collected multimodal data to estimate amyloid and tau PET status.
   paper: https://doi.org/10.1038/s41467-025-62590-4
   venue: Nature Communications (2025)
-  demo: https://huggingface.co/spaces/vkola-lab/NCOMMS2025
   theme: multimodal
   featured: true
 

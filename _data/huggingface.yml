@@ -1,13 +1,4 @@
-# Public Hugging Face resources shown on /tools/. Only list public repos.
-spaces:
-  - name: Differential dementia diagnosis demo
-    repo: spaces/vkola-lab/nmed2024
-    label: vkola-lab/nmed2024
-    description: Interactive demo of the Nature Medicine (2024) model.
-  - name: Alzheimer's biomarker assessment demo
-    repo: spaces/vkola-lab/NCOMMS2025
-    label: vkola-lab/NCOMMS2025
-    description: Interactive demo of the Nature Communications (2025) model.
+# Public Hugging Face resources shown on /tools/. Only list public repos. Add a `spaces:` list here to show demos.
 models:
   - name: PodGPT models
     repo: vkola-lab?search_models=PodGPT
