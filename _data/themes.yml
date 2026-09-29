@@ -1,34 +1,14 @@
 # Research themes — cards on the home page (`short`) and full entries on /research/.
-# `icon`: layers, brain, compass, chat (see _includes/icon.html). `approach` is a list; `next` is one line.
+# `icon`: layers, microscope, brain, compass, chat (see _includes/icon.html). `approach` is a list.
 
 - id: multimodal
   icon: layers
   title: Multimodal AI for neurodegeneration
   short: >-
-    Real patients never have every test. We build AI that combines whatever is
-    available, from scans and cognitive tests to history and speech, and stays
-    reliable when pieces are missing.
-  challenge: >-
-    A full picture of brain health draws on many kinds of data: MRI, PET,
-    cognitive tests, medical history, genetics, and blood markers. No
-    patient has all of them, and every clinic and cohort collects a different
-    subset on different equipment. Most AI assumes complete, uniform data, so it
-    breaks down where it's needed most. The open problem is learning from data
-    that is heterogeneous, partially observed and shifting from site to site,
-    without learning shortcuts or leaving out the people with the least data.
-  approach:
-    - We began by fusing brain MRI with cognitive and clinical data.
-    - We then built models that accept any combination of available inputs by design. They were trained across tens of thousands of people from many cohorts.
-    - To make models work at new sites, we develop domain generalization and modality-agnostic methods for neuroimaging.
-    - Underneath this sit advances in representation learning and graph-based learning.
-
-- id: assessment
-  icon: brain
-  title: Quantifying complex pathology
-  short: >-
-    Some of the most important signals are invisible in a routine visit: hidden
-    pathology, early decline, which disease is driving symptoms. We estimate them
-    from accessible data and check them against the reference standard.
+    Real patients never have every test, and the biology that matters most is
+    often hidden. We build AI that combines whatever data is available to reveal
+    which diseases are present, how far they have spread, and whether someone is
+    already declining.
   challenge_intro: "The questions that matter most are the hardest to answer during life:"
   challenge_list:
     - Which diseases are present, and in what mix?
@@ -36,12 +16,43 @@
     - Is someone who feels fine already declining?
   challenge: >-
     Today the answers need PET scans, spinal taps or autopsy, or they come years
-    too late. Even specialists often disagree when they make these calls from
-    standard tests.
+    too late. Clues exist in MRI, cognitive tests, medical history, genetics and
+    blood markers, but no patient has all of them, and every clinic and cohort
+    collects a different subset on different equipment. Most AI assumes complete,
+    uniform data, so it breaks down where it's needed most. The open problem is
+    learning from data that is heterogeneous, partially observed and shifting from
+    site to site, while holding the answers to the reference standard.
   approach:
+    - We began by fusing brain MRI with cognitive and clinical data, then built models that accept any combination of available inputs by design, trained across tens of thousands of people from many cohorts.
     - We estimate multiple co-occurring causes of dementia and check them against autopsy-confirmed neuropathology.
     - We predict amyloid and tau status, including where tau has spread, from routinely collected data, and validate it against PET and pathology staging.
     - For early detection outside the clinic, we study voice recordings, smartphone cognitive tests and other digital signals.
+    - To make models work at new sites, we develop domain generalization, modality-agnostic, representation-learning and graph-based methods.
+
+- id: microscopy
+  icon: microscope
+  title: AI for digital microscopy
+  short: >-
+    Microscopes now produce images with billions of pixels, from tissue slides to
+    electron micrographs. We build AI that finds what matters in them and links it
+    to disease and outcomes.
+  challenge: >-
+    Many diseases are ultimately confirmed under a microscope. Pathologists read
+    tissue slides, electron micrographs show ultrastructure at nanometre scale,
+    and fluorescence and other stains map specific molecules. For the
+    neurodegenerative diseases we study, brain tissue examined at autopsy remains
+    the reference standard. Digitizing these images has made them available to
+    AI, but they are unlike everyday pictures. A single image can hold billions
+    of pixels yet carry one label for the whole specimen, the informative
+    structures may be tiny and scattered, and stains, microscopes and scanners
+    vary from lab to lab. Expert reading is slow and scarce, and how tissue
+    appearance relates to molecular state and clinical outcome is still largely
+    unmapped.
+  approach:
+    - We build models that learn from gigapixel whole-slide images using only specimen-level labels, including graph-based, transformer and multiple-instance approaches, among them a Fourier-filtering method that picks out informative regions.
+    - We link what tissue looks like to what it is doing molecularly, by fusing microscopy with gene expression to predict outcomes and stratify premalignant lesions.
+    - We work across stains, organs and resolutions, from fibrosis in trichrome-stained biopsies and glomerular segmentation to electron-microscopy ultrastructure of the kidney filtration barrier.
+    - We bring these tools to the point of care, for example with a web tool that checks whether a kidney biopsy is adequate while the patient is still in the procedure room.
 
 - id: decisions
   icon: compass

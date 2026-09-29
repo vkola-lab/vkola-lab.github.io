@@ -17,7 +17,7 @@
   paper: https://doi.org/10.1038/s41467-025-62590-4
   venue: Nature Communications (2025)
   demo: https://huggingface.co/spaces/vkola-lab/NCOMMS2025
-  theme: assessment
+  theme: multimodal
   featured: true
 
 - repo: ncomms2022
@@ -41,7 +41,7 @@
   description: Graph-transformer for whole slide image classification.
   paper: https://doi.org/10.1109/TMI.2022.3176598
   venue: IEEE Transactions on Medical Imaging (2022)
-  theme: pathology
+  theme: microscopy
   featured: true
 
 - repo: PodGPT
@@ -58,14 +58,14 @@
   description: Graph attention-based fusion of pathology images and gene expression for cancer survival prediction.
   paper: https://doi.org/10.1109/TMI.2024.3386108
   venue: IEEE Transactions on Medical Imaging (2024)
-  theme: pathology
+  theme: microscopy
 
 - repo: ijcv2025
   name: FourierMIL
   description: Fourier filtering-based multiple instance learning for whole slide image analysis.
   paper: https://doi.org/10.1007/s11263-025-02679-x
   venue: International Journal of Computer Vision (2025)
-  theme: pathology
+  theme: microscopy
 
 - repo: ijmi2026
   name: Agentic medical QA
@@ -89,12 +89,12 @@
 - repo: azrt2021
   name: Dementia detection from voice
   description: Deep learning on voice recordings from the Framingham Heart Study to detect dementia.
-  theme: assessment
+  theme: multimodal
 
 - repo: python_speech_features_cuda
   name: Speech features on GPU
   description: A re-implementation of Python Speech Features with GPU acceleration.
-  theme: assessment
+  theme: multimodal
 
 - repo: medaihack
   name: Medical AI Hackathon
