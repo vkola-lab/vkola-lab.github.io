@@ -11,42 +11,28 @@ narrow: true
 {%- comment -%} Add items at the top of _data/news.yml. Start a headline with "New paper!", "New grant!" or "New award!" to tag it. {%- endcomment -%}
 
 <div class="news-filter" role="group" aria-label="Filter news">
-  <button type="button" data-filter="all" aria-pressed="true">All <span class="n"></span></button>
-  <button type="button" data-filter="paper" aria-pressed="false">Papers <span class="n"></span></button>
-  <button type="button" data-filter="grant" aria-pressed="false">Grants <span class="n"></span></button>
-  <button type="button" data-filter="award" aria-pressed="false">Awards <span class="n"></span></button>
-  <button type="button" data-filter="milestone" aria-pressed="false">Milestones <span class="n"></span></button>
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="paper" aria-pressed="false">Papers</button>
+  <button type="button" data-filter="grant" aria-pressed="false">Grants</button>
+  <button type="button" data-filter="award" aria-pressed="false">Awards</button>
+  <button type="button" data-filter="milestone" aria-pressed="false">Milestones</button>
 </div>
 
-<div id="news-list">
-  {% assign year = "" %}
+<ul class="news-list" id="news-list">
   {% for article in site.data.news %}
-    {% assign y = article.date | strip | split: " " | last %}
-    {% if y != year %}
-      {% unless forloop.first %}</ul></section>{% endunless %}
-      <section class="news-year" data-year="{{ y }}">
-        <h2 class="news-year-head">{{ y }}</h2>
-        <ul class="news-list">
-      {% assign year = y %}
-    {% endif %}
     {% include news-item.html article=article %}
-    {% if forloop.last %}</ul></section>{% endif %}
   {% endfor %}
-</div>
+</ul>
 
 <script>
   (function () {
     var buttons = document.querySelectorAll('.news-filter button');
     var items = document.querySelectorAll('#news-list .news-item');
-    var years = document.querySelectorAll('#news-list .news-year');
     buttons.forEach(function (b) {
-      var f = b.getAttribute('data-filter');
-      var n = f === 'all' ? items.length : document.querySelectorAll('#news-list .news-item[data-type="' + f + '"]').length;
-      b.querySelector('.n').textContent = n;
       b.addEventListener('click', function () {
+        var f = b.getAttribute('data-filter');
         buttons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
         items.forEach(function (li) { li.hidden = !(f === 'all' || li.getAttribute('data-type') === f); });
-        years.forEach(function (sec) { sec.hidden = !sec.querySelector('.news-item:not([hidden])'); });
       });
     });
   })();

@@ -301,10 +301,7 @@ a.card:hover, .card.hoverable:hover { transform: translateY(-3px); box-shadow: v
   padding: 14px 0; border-bottom: 1px solid var(--border);
 }
 .news-item:last-child { border-bottom: 0; }
-.news-item[hidden], .news-year[hidden] { display: none; }
-.news-year { margin-bottom: 28px; }
-.news-year-head { font-size: 1.05rem; color: var(--text-muted); font-weight: 700; letter-spacing: .02em; margin: 0 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--border); position: sticky; top: 64px; background: var(--bg); z-index: 1; padding-top: 8px; }
-.news-filter button .n { font-weight: 500; opacity: .7; margin-left: 2px; }
+.news-item[hidden] { display: none; }
 .news-date { font-size: .85rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 .news-text { color: var(--text); }
 .news-item .chip { min-width: 74px; text-align: center; }
