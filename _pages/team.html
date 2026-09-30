@@ -49,6 +49,14 @@ description: Members and alumni of the Kolachalama Laboratory at Boston Universi
 {% endfor %}
 
 {% assign alumni = site.data.team_members | where: "group", 8 %}
+{%- comment -%} Sort alumni by last name (last word of the name), then first name. {%- endcomment -%}
+{%- assign alumni_keys = "" -%}
+{%- for m in alumni -%}
+  {%- assign last = m.name | strip | split: " " | last | downcase -%}
+  {%- assign first = m.name | strip | split: " " | first | downcase -%}
+  {%- assign alumni_keys = alumni_keys | append: last | append: " " | append: first | append: " #" | append: forloop.index0 | append: "|" -%}
+{%- endfor -%}
+{%- assign alumni_keys = alumni_keys | split: "|" | sort -%}
 <section class="team-group" id="alumni">
   <h2>Alumni <span class="count">{{ alumni.size }}</span></h2>
   <p class="muted">Where our trainees went next (incomplete list).</p>
@@ -56,7 +64,9 @@ description: Members and alumni of the Kolachalama Laboratory at Boston Universi
     <table class="alumni">
       <thead><tr><th>Name</th><th>Role in lab</th><th>Next step</th></tr></thead>
       <tbody>
-        {% for m in alumni %}
+        {% for key in alumni_keys %}
+        {% assign idx = key | split: "#" | last | plus: 0 %}
+        {% assign m = alumni[idx] %}
         <tr>
           <td>{{ m.name }}</td>
           <td class="muted">{{ m.info }}{% if m.year %} ({{ m.year }}){% endif %}</td>
