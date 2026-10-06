@@ -1,5 +1,9 @@
 # News items, newest first. `type` is one of: paper, grant, award, milestone (defenses, matches, graduations, new positions).
 # It drives the filter buttons on /news/. If you leave it out, the site guesses from the headline.
+- date: October 2026
+  type: paper
+  headline: "New paper! <a href='https://doi.org/10.1371/journal.pdig.0001752'>Entity-centric metric for LLMs</a>, published in PLoS Digital Health."
+  
 - date: May 2026
   type: milestone
   headline: "<a href='https://scholar.google.com/citations?user=f9k4jcMAAAAJ&hl=en'>Chonghua Xue</a> successfully defends his PhD in Electrical and Computer Engineering and transitions to a postdoc role."
