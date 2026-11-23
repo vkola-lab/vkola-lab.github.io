@@ -5,11 +5,11 @@
 
 title: Kolachalama Laboratory
 short_title: Kolachalama Lab
-tagline: Multimodal AI for neurodegenerative disease and human health
+tagline: Multimodal AI for degenerative diseases, with a focus on the brain
 description: >-
-  The Kolachalama Laboratory at Boston University develops multimodal AI for
-  dementia diagnosis, biomarker assessment, neuroimaging, digital pathology,
-  and medical language models.
+  The Kolachalama Laboratory at Boston University builds multimodal AI for
+  degenerative diseases of the brain, joints, blood vessels and kidney, with
+  neurodegeneration as its largest focus.
 url: "https://vkola-lab.github.io"
 baseurl: ""
 lang: en_US

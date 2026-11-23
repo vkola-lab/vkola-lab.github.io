@@ -2,7 +2,7 @@
 title: Kolachalama Laboratory
 layout: default
 permalink: /
-description: The Kolachalama Laboratory at Boston University builds multimodal AI for dementia diagnosis, biomarker assessment, neuroimaging, digital pathology and medical language models.
+description: The Kolachalama Laboratory at Boston University builds multimodal AI for degenerative diseases of the brain, joints, blood vessels and kidney, with neurodegeneration as its largest focus.
 ---
 
 <section class="hero">
@@ -10,12 +10,15 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
     <div class="hero-grid">
       <div>
         <p class="eyebrow">Boston University · AI &amp; human health</p>
-        <h1>Multimodal AI for <em>neurodegenerative disease</em> and human health</h1>
+        <h1>Multimodal AI for <em>degenerative diseases</em>, with a focus on the brain</h1>
         <p class="lead">
-          We are computer scientists, neuroscientists, engineers and physicians building
-          methods that fit the science, not science that fits the methods. Our models
-          diagnose dementia, estimate disease biomarkers and interpret medical images,
-          and we release them openly.
+          Degenerative diseases slowly erode the brain, joints, blood vessels and kidneys,
+          often for years before anyone notices. They share the same hard problems: change
+          is gradual, the decisive pathology is hidden, the data is incomplete, and the
+          ground truth arrives late, sometimes only at autopsy. We are computer scientists,
+          engineers and physicians building AI that fits these problems, and we hold it to
+          clinical standards. Neurodegeneration is our largest focus, and the same ideas
+          carry across the body.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore our research {% include icon.html name="arrow" %}</a>
@@ -33,12 +36,33 @@ description: The Kolachalama Laboratory at Boston University builds multimodal A
   </div>
 </section>
 
+<section class="section body-section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Across the body</h2>
+        <p>The same questions, in different organs.</p>
+      </div>
+    </div>
+    <div class="body-grid">
+      {% for b in site.data.body_systems %}
+      <article class="card body-tile{% if forloop.first %} body-tile-lead{% endif %}">
+        <span class="theme-icon">{% include icon.html name=b.icon %}</span>
+        <h3>{{ b.title }}</h3>
+        <p>{{ b.text }}</p>
+        <span class="card-foot"><a class="link-arrow" href="{{ b.papers }}">Related papers {% include icon.html name="arrow" %}</a></span>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section section-soft">
   <div class="container">
     <div class="section-head">
       <div>
         <h2>What we work on</h2>
-        <p>Open challenges in neurodegeneration, and how we are working through each one.</p>
+        <p>Four open challenges, and how we are working through each one.</p>
       </div>
       <a class="link-arrow" href="{{ '/research/' | relative_url }}">All research {% include icon.html name="arrow" %}</a>
     </div>

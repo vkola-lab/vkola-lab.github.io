@@ -68,6 +68,8 @@
     trial. Every unnecessary test costs money and patient burden, and trials fail
     when they enroll the wrong people. To be actionable, AI has to reason about
     uncertainty and cost, and fit into a real clinical workflow.
+    The same questions arise in deciding who needs a knee replacement or whether
+    a biopsy holds enough tissue to diagnose.
   approach:
     - We use active learning to decide which measurement to obtain next, guided by what the model can explain.
     - We study how AI can make neurologists more efficient without taking decisions out of their hands.
