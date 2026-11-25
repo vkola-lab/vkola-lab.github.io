@@ -63,6 +63,13 @@
   text: >-
     The Brink covered our multimodal deep learning model for assessing Alzheimer's disease dementia.
 
+- title: Cover of Arthritis & Rheumatology
+  image: respic/ar_cover_2021.jpg
+  date: December 2021
+  link: https://acrjournals.onlinelibrary.wiley.com/toc/23265205/2021/73/12
+  text: >-
+    An image from our paper, <a href="https://doi.org/10.1002/art.41375">Subchondral bone length in knee osteoarthritis: a deep learning–derived imaging measure</a>, was featured on the cover of the December 2021 issue.
+
 - title: Clinical-grade machine learning tools for Alzheimer's disease
   image: respic/toffler.jpg
   date: ""

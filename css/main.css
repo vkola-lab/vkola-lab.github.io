@@ -511,5 +511,10 @@ details.video .video-body { padding: 0 20px 20px; }
 .body-tile-lead h3, .body-tile-lead p, .body-tile-lead .card-foot { grid-column: 2; }
 .body-tile-lead .theme-icon { width: 56px; height: 56px; background: var(--surface); }
 .body-tile-lead .theme-icon .icon { width: 30px; height: 30px; }
+.body-tile:not(.body-tile-lead) { padding-top: 18px; padding-bottom: 18px; }
+.body-tile:not(.body-tile-lead) .theme-icon { width: 36px; height: 36px; margin-bottom: 10px; }
+.body-tile:not(.body-tile-lead) .theme-icon .icon { width: 20px; height: 20px; }
+.body-tile:not(.body-tile-lead) h3 { font-size: 1.05rem; }
+.body-tile:not(.body-tile-lead) p { font-size: .92rem; }
 @media (max-width: 900px) { .body-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .body-grid { grid-template-columns: 1fr; } .body-tile-lead { grid-template-columns: 1fr; } .body-tile-lead .theme-icon { grid-row: auto; margin-bottom: 12px; } .body-tile-lead h3, .body-tile-lead p, .body-tile-lead .card-foot { grid-column: 1; } }

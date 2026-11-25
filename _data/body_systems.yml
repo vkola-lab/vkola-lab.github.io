@@ -14,28 +14,22 @@
   icon: bone
   title: Joints and bone
   text: >-
-    Osteoarthritis quietly wears down cartilage and bone long before pain limits
-    daily life. We derive imaging measures from knee MRI and gait signals from
-    wearable sensors that track this process and predict who will progress to
-    knee replacement.
+    Imaging measures from knee MRI and gait signals from wearables that track
+    osteoarthritis and predict who will need a knee replacement.
   papers: https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb%5Bau%5D+AND+(knee+OR+osteoarthritis+OR+gait+OR+cartilage)&sort=date
 
 - id: vessels
   icon: heart
   title: Heart and vessels
   text: >-
-    Atherosclerosis narrows arteries over decades, and the devices used to treat
-    it interact with the vessel wall in complex ways. We model blood flow, drug
-    delivery and vessel response, and study how vascular health in midlife
-    shapes cognition later on.
+    Models of blood flow, drug delivery and vessel response, and how vascular
+    health in midlife shapes cognition later on.
   papers: https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb%5Bau%5D+AND+(arterial+OR+stent*+OR+balloon+OR+vascular+OR+carotid+OR+thrombosis+OR+atheroscler*)&sort=date
 
 - id: kidney
   icon: kidney
   title: Kidney
   text: >-
-    Chronic kidney disease scars the kidney gradually, and biopsies are where
-    that damage is read. We grade fibrosis and predict kidney survival, analyze
-    tissue at electron-microscopy resolution, check biopsy quality in real time,
-    and develop imaging markers for inherited kidney disease and dialysis access.
+    Reading kidney biopsies: grading fibrosis, predicting kidney survival and
+    checking biopsy quality in real time.
   papers: https://pubmed.ncbi.nlm.nih.gov/?term=kolachalama+vb%5Bau%5D+AND+(kidney+OR+renal+OR+glomerul*+OR+nephrology+OR+dialysis+OR+arteriovenous+OR+uremic+OR+alport)&sort=date
